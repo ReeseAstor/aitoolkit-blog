@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-voice-generators-2026",
+        title: "Best AI Voice Generators in 2026: Speechify vs ElevenLabs vs PlayHT",
+        excerpt: "We tested Speechify, ElevenLabs, and PlayHT side by side. Honest comparison of voice quality, languages, pricing, and the real winner for creators.",
+        category: "Comparison",
+        date: "2026-06-08",
+        readTime: "9 min read"
+    },
+    {
         slug: "best-ai-tools-youtube-creators-2026",
         title: "Best AI Tools for YouTube Creators in 2026: The Complete Stack",
         excerpt: "The exact AI stack YouTube creators use in 2026 to script, voice, edit, thumbnail, and publish faster. Tested tools with real pricing.",
