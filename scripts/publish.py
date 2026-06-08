@@ -37,7 +37,7 @@ def publish(message):
         return False
     
     # Push
-    if not run("git push origin main"):
+    if not run("git push origin HEAD"):
         print("Push failed. Is the remote configured?")
         return False
     
