@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-youtube-creators-2026",
+        title: "Best AI Tools for YouTube Creators in 2026: The Complete Stack",
+        excerpt: "The exact AI stack YouTube creators use in 2026 to script, voice, edit, thumbnail, and publish faster. Tested tools with real pricing.",
+        category: "Guide",
+        date: "2026-06-08",
+        readTime: "10 min read"
+    },
+    {
         slug: "best-ai-image-generators-2026",
         title: "Best AI Image Generators in 2026: From Midjourney to DALL-E",
         excerpt: "We tested the top AI image generators of 2026. Compare Midjourney, DALL-E, Stable Diffusion, and ImagineArt for quality, price, and ease of use.",
