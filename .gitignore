@@ -1,0 +1,8 @@
+# AI ToolKit Blog
+node_modules/
+.DS_Store
+*.log
+content/briefs/*.json
+content/newsletters/
+content/products/
+.env
