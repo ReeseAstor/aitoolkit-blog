@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "aitoolkit-blog",
+  "builds": [],
+  "routes": [
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/articles/(.*)", "dest": "/articles/$1" },
+    { "src": "/disclosure", "dest": "/disclosure.html" },
+    { "src": "/disclosure.html", "dest": "/disclosure.html" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
