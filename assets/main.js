@@ -2,6 +2,14 @@
 // Dynamic article loading + newsletter handling
 
 const ARTICLES = [
+        {
+        slug: "best-ai-image-generators-2026",
+        title: "Best AI Image Generators in 2026: From Midjourney to DALL-E",
+        excerpt: "We tested the top AI image generators of 2026. Compare Midjourney, DALL-E, Stable Diffusion, and ImagineArt for quality, price, and ease of use.",
+        category: "Comparison",
+        date: "2026-06-08",
+        readTime: "10 min read"
+    },
     {
         slug: "best-ai-writing-tools-2026",
         title: "Best AI Writing Tools in 2026: The Only 5 You Actually Need",
