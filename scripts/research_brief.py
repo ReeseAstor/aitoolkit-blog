@@ -3,7 +3,7 @@
 AI ToolKit — Research Brief Generator
 Run via Hermes cron to find trending AI tools/topics for content.
 
-Usage: python3 research_brief.py
+Usage: py research_brief.py
 Output: JSON research brief saved to content/briefs/
 """
 import json

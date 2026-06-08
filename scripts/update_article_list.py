@@ -4,7 +4,7 @@ AI ToolKit — Article List Updater
 Updates the ARTICLES array in assets/main.js when a new article is published.
 Called by the Hermes content pipeline after writing a new article.
 
-Usage: python3 update_article_list.py --slug "article-slug" --title "Article Title" --excerpt "..." --category "Comparison" --date "2026-06-08" --read-time "8 min read"
+Usage: py update_article_list.py --slug "article-slug" --title "Article Title" --excerpt "..." --category "Comparison" --date "2026-06-08" --read-time "8 min read"
 """
 import argparse
 import json

@@ -6,3 +6,5 @@ content/briefs/*.json
 content/newsletters/
 content/products/
 .env
+
+.vercel

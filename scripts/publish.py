@@ -3,7 +3,7 @@
 AI ToolKit — Publish Pipeline
 Stages, commits, and pushes new content to deploy.
 
-Usage: python3 publish.py --message "feat: New article title"
+Usage: py publish.py --message "feat: New article title"
 """
 import argparse
 import os
