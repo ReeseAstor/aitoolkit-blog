@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-ad-creative-tools-2026",
+        title: "Best AI Ad Creative Generators in 2026: AdCreative.ai vs Canva vs Predis.ai",
+        excerpt: "We tested the top AI ad creative tools of 2026. Compare AdCreative.ai, Canva, Predis.ai, and Creatify for ad quality, pricing, and conversion prediction.",
+        category: "Comparison",
+        date: "2026-06-09",
+        readTime: "9 min read"
+    },
+    {
         slug: "best-ai-voice-generators-2026",
         title: "Best AI Voice Generators in 2026: Speechify vs ElevenLabs vs PlayHT",
         excerpt: "We tested Speechify, ElevenLabs, and PlayHT side by side. Honest comparison of voice quality, languages, pricing, and the real winner for creators.",
