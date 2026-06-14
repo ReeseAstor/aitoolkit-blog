@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-social-media-content-2026",
+        title: "Best AI Tools for Social Media Content Creation in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia",
+        excerpt: "The exact AI stack we use to ship a week of social content in one afternoon. Tested Copy.ai, Canva, AdCreative.ai, and Synthesia for captions, graphics, ads, and video.",
+        category: "Comparison",
+        date: "2026-06-14",
+        readTime: "10 min read"
+    },
+    {
         slug: "best-ai-tools-ecommerce-product-descriptions-2026",
         title: "Best AI Tools for Ecommerce Product Descriptions in 2026: Copy.ai vs Writesonic vs Jasper",
         excerpt: "We tested the top AI tools for ecommerce product descriptions in 2026. Compare Copy.ai, Writesonic, Jasper, and AdCreative.ai for bulk product copy, SEO, and conversion.",
