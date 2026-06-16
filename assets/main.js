@@ -81,7 +81,55 @@ const ARTICLES = [
         category: "Guide",
         date: "2026-06-06",
         readTime: "10 min read"
+    }
+];
+
+const PRODUCTS = [
+    {
+        slug: "ai-toolkit-sop-vault-v1",
+        title: "AI ToolKit SOP Vault Vol. 1",
+        excerpt: "15 drop-in marketing SOPs with exact prompts. LinkedIn, newsletters, SEO briefs, cold outreach, YouTube scripts, and more.",
+        price: "$19",
+        category: "SOP Vault"
     },
+    {
+        slug: "50-viral-video-prompts",
+        title: "50 Viral Short-Form Video Prompts",
+        excerpt: "Hook-first prompts for Reels, TikTok, and YouTube Shorts using AI voice + AI video tools.",
+        price: "$12",
+        category: "Prompt Pack"
+    },
+    {
+        slug: "ai-seo-content-system",
+        title: "The AI SEO Content System: 2026 Edition",
+        excerpt: "The complete SEO checklist and content-brief template for ranking articles with AI assistance.",
+        price: "$17",
+        category: "Checklist + Template"
+    },
+    {
+        slug: "cold-email-ai-swipes",
+        title: "Cold Email AI Swipe File",
+        excerpt: "40 cold email sequences that book meetings. Includes personalized first-line prompts and 3-email follow-ups.",
+        price: "$16",
+        category: "Swipe File"
+    },
+    {
+        slug: "ai-content-creator-vault",
+        title: "AI Content Creator Vault (Bundle)",
+        excerpt: "Video prompts + social calendar + YouTube toolkit. The essential AI content stack at a discount.",
+        price: "$37",
+        category: "Bundle"
+    },
+    {
+        slug: "aitoolkit-ultimate-bundle",
+        title: "AI ToolKit Ultimate Bundle",
+        excerpt: "All 9 products in one library. SOPs, prompts, templates, swipes, and systems for running marketing with AI.",
+        price: "$97",
+        category: "Bundle"
+    }
+];
+
+const ARTICLE_ARCHIVE = [
     {
         slug: "ai-video-tools-creators",
         title: "AI Video Creation Tools Compared: Synthesia vs Colossyan vs HeyGen",
@@ -168,9 +216,24 @@ function renderTools() {
     `).join('');
 }
 
+function renderProducts() {
+    const grid = document.getElementById('product-grid');
+    if (!grid) return;
+    grid.innerHTML = PRODUCTS.map(p => `
+        <div class="product-card" onclick="location.href='/products/${p.slug}.html'">
+            <div class="category">${p.category}</div>
+            <h3><a href="/products/${p.slug}.html">${p.title}</a></h3>
+            <p class="excerpt">${p.excerpt}</p>
+            <div class="price">${p.price}</div>
+            <a href="/products/${p.slug}.html" class="tool-link">View product →</a>
+        </div>
+    `).join('');
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     renderArticles();
     renderTools();
+    renderProducts();
 
     const form = document.getElementById('newsletter-form');
     if (form) {

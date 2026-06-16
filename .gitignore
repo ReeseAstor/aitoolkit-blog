@@ -4,7 +4,7 @@ node_modules/
 *.log
 content/briefs/*.json
 content/newsletters/
-content/products/
+content/products/upload-ready/
 .env
 
 .vercel
