@@ -1,0 +1,351 @@
+{
+  "version": "2026-06-15",
+  "strategy": "One focused, text/code-based digital product per week. Each product ties to a high-traffic AI ToolKit article and includes natural affiliate CTAs for 1-2 programs.",
+  "pricing": {
+    "standalone": "$7-$19",
+    "bundle_floor_price": "$27",
+    "psych_anchor": "$49 crossed out to $27"
+  },
+  "platforms": [
+    "Gumroad",
+    "Etsy"
+  ],
+  "quality_gates": [
+    "Solves one specific workflow, not generic inspiration",
+    "Includes ready-to-use files (prompts, checklists, SOPs, or templates) \u2014 not just explanation",
+    "Designed around a high-intent search phrase",
+    "Title has year + outcome + format",
+    "Includes 1-2 affiliate tool recommendations with ?via=aitoolkit links",
+    "Listed on the blog's products page and promoted in the newsletter"
+  ],
+  "products": [
+    {
+      "id": "prod-001",
+      "status": "ready",
+      "format": "SOP vault",
+      "title": "AI ToolKit SOP Vault Vol. 1",
+      "slug": "ai-toolkit-sop-vault-v1",
+      "price_usd": 19,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Writesonic"
+      ],
+      "article_tie": "best-ai-writing-tools-2026",
+      "customer_pain": "I know AI can save me time, but I don't know what workflows to hand off.",
+      "search_hook": "AI SOP templates for small business",
+      "etsy_tags": [
+        "AI SOP",
+        "small business SOP",
+        "AI workflows",
+        "ChatGPT prompts business",
+        "content SOP",
+        "marketing checklist"
+      ],
+      "gumroad_categories": [
+        "Business"
+      ],
+      "bundle_of": []
+    },
+    {
+      "id": "prod-002",
+      "status": "ready",
+      "format": "prompt pack",
+      "title": "50 Viral Short-Form Video Prompts for AI Voice + AI Video",
+      "slug": "50-viral-video-prompts",
+      "price_usd": 12,
+      "affiliate_tie": [
+        "Synthesia",
+        "Speechify"
+      ],
+      "article_tie": "ai-video-tools-creators",
+      "customer_pain": "I want Reels/TikTok scripts but can't write hooks fast enough.",
+      "search_hook": "AI video prompts viral TikTok",
+      "etsy_tags": [
+        "TikTok prompts",
+        "AI video scripts",
+        "Reels prompts",
+        "YouTube Shorts prompts",
+        "AI voice over"
+      ],
+      "gumroad_categories": [
+        "Video & Audio"
+      ]
+    },
+    {
+      "id": "prod-003",
+      "status": "ready",
+      "format": "checklist + template",
+      "title": "The AI SEO Content System: 2026 Edition",
+      "slug": "ai-seo-content-system",
+      "price_usd": 17,
+      "affiliate_tie": [
+        "Copy.ai",
+        "AdCreative.ai"
+      ],
+      "article_tie": "ai-seo-tools-rank-higher",
+      "customer_pain": "I publish content but it never ranks.",
+      "search_hook": "AI SEO checklist 2026",
+      "etsy_tags": [
+        "SEO checklist",
+        "AI SEO",
+        "blogging template",
+        "content planner",
+        "SEO content brief"
+      ],
+      "gumroad_categories": [
+        "Marketing"
+      ]
+    },
+    {
+      "id": "prod-004",
+      "status": "ready",
+      "format": "template pack",
+      "title": "AI-Powered Ecommerce Product Description Templates",
+      "slug": "ai-ecommerce-description-templates",
+      "price_usd": 14,
+      "affiliate_tie": [
+        "Copy.ai"
+      ],
+      "article_tie": "best-ai-tools-ecommerce-product-descriptions-2026",
+      "customer_pain": "Writing product descriptions for hundreds of SKUs takes forever.",
+      "search_hook": "AI product description template ecommerce",
+      "etsy_tags": [
+        "product description template",
+        "ecommerce seller",
+        "Etsy description",
+        "Shopify listing template",
+        "AI copywriting"
+      ],
+      "gumroad_categories": [
+        "Business"
+      ]
+    },
+    {
+      "id": "prod-005",
+      "status": "ready",
+      "format": "swipe file",
+      "title": "Cold Email AI Swipe File: 40 Sequences That Book Meetings",
+      "slug": "cold-email-ai-swipes",
+      "price_usd": 16,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Writesonic"
+      ],
+      "article_tie": "best-ai-tools-cold-email-outreach-2026",
+      "customer_pain": "Cold emails get ignored. I need proven hooks.",
+      "search_hook": "cold email templates AI",
+      "etsy_tags": [
+        "cold email template",
+        "sales email",
+        "B2B outreach",
+        "lead generation",
+        "email scripts"
+      ],
+      "gumroad_categories": [
+        "Business"
+      ]
+    },
+    {
+      "id": "prod-006",
+      "status": "ready",
+      "format": "checklist + prompts",
+      "title": "Social Media Content Machine: 30-Day AI Content Calendar",
+      "slug": "social-media-ai-content-calendar",
+      "price_usd": 15,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Canva",
+        "AdCreative.ai"
+      ],
+      "article_tie": "best-ai-tools-social-media-content-2026",
+      "customer_pain": "I run out of content ideas by week 2.",
+      "search_hook": "AI social media content calendar 2026",
+      "etsy_tags": [
+        "content calendar",
+        "social media planner",
+        "AI captions",
+        "Instagram prompts",
+        "TikTok content planner"
+      ],
+      "gumroad_categories": [
+        "Marketing"
+      ]
+    },
+    {
+      "id": "prod-007",
+      "status": "planned",
+      "format": "guide + workbook",
+      "title": "The AI Small Business Stack: 2026 Playbook",
+      "slug": "ai-small-business-stack-playbook",
+      "price_usd": 22,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Canva",
+        "Synthesia"
+      ],
+      "article_tie": "ai-tools-small-business-owners",
+      "customer_pain": "There are 500 AI tools; I only need the stack that actually works.",
+      "search_hook": "AI tools for small business owners 2026",
+      "etsy_tags": [
+        "small business guide",
+        "AI business tools",
+        "entrepreneur playbook",
+        "startup tools",
+        "AI stack"
+      ],
+      "gumroad_categories": [
+        "Business"
+      ]
+    },
+    {
+      "id": "prod-008",
+      "status": "planned",
+      "format": "prompt pack",
+      "title": "Midjourney + DALL-E Prompt Lab: 100 Market-Ready Image Prompts",
+      "slug": "ai-image-prompt-lab",
+      "price_usd": 13,
+      "affiliate_tie": [],
+      "article_tie": "best-ai-image-generators-2026",
+      "customer_pain": "I can't get AI image tools to produce usable marketing images.",
+      "search_hook": "Midjourney prompts for marketing",
+      "etsy_tags": [
+        "Midjourney prompts",
+        "DALL-E prompts",
+        "AI art prompts",
+        "marketing images AI",
+        "AI image template"
+      ],
+      "gumroad_categories": [
+        "Design"
+      ]
+    },
+    {
+      "id": "prod-009",
+      "status": "planned",
+      "format": "template pack",
+      "title": "YouTube Creator AI Toolkit: Scripts, Thumbnails, Descriptions",
+      "slug": "youtube-creator-ai-toolkit",
+      "price_usd": 18,
+      "affiliate_tie": [
+        "Speechify",
+        "Synthesia"
+      ],
+      "article_tie": "best-ai-tools-youtube-creators-2026",
+      "customer_pain": "YouTube prep takes 10+ hours per video.",
+      "search_hook": "YouTube AI tools templates",
+      "etsy_tags": [
+        "YouTube script template",
+        "YouTube description",
+        "content creator tools",
+        "AI thumbnails",
+        "video creator"
+      ],
+      "gumroad_categories": [
+        "Video & Audio"
+      ]
+    },
+    {
+      "id": "prod-010",
+      "status": "planned",
+      "format": "bundle",
+      "title": "AI Content Creator Vault (Bundle)",
+      "slug": "ai-content-creator-vault",
+      "bundle_of": [
+        "prod-002",
+        "prod-006",
+        "prod-009"
+      ],
+      "price_usd": 37,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Synthesia",
+        "Speechify"
+      ],
+      "article_tie": "best-ai-tools-social-media-content-2026",
+      "customer_pain": "I want every AI content template in one place at a discount.",
+      "search_hook": "AI content creator bundle",
+      "etsy_tags": [
+        "content creator bundle",
+        "AI creator templates",
+        "social media bundle",
+        "video prompts bundle",
+        "AI tools bundle"
+      ],
+      "gumroad_categories": [
+        "Video & Audio",
+        "Marketing"
+      ]
+    },
+    {
+      "id": "prod-011",
+      "status": "planned",
+      "format": "bundle",
+      "title": "AI Marketing Operations Vault (Bundle)",
+      "slug": "ai-marketing-operations-vault",
+      "bundle_of": [
+        "prod-001",
+        "prod-003",
+        "prod-005"
+      ],
+      "price_usd": 39,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Writesonic"
+      ],
+      "article_tie": "best-ai-writing-tools-2026",
+      "customer_pain": "I need a complete library of AI marketing workflows.",
+      "search_hook": "AI marketing templates bundle",
+      "etsy_tags": [
+        "marketing SOP",
+        "AI marketing bundle",
+        "SEO checklist bundle",
+        "email marketing template",
+        "small business marketing"
+      ],
+      "gumroad_categories": [
+        "Business",
+        "Marketing"
+      ]
+    },
+    {
+      "id": "prod-012",
+      "status": "planned",
+      "format": "bundle",
+      "title": "AI ToolKit Ultimate Bundle: All 9 Products + Future Updates",
+      "slug": "aitoolkit-ultimate-bundle",
+      "bundle_of": [
+        "prod-001",
+        "prod-002",
+        "prod-003",
+        "prod-004",
+        "prod-005",
+        "prod-006",
+        "prod-007",
+        "prod-008",
+        "prod-009"
+      ],
+      "price_usd": 97,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Writesonic",
+        "Synthesia",
+        "AdCreative.ai"
+      ],
+      "article_tie": "best-ai-writing-tools-2026",
+      "customer_pain": "I want to buy everything at once and save money.",
+      "search_hook": "AI business bundle 2026",
+      "etsy_tags": [
+        "AI bundle",
+        "AI business templates",
+        "digital product bundle",
+        "AI tools library",
+        "AI prompt bundle"
+      ],
+      "gumroad_categories": [
+        "Business",
+        "Marketing",
+        "Video & Audio"
+      ]
+    }
+  ]
+}
