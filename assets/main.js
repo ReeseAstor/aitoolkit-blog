@@ -102,7 +102,7 @@ const PRODUCTS = [
     {
         slug: "ai-seo-content-system",
         title: "The AI SEO Content System: 2026 Edition",
-        excerpt: "The complete SEO checklist and content-brief template for ranking articles with AI assistance.",
+        excerpt: "25-point SEO checklist + content-brief template + audit matrix + 5 AI prompt sequences for ranking AI-assisted content.",
         price: "$17",
         category: "Checklist + Template"
     },
