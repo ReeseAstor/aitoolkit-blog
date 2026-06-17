@@ -122,6 +122,27 @@ const PRODUCTS = [
         category: "Swipe File"
     },
     {
+        slug: "ai-small-business-stack-playbook",
+        title: "The AI Small Business Stack: 2026 Playbook",
+        excerpt: "The 9-function AI stack framework, tool picks, 30-day rollout, ROI calculator, and 15 prompts to save 10+ hours a week.",
+        price: "$22",
+        category: "Guide + Workbook"
+    },
+    {
+        slug: "ai-image-prompt-lab",
+        title: "Midjourney + DALL-E Prompt Lab",
+        excerpt: "100 market-ready image prompts for product mockups, ads, thumbnails, and social — plus the formula and parameter cheat sheet.",
+        price: "$13",
+        category: "Prompt Pack"
+    },
+    {
+        slug: "youtube-creator-ai-toolkit",
+        title: "YouTube Creator AI Toolkit",
+        excerpt: "5 script frameworks, 30 hooks, thumbnail prompts, 25 title patterns, and an SEO description template. Cut prep to under 2 hours.",
+        price: "$18",
+        category: "Template Pack"
+    },
+    {
         slug: "ai-content-creator-vault",
         title: "AI Content Creator Vault (Bundle)",
         excerpt: "Video prompts + social calendar + YouTube toolkit. The essential AI content stack at a discount.",

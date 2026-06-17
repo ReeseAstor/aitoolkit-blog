@@ -173,7 +173,7 @@
     },
     {
       "id": "prod-007",
-      "status": "planned",
+      "status": "ready",
       "format": "guide + workbook",
       "title": "The AI Small Business Stack: 2026 Playbook",
       "slug": "ai-small-business-stack-playbook",
@@ -199,7 +199,7 @@
     },
     {
       "id": "prod-008",
-      "status": "planned",
+      "status": "ready",
       "format": "prompt pack",
       "title": "Midjourney + DALL-E Prompt Lab: 100 Market-Ready Image Prompts",
       "slug": "ai-image-prompt-lab",
@@ -221,7 +221,7 @@
     },
     {
       "id": "prod-009",
-      "status": "planned",
+      "status": "ready",
       "format": "template pack",
       "title": "YouTube Creator AI Toolkit: Scripts, Thumbnails, Descriptions",
       "slug": "youtube-creator-ai-toolkit",
