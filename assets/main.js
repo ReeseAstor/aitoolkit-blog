@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-online-course-creators-2026",
+        title: "Best AI Tools for Online Course Creators in 2026: Synthesia vs Canva vs Copy.ai vs Speechify",
+        excerpt: "The exact AI stack we use to build and sell online courses in 2026. Compare Synthesia, Canva, Copy.ai, and Speechify for video lessons, slides, sales pages, and audio versions.",
+        category: "Guide",
+        date: "2026-06-17",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-cold-email-outreach-2026",
         title: "Best AI Tools for Cold Email Outreach in 2026: Copy.ai vs Writesonic vs Jasper",
         excerpt: "We tested the top AI tools for cold email outreach in 2026. Compare Copy.ai, Writesonic, Jasper, and AdCreative.ai for reply rates, personalization, and SDR workflows.",
