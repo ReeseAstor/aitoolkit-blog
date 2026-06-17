@@ -246,7 +246,7 @@
     },
     {
       "id": "prod-010",
-      "status": "planned",
+      "status": "ready",
       "format": "bundle",
       "title": "AI Content Creator Vault (Bundle)",
       "slug": "ai-content-creator-vault",
@@ -278,7 +278,7 @@
     },
     {
       "id": "prod-011",
-      "status": "planned",
+      "status": "ready",
       "format": "bundle",
       "title": "AI Marketing Operations Vault (Bundle)",
       "slug": "ai-marketing-operations-vault",
@@ -309,7 +309,7 @@
     },
     {
       "id": "prod-012",
-      "status": "planned",
+      "status": "ready",
       "format": "bundle",
       "title": "AI ToolKit Ultimate Bundle: All 9 Products + Future Updates",
       "slug": "aitoolkit-ultimate-bundle",
