@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "how-to-create-online-course-with-ai-2026",
+        title: "How to Create an Online Course With AI in a Weekend (2026 Step-by-Step)",
+        excerpt: "The exact 4-tool AI workflow to take a course from blank page to buy-now button in a weekend — scripts with Copy.ai, camera-free video with Synthesia, slides in Canva, and audio with Speechify.",
+        category: "Guide",
+        date: "2026-06-17",
+        readTime: "9 min read"
+    },
+        {
         slug: "best-ai-tools-online-course-creators-2026",
         title: "Best AI Tools for Online Course Creators in 2026: Synthesia vs Canva vs Copy.ai vs Speechify",
         excerpt: "The exact AI stack we use to build and sell online courses in 2026. Compare Synthesia, Canva, Copy.ai, and Speechify for video lessons, slides, sales pages, and audio versions.",
@@ -93,6 +101,13 @@ const ARTICLES = [
 ];
 
 const PRODUCTS = [
+    {
+        slug: "ai-online-course-creator-kit",
+        title: "The AI Online Course Creator Kit (2026 Edition)",
+        excerpt: "Build, record, and launch a sellable online course in a weekend. 6 modules, 60+ prompts, 9 templates, sales page + email sequence, and a launch checklist — using Copy.ai, Synthesia, Canva, and Speechify.",
+        price: "$24",
+        category: "Kit + Templates"
+    },
     {
         slug: "ai-toolkit-sop-vault-v1",
         title: "AI ToolKit SOP Vault Vol. 1",

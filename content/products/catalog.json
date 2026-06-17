@@ -346,6 +346,36 @@
         "Marketing",
         "Video & Audio"
       ]
+    },
+    {
+      "id": "prod-013",
+      "status": "ready",
+      "format": "kit + prompts + templates",
+      "title": "The AI Online Course Creator Kit (2026 Edition)",
+      "slug": "ai-online-course-creator-kit",
+      "price_usd": 24,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Synthesia",
+        "Canva",
+        "Speechify"
+      ],
+      "article_tie": "best-ai-tools-online-course-creators-2026",
+      "customer_pain": "I know my topic but I have no script, hate being on camera, and can't write a sales page — so my course never launches.",
+      "search_hook": "how to create an online course with AI 2026",
+      "etsy_tags": [
+        "online course template",
+        "course creator kit",
+        "AI course prompts",
+        "course launch checklist",
+        "Synthesia course",
+        "sales page template"
+      ],
+      "gumroad_categories": [
+        "Education",
+        "Business"
+      ],
+      "bundle_of": []
     }
   ]
 }
