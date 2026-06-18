@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "how-to-repurpose-content-with-ai-2026",
+        title: "How to Repurpose One Piece of Content Into 10 With AI (2026 Workflow)",
+        excerpt: "Turn one blog post or video into 10+ assets with AI. The exact 4-tool repurposing stack — Copy.ai for text, Canva for graphics, Synthesia for video, Speechify for audio — with real 2026 pricing.",
+        category: "Guide",
+        date: "2026-06-18",
+        readTime: "10 min read"
+    },
+    {
         slug: "how-to-create-online-course-with-ai-2026",
         title: "How to Create an Online Course With AI in a Weekend (2026 Step-by-Step)",
         excerpt: "The exact 4-tool AI workflow to take a course from blank page to buy-now button in a weekend — scripts with Copy.ai, camera-free video with Synthesia, slides in Canva, and audio with Speechify.",
