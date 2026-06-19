@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-podcast-production-2026",
+        title: "Best AI Tools for Podcast Production in 2026: The Show Notes, Audiograms & Repurposing Stack",
+        excerpt: "The exact 4-tool AI stack to ship a podcast episode in 2026 — Copy.ai for show notes, Canva for cover art and audiograms, Synthesia for video clips, and Surfer for episode SEO. With verified pricing.",
+        category: "Guide",
+        date: "2026-06-19",
+        readTime: "10 min read"
+    },
+    {
         slug: "how-to-repurpose-content-with-ai-2026",
         title: "How to Repurpose One Piece of Content Into 10 With AI (2026 Workflow)",
         excerpt: "Turn one blog post or video into 10+ assets with AI. The exact 4-tool repurposing stack — Copy.ai for text, Canva for graphics, Synthesia for video, Speechify for audio — with real 2026 pricing.",
