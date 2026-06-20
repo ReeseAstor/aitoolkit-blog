@@ -32,6 +32,14 @@ def publish(message):
         print("No changes to commit.")
         return True
     
+    # Run SEO injector before publishing
+    if not run("py scripts/seo_inject.py"):
+        print("SEO injection failed. Continuing anyway.")
+
+    # Re-stage injected SEO changes
+    if not run("git add -A"):
+        return False
+
     # Commit
     if not run(f'git commit -m "{message}"'):
         return False

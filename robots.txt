@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aitoolkit-blog.vercel.app/sitemap.xml
+
+# Block scraping of affiliate-heavy pages (optional — crawlers still index via sitemap)
+User-agent: GPTBot
+Disallow: /

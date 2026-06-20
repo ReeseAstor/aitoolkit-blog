@@ -146,11 +146,25 @@ const PRODUCTS = [
         category: "Checklist + Template"
     },
     {
+        slug: "ai-ecommerce-description-templates",
+        title: "AI-Powered Ecommerce Product Description Templates",
+        excerpt: "50+ product description templates for ecommerce sellers. Copy.ai-powered prompts for Amazon, Shopify, Etsy, and more — bulk-write descriptions in hours instead of weeks.",
+        price: "$14",
+        category: "Template Pack"
+    },
+    {
         slug: "cold-email-ai-swipes",
         title: "Cold Email AI Swipe File",
         excerpt: "40 cold email sequences that book meetings. Includes personalized first-line prompts and 3-email follow-ups.",
         price: "$16",
         category: "Swipe File"
+    },
+    {
+        slug: "ai-social-media-content-calendar",
+        title: "Social Media Content Machine: 30-Day AI Content Calendar",
+        excerpt: "30-day social media calendar + 50 post templates + engagement hooks + hashtag research. Built for Copy.ai, Canva, and AdCreative.ai.",
+        price: "$15",
+        category: "Checklist + Prompts"
     },
     {
         slug: "ai-small-business-stack-playbook",
