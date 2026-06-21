@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StoryBible Analyzer — AI Manuscript QA for Fiction Writers</title>
+  <style>
+    :root {
+      --navy: #1f2a44;
+      --gold: #c9a96e;
+      --wood: #b8895a;
+      --cream: #f5f1eb;
+      --white: #ffffff;
+      --text: #333333;
+      --muted: #6b7280;
+      --radius: 10px;
+      --shadow: 0 10px 40px rgba(31, 42, 68, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      background: var(--cream);
+    }
+    .hero {
+      background: linear-gradient(135deg, var(--navy) 0%, #2d3d5f 100%);
+      color: var(--white);
+      padding: 80px 24px 60px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0 0 16px;
+      color: var(--gold);
+    }
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 680px;
+      margin: 0 auto 32px;
+      color: #d1d5db;
+    }
+    .price {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+    .cta {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--navy);
+      padding: 16px 32px;
+      border-radius: var(--radius);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin: 8px;
+    }
+    .cta.secondary {
+      background: transparent;
+      border: 2px solid var(--gold);
+      color: var(--gold);
+    }
+    .section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+    .section.alt { background: var(--white); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 24px;
+      margin-top: 32px;
+    }
+    .card {
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+    .alt .card { background: var(--cream); }
+    .card h3 {
+      color: var(--navy);
+      margin-top: 0;
+    }
+    .card .score {
+      display: inline-block;
+      background: var(--navy);
+      color: var(--gold);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .features {
+      list-style: none;
+      padding: 0;
+    }
+    .features li {
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    .features li:before {
+      content: "✓ ";
+      color: var(--gold);
+      font-weight: 700;
+    }
+    .footer {
+      text-align: center;
+      padding: 40px 24px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2rem; }
+      .hero p { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <h1>StoryBible Analyzer</h1>
+    <p>AI-powered manuscript quality assurance for fiction writers. Catch POV slips, voice drift, timeline breaks, and pacing issues before your editor does.</p>
+    <div class="price">$19</div>
+    <p style="margin-bottom: 24px;">One-time download. No subscription. Use your own OpenAI API key.</p>
+    <a class="cta" href="https://gumroad.com/l/storybible-analyzer">Buy on Gumroad</a>
+    <a class="cta secondary" href="https://www.etsy.com/listing/storybible-analyzer">Buy on Etsy</a>
+  </section>
+
+  <section class="section">
+    <h2 style="text-align:center; color: var(--navy);">Four dimensions. One clear report.</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="score">Style Adherence</div>
+        <h3>POV, tense, head-hopping</h3>
+        <p>Finds inconsistent point of view, tense drift, and accidental head-hopping that breaks reader immersion.</p>
+      </div>
+      <div class="card">
+        <div class="score">Character Voice</div>
+        <h3>Distinct voices, stable mannerisms</h3>
+        <p>Checks whether each character sounds unique and whether dialogue tags and speech patterns stay consistent.</p>
+      </div>
+      <div class="card">
+        <div class="score">Narrative Flow</div>
+        <h3>Transitions, cause/effect, timeline</h3>
+        <p>Spots jarring scene shifts, broken cause-and-effect chains, and continuity errors across the manuscript.</p>
+      </div>
+      <div class="card">
+        <div class="score">Tone & Pacing</div>
+        <h3>Mood, rhythm, thematic alignment</h3>
+        <p>Flags tonal whiplash, slow middles, rushed endings, and sentences that fight the emotional beat.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <h2 style="text-align:center; color: var(--navy);">What's included</h2>
+    <ul class="features">
+      <li>Browser app — open index.html, paste manuscript, run analysis instantly</li>
+      <li>Python CLI — batch analyze manuscripts and export JSON/TXT/CSV</li>
+      <li>User guide with scoring guide and style-guideline templates</li>
+      <li>Sample manuscript so you can test immediately</li>
+      <li>No server required. No subscription. Your manuscript stays local.</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2 style="text-align:center; color: var(--navy);">How it works</h2>
+    <div class="grid" style="text-align:center;">
+      <div class="card">
+        <h3>1. Paste</h3>
+        <p>Paste your manuscript, style guidelines, and character registry.</p>
+      </div>
+      <div class="card">
+        <h3>2. Analyze</h3>
+        <p>The tool samples beginning, middle, and end, then runs four focused AI checks.</p>
+      </div>
+      <div class="card">
+        <h3>3. Fix</h3>
+        <p>Get scores, specific findings, and concrete fixes. Export to share with your editor.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" style="text-align:center;">
+    <h2 style="color: var(--navy);">Ready to stop guessing what's wrong with your draft?</h2>
+    <p>Get StoryBible Analyzer for $19 and turn vague doubt into an actionable revision plan.</p>
+    <a class="cta" href="https://gumroad.com/l/storybible-analyzer">Buy on Gumroad</a>
+    <a class="cta secondary" href="https://www.etsy.com/listing/storybible-analyzer">Buy on Etsy</a>
+  </section>
+
+  <footer class="footer">
+    <p>© AI ToolKit. StoryBible Analyzer is a tool, not a replacement for a human editor.</p>
+  </footer>
+
+</body>
+</html>

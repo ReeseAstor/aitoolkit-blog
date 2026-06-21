@@ -376,6 +376,34 @@
         "Business"
       ],
       "bundle_of": []
+    },
+    {
+      "id": "prod-014",
+      "status": "ready",
+      "format": "downloadable app",
+      "title": "StoryBible Analyzer — AI Manuscript QA for Fiction Writers",
+      "slug": "storybible-analyzer",
+      "price_usd": 19,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Claude"
+      ],
+      "article_tie": "best-ai-tools-fiction-writers-2026",
+      "customer_pain": "I finished my draft but something feels off and I can't name it before paying an editor.",
+      "search_hook": "AI manuscript analyzer fiction writers",
+      "etsy_tags": [
+        "manuscript analyzer",
+        "fiction editing tool",
+        "AI writing assistant",
+        "novel editing checklist",
+        "self editing for authors",
+        "story bible software"
+      ],
+      "gumroad_categories": [
+        "Fiction",
+        "Writing & Publishing"
+      ],
+      "bundle_of": []
     }
   ]
 }
