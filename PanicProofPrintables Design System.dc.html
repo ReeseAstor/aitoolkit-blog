@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>PanicProofPrintables Design System</title>
+  <style>
+    :root{--ppp-navy:#102038;--ppp-navy-sl:#1A2E45;--ppp-gold:#B79A5F;--ppp-gold-dk:#7C6A43;--ppp-cream:#F4F1E8;--ppp-offwhite:#FBFAF7;--ppp-field:#F2EDE4;--ppp-field-b:#EAF0F5;--ppp-slate:#2F3A45;--ppp-muted:#6F7782;--ppp-line:#D6D1C8;--ppp-radius:12px;--ppp-shadow:0 8px 28px rgba(16,32,56,.14)}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--ppp-offwhite);color:var(--ppp-slate);font-family:Aptos,Arial,sans-serif;font-size:15px;line-height:1.6}
+    .cover{background:var(--ppp-navy);color:#fff;padding:56px 40px 48px}
+    .cover-inner{max-width:1060px;margin:0 auto;display:grid;gap:10px}
+    .wm{font-family:Arial,sans-serif;font-weight:700;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ppp-gold)}
+    .cover h1{font-weight:700;font-size:clamp(1.8rem,5vw,3rem);line-height:1.15}
+    .cover p{color:rgba(255,255,255,.75);max-width:52ch}
+    .badge-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+    .badge{background:rgba(183,154,95,.15);color:var(--ppp-gold);border:1px solid rgba(183,154,95,.4);border-radius:6px;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:5px 10px}
+    .meta-row{display:flex;gap:32px;flex-wrap:wrap;margin-top:20px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12)}
+    .meta-item .ml{font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ppp-gold);margin-bottom:2px}
+    .meta-item .mv{font-size:.86rem;color:rgba(255,255,255,.82)}
+    .main{max-width:1060px;margin:0 auto;padding:44px 24px 80px;display:grid;gap:52px}
+    .sh{display:flex;align-items:baseline;gap:14px;margin-bottom:20px;padding-bottom:10px;border-bottom:1px solid var(--ppp-line)}
+    .sn{font-family:"Courier New",monospace;font-size:.72rem;font-weight:700;color:var(--ppp-gold)}
+    .sh h2{font-weight:700;font-size:1.45rem;color:var(--ppp-navy)}
+    .sb{font-size:.92rem;color:var(--ppp-slate);margin-bottom:24px;max-width:70ch}
+    .pg{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:12px}
+    .sc{border:1px solid var(--ppp-line);border-radius:var(--ppp-radius);overflow:hidden}
+    .sw{height:68px}
+    .sm{padding:9px 11px;background:#fff}
+    .sn2{font-size:.8rem;font-weight:700;color:var(--ppp-navy)}
+    .sh2{font-size:.72rem;font-family:"Courier New",monospace;color:var(--ppp-muted)}
+    .su{font-size:.68rem;color:var(--ppp-muted);margin-top:2px}
+    .an{margin-top:14px;padding:13px 15px;background:var(--ppp-cream);border-left:3px solid var(--ppp-gold);border-radius:0 var(--ppp-radius) var(--ppp-radius) 0;font-size:.84rem}
+    table{width:100%;border-collapse:collapse}
+    thead th{background:var(--ppp-navy);color:#fff;text-align:left;padding:9px 13px;font-size:.76rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+    tbody tr:nth-child(odd) td{background:#fff}
+    tbody tr:nth-child(even) td{background:var(--ppp-cream)}
+    td{padding:10px 13px;border-bottom:1px solid var(--ppp-line);font-size:.88rem}
+    .btn-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:8px}
+    .btn{border:0;border-radius:var(--ppp-radius);padding:11px 18px;font-family:Aptos,Arial,sans-serif;font-weight:700;font-size:.88rem;cursor:pointer;line-height:1}
+    .bp{background:var(--ppp-navy);color:#fff}
+    .bs{background:var(--ppp-cream);color:var(--ppp-navy);border:1px solid var(--ppp-navy)}
+    .bm{background:none;color:var(--ppp-navy);border-bottom:2px solid var(--ppp-gold);border-radius:0;padding:0 0 2px;font-size:.86rem}
+    .callout{background:var(--ppp-cream);border-left:3px solid var(--ppp-gold);border-radius:0 var(--ppp-radius) var(--ppp-radius) 0;padding:14px 18px}
+    .cl{font-weight:700;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ppp-gold-dk);margin-bottom:5px}
+    .ct{font-weight:700;font-size:.96rem;color:var(--ppp-navy);margin-bottom:4px}
+    .cg{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .fg{display:grid;gap:7px}
+    .fl{font-weight:700;font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;color:var(--ppp-gold-dk)}
+    .fi{background:var(--ppp-field);border:1px solid var(--ppp-line);border-radius:6px;padding:9px 11px;font-family:Aptos,Arial,sans-serif;font-size:.88rem;width:100%}
+    .fd{background:var(--ppp-field-b)}
+    .cl2{list-style:none;display:grid;gap:7px}
+    .cl2 li{display:flex;align-items:flex-start;gap:9px;font-size:.88rem}
+    .cb{width:14px;height:14px;min-width:14px;border:2px solid var(--ppp-navy);border-radius:3px;margin-top:3px}
+    .cb.chk{background:var(--ppp-navy);position:relative}
+    .cb.chk::after{content:"✓";position:absolute;color:#fff;font-size:9px;top:-1px;left:2px}
+    .pb{background:var(--ppp-navy-sl);border-radius:var(--ppp-radius);padding:14px 18px;font-family:"Courier New",monospace;font-size:.84rem;color:#a8c4dc;line-height:1.7}
+    .dis{border:1px solid var(--ppp-line);border-radius:var(--ppp-radius);padding:18px 22px;background:var(--ppp-field);font-size:.8rem;color:var(--ppp-muted);line-height:1.7}
+    .vg{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--ppp-line);border-radius:var(--ppp-radius);overflow:hidden}
+    .vh{background:var(--ppp-navy);color:#fff;font-weight:700;font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;padding:9px 15px}
+    .vh2{background:var(--ppp-navy-sl)}
+    .vr{padding:9px 15px;font-size:.86rem;border-top:1px solid var(--ppp-line)}
+    .vu{background:#fff}
+    .va{background:var(--ppp-cream);color:var(--ppp-muted);text-decoration:line-through}
+    .bc{background:var(--ppp-navy);color:#fff;border-radius:var(--ppp-radius);padding:22px 26px;font-weight:700;font-size:1.05rem;line-height:1.45;position:relative}
+    .bc::before{content:"Final brand command";display:block;font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ppp-gold);margin-bottom:8px}
+    .mono{font-family:"Courier New",monospace;color:var(--ppp-navy)}
+    .sl{font-size:.74rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--ppp-gold-dk);margin-bottom:10px}
+    .bg-w{display:flex;flex-wrap:wrap;gap:7px}
+    .bdg{background:var(--ppp-navy);color:var(--ppp-gold);border-radius:6px;padding:5px 10px;font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+    .two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .box{padding:18px;border:1px solid var(--ppp-line);border-radius:var(--ppp-radius);font-size:.86rem}
+    @media(max-width:640px){.cover{padding:36px 18px}.main{padding:28px 14px 60px;gap:36px}.cg,.two,.vg{grid-template-columns:1fr}}
+  </style>
+    <link rel="canonical" href="https://aitoolkit-blog.vercel.app/PanicProofPrintables Design System.dc.html">
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX', {'anonymize_ip': true});
+</script>
+</head>
+<body>
+<header class="cover">
+  <div class="cover-inner">
+    <span class="wm">PanicProofPrintables</span>
+    <h1>Brand Guidelines &amp; Design System</h1>
+    <p>Calm digital systems for moments that feel overwhelming. Turn panic, clutter, or content chaos into a clear checklist, planner, or workflow.</p>
+    <div class="badge-row">
+      <span class="badge">Version 1.0 · 2026</span>
+      <span class="badge">Etsy · PDF · DOCX · Web</span>
+      <span class="badge">Calm · Useful · Lightly Premium</span>
+    </div>
+    <div class="meta-row">
+      <div class="meta-item"><div class="ml">Personality</div><div class="mv">Calm · Useful · Lightly premium</div></div>
+      <div class="meta-item"><div class="ml">Fast rule</div><div class="mv">Calm over clever. Clarity over decoration.</div></div>
+      <div class="meta-item"><div class="ml">Surfaces</div><div class="mv">Etsy · Website · PDF · DOCX · Newsletter</div></div>
+    </div>
+  </div>
+</header>
+<main class="main">
+  <section>
+    <div class="sh"><span class="sn">01</span><h2>Brand Foundation</h2></div>
+    <p class="sb">Every product should feel like someone handed the buyer a clear plan at the exact moment they were overwhelmed. The visual system should feel like a clean binder, not a loud course funnel.</p>
+    <div class="two">
+      <div class="box" style="background:#fff"><div class="sl">We are</div><ul style="list-style:none;display:grid;gap:5px"><li>✦ Calm</li><li>✦ Useful</li><li>✦ Organized</li><li>✦ Direct</li><li>✦ Lightly premium</li></ul></div>
+      <div class="box" style="background:var(--ppp-cream)"><div class="sl" style="color:var(--ppp-muted)">We never become</div><ul style="list-style:none;display:grid;gap:5px;color:var(--ppp-muted)"><li>— Chaotic</li><li>— Glittery</li><li>— Corporate</li><li>— Loud</li><li>— Gimmicky</li><li>— Hype-heavy</li></ul></div>
+    </div>
+    <div style="margin-top:14px;display:grid;gap:10px">
+      <div class="box" style="background:#fff;font-size:.86rem"><strong style="color:var(--ppp-navy)">Brand promise: </strong>Turn panic, clutter, or content chaos into a clear checklist, planner, or workflow.</div>
+      <div class="box" style="background:#fff;font-size:.86rem"><strong style="color:var(--ppp-navy)">Buyer emotion: </strong>Overwhelmed but ready to get organized — they want to know what to do next.</div>
+      <div class="box" style="background:#fff;font-size:.86rem"><strong style="color:var(--ppp-navy)">Product standard: </strong>Immediate-use instructions, fillable or printable structure, and at least one example.</div>
+    </div>
+  </section>
+  <section>
+    <div class="sh"><span class="sn">02</span><h2>Color Palette</h2></div>
+    <p class="sb">Navy creates trust. Gold adds warmth. Cream and shaded fields make pages feel printable and calm. Gold is an accent — never a body text color.</p>
+    <div class="pg">
+      <div class="sc"><div class="sw" style="background:#102038"></div><div class="sm"><div class="sn2">Deep Navy</div><div class="sh2">--ppp-navy · #102038</div><div class="su">Headers, covers, buttons</div></div></div>
+      <div class="sc"><div class="sw" style="background:#1A2E45"></div><div class="sm"><div class="sn2">Navy Slate</div><div class="sh2">--ppp-navy-sl · #1A2E45</div><div class="su">Secondary panels, hover</div></div></div>
+      <div class="sc"><div class="sw" style="background:#B79A5F"></div><div class="sm"><div class="sn2">Warm Gold</div><div class="sh2">--ppp-gold · #B79A5F</div><div class="su">Accent — never body text</div></div></div>
+      <div class="sc"><div class="sw" style="background:#7C6A43"></div><div class="sm"><div class="sn2">Dark Gold</div><div class="sh2">--ppp-gold-dk · #7C6A43</div><div class="su">Labels, borders</div></div></div>
+      <div class="sc"><div class="sw" style="background:#F4F1E8;border-bottom:1px solid #D6D1C8"></div><div class="sm"><div class="sn2">Cream Paper</div><div class="sh2">--ppp-cream · #F4F1E8</div><div class="su">Callouts, panel backgrounds</div></div></div>
+      <div class="sc"><div class="sw" style="background:#FBFAF7;border-bottom:1px solid #D6D1C8"></div><div class="sm"><div class="sn2">Off White</div><div class="sh2">--ppp-offwhite · #FBFAF7</div><div class="su">Page backgrounds</div></div></div>
+      <div class="sc"><div class="sw" style="background:#F2EDE4;border-bottom:1px solid #D6D1C8"></div><div class="sm"><div class="sn2">Editable Field</div><div class="sh2">--ppp-field · #F2EDE4</div><div class="su">Fillable PDF inputs</div></div></div>
+      <div class="sc"><div class="sw" style="background:#EAF0F5;border-bottom:1px solid #D6D1C8"></div><div class="sm"><div class="sn2">Field Blue</div><div class="sh2">--ppp-field-b · #EAF0F5</div><div class="su">Digital form inputs</div></div></div>
+      <div class="sc"><div class="sw" style="background:#2F3A45"></div><div class="sm"><div class="sn2">Slate Text</div><div class="sh2">--ppp-slate · #2F3A45</div><div class="su">Body copy, labels</div></div></div>
+      <div class="sc"><div class="sw" style="background:#6F7782"></div><div class="sm"><div class="sn2">Muted</div><div class="sh2">--ppp-muted · #6F7782</div><div class="su">Captions, disclaimers</div></div></div>
+      <div class="sc"><div class="sw" style="background:#D6D1C8;border-bottom:1px solid #bcb5a8"></div><div class="sm"><div class="sn2">Line Gray</div><div class="sh2">--ppp-line · #D6D1C8</div><div class="su">Dividers, borders</div></div></div>
+    </div>
+    <div class="an" style="margin-top:14px"><strong>Accessibility.</strong> Body text uses Slate on Off White, or Navy on Cream. White on Deep Navy for headers/buttons. Target 4.5:1 contrast for normal text, 3:1 for large text.</div>
+  </section>
+  <section>
+    <div class="sh"><span class="sn">03</span><h2>Typography</h2></div>
+    <p class="sb">Aptos is the brand typeface, with Arial as the universal fallback. Courier New carries prompt and code-style blocks. Keep type clean and quietly confident.</p>
+    <table>
+      <thead><tr><th>Role</th><th>Spec</th><th>Specimen</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Wordmark</strong></td><td>Arial Bold · all caps · tracking 0.12em</td><td style="font-family:Arial,sans-serif;font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.82rem;color:var(--ppp-navy)">PANICPROOFPRINTABLES</td></tr>
+        <tr><td><strong>Heading</strong></td><td>Aptos Display Bold / Arial Bold</td><td style="font-weight:700;font-size:1.2rem;color:var(--ppp-navy)">Plan it once. Reuse every time.</td></tr>
+        <tr><td><strong>Body</strong></td><td>Aptos Regular / Arial</td><td>A fillable digital planner that turns scattered ideas into a clear workflow.</td></tr>
+        <tr><td><strong>Label</strong></td><td>Aptos Bold · small-caps · tracking 0.08em</td><td style="font-weight:700;font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ppp-gold-dk)">WORKSHEET LABEL</td></tr>
+        <tr><td><strong>Prompt block</strong></td><td>Courier New / Consolas</td><td style="font-family:'Courier New',monospace;font-size:.84rem;background:var(--ppp-navy-sl);color:#a8c4dc;padding:4px 8px;border-radius:4px">&gt; Write 5 hooks for this video idea</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <div class="sh"><span class="sn">04</span><h2>Component System</h2></div>
+    <p class="sb">Build every asset from the same reusable blocks: header, quick guide, fillable field, checklist, table, callout, badge, CTA, and disclaimer.</p>
+    <div style="display:grid;gap:24px">
+      <div><div class="sl">Buttons · Website &amp; Newsletter</div><div class="btn-row"><button class="btn bp" type="button">Get the Fillable PDF</button><button class="btn bs" type="button">See What Is Inside</button><button class="btn bm" type="button">View product details</button></div><div style="font-size:.78rem;color:var(--ppp-muted);display:grid;gap:3px"><span><strong>Primary:</strong> Navy fill · white text · 12px radius</span><span><strong>Secondary:</strong> Cream fill · navy border &amp; text</span><span><strong>Micro CTA:</strong> Text link with gold underline</span></div></div>
+      <div><div class="sl">Badges</div><div class="bg-w"><span class="bdg">Fillable PDF</span><span class="bdg">Instant Download</span><span class="bdg">39 Pages</span><span class="bdg">Personal Use</span></div></div>
+      <div><div class="sl">Callout Box</div><div class="callout"><div class="cl">Start Here</div><div class="ct">Begin with the first page.</div><p style="font-size:.88rem">Save a clean master copy, then use Save As for every new project. 39 pages, fillable fields, sample project included.</p></div></div>
+      <div><div class="sl">Fillable Fields</div><div class="cg"><div class="fg"><label class="fl" for="f1">Video Title</label><input id="f1" class="fi" type="text" placeholder="e.g. How to batch 30 videos"/></div><div class="fg"><label class="fl" for="f2">Hook (digital field)</label><input id="f2" class="fi fd" type="text" placeholder="Your strongest opening line"/></div></div></div>
+      <div><div class="sl">Checklist</div><ul class="cl2"><li><span class="cb chk"></span>Set shop sections</li><li><span class="cb chk"></span>Update top listing visuals</li><li><span class="cb"></span>Build homepage hero</li><li><span class="cb"></span>Run the QA checklist</li></ul></div>
+      <div><div class="sl">Table</div><table><thead><tr><th>Stage</th><th>Status</th></tr></thead><tbody><tr><td>Idea</td><td>Captured</td></tr><tr><td>Title &amp; Thumbnail</td><td>In progress</td></tr><tr><td>Script</td><td>Drafted</td></tr></tbody></table></div>
+      <div><div class="sl">Prompt Block</div><div class="pb">&gt; Write 5 hooks for this video idea<br>&gt; Audience: overwhelmed content creators<br>&gt; Tone: calm, direct, no hype</div></div>
+      <div><div class="sl">Disclaimer Footer</div><div class="dis">Digital download only. No physical product will be shipped. For organizational use only. No guaranteed results. Personal use only — no resale, redistribution, or claiming files as your own. Designed by PanicProofPrintables with AI-assisted brainstorming; final layout, branding, and design completed by seller.</div></div>
+    </div>
+  </section>
+  <section>
+    <div class="sh"><span class="sn">05</span><h2>Tokens &amp; Voice</h2></div>
+    <table style="margin-bottom:24px">
+      <thead><tr><th>Token</th><th>Value</th><th>Use</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">--ppp-navy</td><td>#102038</td><td>Primary brand color, headers, buttons</td></tr>
+        <tr><td class="mono">--ppp-gold</td><td>#B79A5F</td><td>Accent only — never body text</td></tr>
+        <tr><td class="mono">--ppp-cream</td><td>#F4F1E8</td><td>Callout backgrounds, panel fills</td></tr>
+        <tr><td class="mono">--ppp-field</td><td>#F2EDE4</td><td>Fillable PDF input areas</td></tr>
+        <tr><td class="mono">--ppp-radius</td><td>12px</td><td>All cards, buttons, callouts</td></tr>
+        <tr><td class="mono">--ppp-shadow</td><td>soft navy shadow</td><td>Cards, elevated surfaces</td></tr>
+      </tbody>
+    </table>
+    <div class="sl">Voice · Use this / Avoid this</div>
+    <div class="vg">
+      <div class="vh">✓ Use this</div><div class="vh vh2">✗ Avoid this</div>
+      <div class="vr vu">"Know what to do next."</div><div class="vr va">"Unlock your full potential."</div>
+      <div class="vr vu">"Start with the first page."</div><div class="vr va">"Hurry before your workflow collapses."</div>
+      <div class="vr vu">"39 pages, fillable fields, sample included."</div><div class="vr va">"Packed with tons of value."</div>
+      <div class="vr vu">"No guaranteed results. Follow platform policies."</div><div class="vr va">"Guaranteed to grow your channel."</div>
+    </div>
+    <div style="margin-top:24px"><div class="bc">Make every asset feel like a calm system. The buyer should know what it is, why it helps, and exactly what to do next.</div></div>
+  </section>
+</main>
+</body>
+</html>

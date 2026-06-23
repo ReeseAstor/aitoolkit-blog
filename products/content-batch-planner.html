@@ -1,0 +1,493 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Content Planner Fillable PDF — 34-Page Batch System · PanicProofPrintables</title>
+  <style>
+    :root{
+      --n:#102038;--ns:#1A2E45;--g:#B79A5F;--gd:#7C6A43;--cr:#F4F1E8;--ow:#FBFAF7;
+      --fld:#F2EDE4;--fldb:#EAF0F5;--sl:#2F3A45;--mu:#6F7782;--ln:#D6D1C8;
+      --r:12px;--sh:0 6px 24px rgba(16,32,56,.11)
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--ow);color:var(--sl);font-family:Aptos,Arial,sans-serif;font-size:14px;line-height:1.6;print-color-adjust:exact}
+
+    /* ── COVER ── */
+    .cover{background:var(--n);color:#fff;padding:56px 40px 52px;position:relative;overflow:hidden}
+    .cover::after{content:"";position:absolute;right:-80px;bottom:-80px;width:280px;height:280px;border-radius:50%;background:rgba(183,154,95,.1);pointer-events:none}
+    .ci{max-width:800px;margin:0 auto;display:grid;gap:10px;position:relative;z-index:1}
+    .wm{font-family:Arial,sans-serif;font-weight:700;font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:var(--g)}
+    .cover h1{font-weight:700;font-size:clamp(1.6rem,5vw,2.8rem);line-height:1.12;max-width:18ch}
+    .cover .sub{color:var(--g);font-size:.95rem;font-weight:600}
+    .br{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+    .bdg{background:rgba(183,154,95,.14);border:1px solid rgba(183,154,95,.38);color:var(--g);border-radius:5px;font-size:.64rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 9px}
+
+    /* ── NAVIGATION ── */
+    .nav{background:var(--n);position:sticky;top:0;z-index:100;border-bottom:1px solid rgba(183,154,95,.25)}
+    .ni{max-width:900px;margin:0 auto;display:flex;gap:0;overflow-x:auto;scrollbar-width:none}
+    .ni::-webkit-scrollbar{display:none}
+    .nt{border:0;background:none;color:rgba(255,255,255,.55);font-family:Aptos,Arial,sans-serif;font-size:.72rem;font-weight:700;padding:10px 14px;cursor:pointer;white-space:nowrap;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
+    .nt:hover,.nt.active{color:var(--g);border-bottom-color:var(--g)}
+
+    /* ── SECTIONS ── */
+    .main{max-width:900px;margin:0 auto;padding:32px 20px 80px;display:grid;gap:0}
+    .section{display:none;animation:fade .25s ease}
+    .section.show{display:grid;gap:20px}
+    @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+
+    /* ── PAGE ── */
+    .page{background:#fff;border:1px solid var(--ln);border-radius:var(--r);padding:28px 32px;box-shadow:var(--sh)}
+    .ph{display:flex;align-items:baseline;gap:10px;margin-bottom:4px}
+    .pn{font-family:"Courier New",monospace;font-size:.64rem;font-weight:700;color:var(--g);letter-spacing:.06em}
+    .page h2{font-weight:700;font-size:1.15rem;color:var(--n);margin-bottom:2px}
+    .page h3{font-weight:700;font-size:.92rem;color:var(--n);margin-bottom:8px;margin-top:14px}
+    .page p{font-size:.88rem;color:var(--sl);margin-bottom:10px}
+
+    /* ── CALLOUT ── */
+    .callout{background:var(--cr);border-left:3px solid var(--g);border-radius:0 var(--r) var(--r) 0;padding:12px 16px;margin:12px 0}
+    .cl{font-weight:700;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gd);margin-bottom:4px}
+    .callout p{margin:0;font-size:.84rem}
+
+    /* ── FIELDS ── */
+    .fl{font-weight:700;font-size:.66rem;letter-spacing:.07em;text-transform:uppercase;color:var(--gd);display:block;margin-bottom:4px}
+    .fi,.ta{background:var(--fld);border:1px solid var(--ln);border-radius:6px;padding:8px 11px;font-family:Aptos,Arial,sans-serif;font-size:.86rem;width:100%;color:var(--sl)}
+    .ta{resize:vertical;min-height:52px}
+    .fib{background:var(--fldb)}
+    .fg{display:grid;gap:6px;margin-bottom:12px}
+    .fg2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .fg3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
+
+    /* ── TABLE ── */
+    table{width:100%;border-collapse:collapse;margin:10px 0;font-size:.82rem}
+    thead th{background:var(--n);color:#fff;text-align:left;padding:8px 10px;font-size:.72rem;font-weight:700;letter-spacing:.04em}
+    tbody tr:nth-child(odd) td{background:#fff}
+    tbody tr:nth-child(even) td{background:var(--cr)}
+    td{padding:7px 10px;border-bottom:1px solid var(--ln)}
+    td input{background:transparent;border:none;font-family:Aptos,Arial,sans-serif;font-size:.82rem;width:100%;color:var(--sl)}
+    td input:focus{outline:none;background:rgba(183,154,95,.08);border-radius:3px}
+
+    /* ── CHECKLIST ── */
+    .chk{list-style:none;display:grid;gap:6px;margin:8px 0}
+    .chk li{display:flex;align-items:flex-start;gap:9px;font-size:.86rem}
+    .chk input[type=checkbox]{margin-top:3px;accent-color:var(--n);width:14px;height:14px;min-width:14px}
+
+    /* ── PLATFORM TOGGLES ── */
+    .plat{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+    .plat label{display:flex;align-items:center;gap:5px;background:var(--cr);border:1px solid var(--ln);border-radius:6px;padding:5px 10px;cursor:pointer;font-size:.78rem;font-weight:600}
+    .plat input[type=checkbox]{accent-color:var(--n)}
+
+    /* ── PROMPT BLOCKS ── */
+    .pb{background:var(--ns);border-radius:var(--r);padding:14px 16px;font-family:"Courier New",monospace;font-size:.78rem;color:#b0cde0;line-height:1.75;margin-bottom:10px}
+    .pb-label{font-size:.62rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g);margin-bottom:8px;font-family:Aptos,Arial,sans-serif}
+
+    /* ── STATUS BADGE ── */
+    .status{display:inline-block;border-radius:99px;padding:3px 10px;font-size:.68rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+    .s-idea{background:#e8f0f8;color:#1A2E45}
+    .s-scripted{background:#fff3dc;color:#7C6A43}
+    .s-recorded{background:#e6f8ef;color:#1a6640}
+    .s-live{background:#102038;color:var(--g)}
+
+    /* ── STEPS ── */
+    .steps{counter-reset:step;display:grid;gap:12px}
+    .step{display:flex;gap:12px;align-items:flex-start;font-size:.88rem}
+    .step::before{counter-increment:step;content:counter(step);background:var(--n);color:var(--g);width:22px;height:22px;min-width:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.72rem;margin-top:2px}
+
+    /* ── DISCLAIMER ── */
+    .dis{background:var(--fld);border:1px solid var(--ln);border-radius:var(--r);padding:16px 20px;font-size:.76rem;color:var(--mu);line-height:1.75}
+
+    /* ── EXAMPLE BADGE ── */
+    .ex-banner{background:var(--n);color:var(--g);font-size:.66rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:6px 16px;border-radius:var(--r) var(--r) 0 0;margin-bottom:-1px}
+
+    /* ── RESULT BAR ── */
+    .result-bar{background:var(--n);color:#fff;border-radius:var(--r);padding:16px 22px;display:flex;align-items:center;gap:14px}
+    .result-icon{font-size:1.4rem}
+    .result-text{font-weight:700;font-size:.92rem}
+    .result-sub{font-size:.78rem;color:rgba(255,255,255,.65);margin-top:2px}
+
+    @media print{.nav,.cover-cta{display:none}.section{display:grid!important}.main{padding:0}}
+    @media(max-width:600px){.cover{padding:36px 18px}.fg2,.fg3{grid-template-columns:1fr}.page{padding:20px 18px}}
+  </style>
+    <link rel="canonical" href="https://aitoolkit-blog.vercel.app/products/content-batch-planner.html">
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX', {'anonymize_ip': true});
+</script>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="cover">
+  <div class="ci">
+    <span class="wm">PanicProofPrintables</span>
+    <h1>Content Planner Fillable PDF</h1>
+    <div class="sub">34-Page Batch System for Content Creators</div>
+    <p style="color:rgba(255,255,255,.7);font-size:.88rem;max-width:48ch;margin-top:6px">
+      Plan a month of content in one session. Batch it once, publish all month.
+    </p>
+    <div class="br">
+      <span class="bdg">Fillable PDF</span>
+      <span class="bdg">Printable Version Included</span>
+      <span class="bdg">34 Pages</span>
+      <span class="bdg">Instant Download</span>
+      <span class="bdg">Personal Use Only</span>
+    </div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="ni">
+    <button class="nt active" onclick="show('welcome',this)">Welcome</button>
+    <button class="nt" onclick="show('quickstart',this)">Quick-Start</button>
+    <button class="nt" onclick="show('braindump',this)">Brain Dump</button>
+    <button class="nt" onclick="show('batchday',this)">Batch Day</button>
+    <button class="nt" onclick="show('tracker',this)">Piece Tracker</button>
+    <button class="nt" onclick="show('review',this)">Weekly Review</button>
+    <button class="nt" onclick="show('repurpose',this)">Repurpose</button>
+    <button class="nt" onclick="show('prompts',this)">Prompt Library</button>
+    <button class="nt" onclick="show('recap',this)">Monthly Recap</button>
+    <button class="nt" onclick="show('example',this)">Example</button>
+    <button class="nt" onclick="show('disclaimer',this)">Disclaimer</button>
+  </div>
+</nav>
+
+<main class="main">
+
+  <!-- WELCOME -->
+  <div id="welcome" class="section show">
+    <div class="page">
+      <div class="ph"><span class="pn">P02</span><h2>Welcome &amp; How to Use This Planner</h2></div>
+      <div class="callout"><div class="cl">Start Here</div><p>This is a system, not a calendar. Work through it in order once, then reuse the blank templates every month. Save a clean master copy first.</p></div>
+      <p>This planner gives you one structured session to plan and batch your content for an entire month. No willpower required — follow the pages in order.</p>
+      <p>You need three things before you start: 30 free minutes, a general topic area or niche, and a rough idea of how often you post per week.</p>
+      <h3>What Each Section Does</h3>
+      <table>
+        <thead><tr><th>Section</th><th>What it does</th><th>When to use it</th></tr></thead>
+        <tbody>
+          <tr><td>Brain Dump</td><td>Capture every idea without filtering</td><td>Start here</td></tr>
+          <tr><td>Batch Day Planner</td><td>Group ideas by type for one recording session</td><td>After brain dump</td></tr>
+          <tr><td>Content Piece Tracker</td><td>Plan each piece from idea to publish</td><td>Before you create</td></tr>
+          <tr><td>Weekly Review</td><td>Track what went out and what to learn</td><td>End of each week</td></tr>
+          <tr><td>Repurpose Router</td><td>Map one piece to 3+ formats</td><td>After first publish</td></tr>
+          <tr><td>Prompt Library</td><td>AI prompt starters for every content stage</td><td>Whenever you're stuck</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- QUICK START -->
+  <div id="quickstart" class="section">
+    <div class="page">
+      <div class="ph"><span class="pn">P03</span><h2>Quick-Start Guide</h2></div>
+      <div class="callout"><div class="cl">Pro Tip</div><p>Do this once a month, ideally on the last Sunday of the previous month. Block 90 minutes. Do not skip the brain dump.</p></div>
+      <p style="margin-bottom:14px">Your first 10 minutes:</p>
+      <div class="steps">
+        <div class="step">Open the Brain Dump (next tab). Set a 10-minute timer. Write every content idea you have — titles, topics, half-formed thoughts — one per row. Do not filter. Fill as many rows as you can.</div>
+        <div class="step">When the timer ends, go to the Batch Day Planner. Group similar ideas onto the same batch day — all talking-head videos on Day 1, all voiceover on Day 2, etc.</div>
+        <div class="step">Pick your 4–8 strongest pieces. Open a Content Piece Tracker for each one. Fill in the title, platform, hook, and CTA fields. Come back to the rest when you're ready to create.</div>
+        <div class="step">Put your batch dates in your calendar. You are done planning.</div>
+      </div>
+      <div class="callout" style="margin-top:16px"><div class="cl">Note</div><p>You do not need to fill every page. Use what helps. Leave the rest blank.</p></div>
+    </div>
+  </div>
+
+  <!-- BRAIN DUMP -->
+  <div id="braindump" class="section">
+    <div class="page">
+      <div class="ph"><span class="pn">P04</span><h2>Monthly Brain Dump</h2></div>
+      <p>Write every idea. Filter nothing. One idea per row.</p>
+      <div class="fg"><label class="fl" for="bd-month">Month / Year</label><input id="bd-month" class="fi" type="text" placeholder="e.g. June 2026"/></div>
+      <div class="callout"><div class="cl">Pro Tip</div><p>"Keep?" is decided after the dump is done, not during.</p></div>
+      <table>
+        <thead><tr><th>#</th><th>Idea / Title</th><th>Platform(s)</th><th>Keep?</th></tr></thead>
+        <tbody id="bd-rows"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- BATCH DAY -->
+  <div id="batchday" class="section">
+    <div class="page">
+      <div class="ph"><span class="pn">P06</span><h2>Batch Day Planner — Day 1</h2></div>
+      <div class="fg2">
+        <div class="fg"><label class="fl" for="bd1-date">Date</label><input id="bd1-date" class="fi" type="text" placeholder="e.g. Jan 12, 2026"/></div>
+        <div class="fg"><label class="fl" for="bd1-type">Content type for this batch</label><input id="bd1-type" class="fi" type="text" placeholder="e.g. Talking-head videos"/></div>
+      </div>
+      <div class="fg"><label class="fl" for="bd1-loc">Location / setup needed</label><input id="bd1-loc" class="fi" type="text" placeholder="e.g. Home office, ring light, HDMI mic"/></div>
+      <h3>Equipment Check</h3>
+      <div class="plat">
+        <label><input type="checkbox"/> Camera</label>
+        <label><input type="checkbox"/> Mic</label>
+        <label><input type="checkbox"/> Lighting</label>
+        <label><input type="checkbox"/> Teleprompter</label>
+        <label><input type="checkbox"/> Props / B-roll items</label>
+      </div>
+      <h3>Pieces Scheduled for This Batch Day</h3>
+      <div class="callout"><div class="cl">Start Here</div><p>Do not batch until all pieces listed here have a hook and a CTA written in their Piece Tracker. Scripting first makes recording 3× faster.</p></div>
+      <table>
+        <thead><tr><th>Piece #</th><th>Title</th><th>Status before batch</th><th>Done?</th></tr></thead>
+        <tbody id="batch-rows"></tbody>
+      </table>
+      <div class="fg" style="margin-top:14px"><label class="fl" for="bd1-notes">Notes from batch day</label><textarea id="bd1-notes" class="ta" rows="3" placeholder="What worked, what to change next time..."></textarea></div>
+    </div>
+  </div>
+
+  <!-- PIECE TRACKER -->
+  <div id="tracker" class="section">
+    <div class="page">
+      <div class="ph"><span class="pn">P09</span><h2>Content Piece Tracker</h2></div>
+      <div class="fg2">
+        <div class="fg"><label class="fl" for="t-num">Piece #</label><input id="t-num" class="fi" type="text" placeholder="e.g. 1"/></div>
+        <div class="fg"><label class="fl" for="t-title">Working title</label><input id="t-title" class="fi" type="text" placeholder="e.g. How I batch 8 videos in one afternoon"/></div>
+      </div>
+      <h3>Platform(s)</h3>
+      <div class="plat">
+        <label><input type="checkbox"/> YouTube</label>
+        <label><input type="checkbox"/> Instagram</label>
+        <label><input type="checkbox"/> TikTok</label>
+        <label><input type="checkbox"/> Blog</label>
+        <label><input type="checkbox"/> Email</label>
+        <label><input type="checkbox"/> Podcast</label>
+        <label><input type="checkbox"/> Pinterest</label>
+      </div>
+      <div class="fg2">
+        <div class="fg"><label class="fl" for="t-pub">Target publish date</label><input id="t-pub" class="fi" type="text" placeholder="e.g. Jan 15, 2026"/></div>
+        <div class="fg"><label class="fl" for="t-batch">Batch day</label><input id="t-batch" class="fi" type="text" placeholder="e.g. Day 1 — Jan 12"/></div>
+      </div>
+      <h3>The Piece</h3>
+      <div class="fg"><label class="fl" for="t-hook">Hook (opening line)</label><textarea id="t-hook" class="ta fib" rows="2" placeholder="e.g. Last Tuesday I recorded 8 videos before lunch. Here is the exact setup that made that possible."></textarea></div>
+      <div class="fg"><label class="fl" for="t-core">Core value / main point</label><textarea id="t-core" class="ta" rows="2" placeholder="e.g. Batching works because you stay in one mode — no context switching."></textarea></div>
+      <div class="fg"><label class="fl" for="t-cta">CTA (what viewer does next)</label><input id="t-cta" class="fi fib" type="text" placeholder="e.g. Download the batch planner in the description."/></div>
+      <div class="fg"><label class="fl" for="t-tags">Keywords / tags</label><input id="t-tags" class="fi" type="text" placeholder="e.g. batch filming, content creator, youtube tips"/></div>
+      <h3>Production Checklist</h3>
+      <ul class="chk">
+        <li><input type="checkbox"/> Idea confirmed</li>
+        <li><input type="checkbox"/> Hook written</li>
+        <li><input type="checkbox"/> Outline / script done</li>
+        <li><input type="checkbox"/> Recorded / written</li>
+        <li><input type="checkbox"/> Edited / designed</li>
+        <li><input type="checkbox"/> Thumbnail / cover done</li>
+        <li><input type="checkbox"/> Caption written</li>
+        <li><input type="checkbox"/> Scheduled / live</li>
+      </ul>
+      <h3>Repurpose Plan</h3>
+      <div class="plat">
+        <label><input type="checkbox"/> Blog post</label>
+        <label><input type="checkbox"/> Email newsletter</label>
+        <label><input type="checkbox"/> Short / Reel</label>
+        <label><input type="checkbox"/> Pinterest pin</label>
+        <label><input type="checkbox"/> Thread</label>
+        <label><input type="checkbox"/> LinkedIn</label>
+      </div>
+      <h3>Post-Publish Notes</h3>
+      <div class="fg2">
+        <div class="fg"><label class="fl" for="t-url">Publish URL / date</label><input id="t-url" class="fi" type="text" placeholder="e.g. youtube.com/watch?v=..."/></div>
+        <div class="fg"><label class="fl" for="t-results">First 48h results</label><input id="t-results" class="fi fib" type="text" placeholder="e.g. 420 views, 38 clicks"/></div>
+      </div>
+      <div class="fg"><label class="fl" for="t-learn">What to do differently next time</label><textarea id="t-learn" class="ta" rows="2" placeholder="e.g. Write the hook before scripting, not after."></textarea></div>
+    </div>
+  </div>
+
+  <!-- WEEKLY REVIEW -->
+  <div id="review" class="section">
+    <div class="page">
+      <div class="ph"><span class="pn">P17</span><h2>Week 1 Review</h2></div>
+      <div class="callout"><div class="cl">Note</div><p>One honest answer per question. You are the only reader.</p></div>
+      <div class="fg"><label class="fl" for="wr-week">Week of</label><input id="wr-week" class="fi" type="text" placeholder="e.g. Jan 6–12, 2026"/></div>
+      <div class="fg"><label class="fl" for="wr-pub">Pieces published this week</label><textarea id="wr-pub" class="ta" rows="2" placeholder="List titles or URLs..."></textarea></div>
+      <div class="fg2">
+        <div class="fg"><label class="fl" for="wr-plan">Pieces planned</label><input id="wr-plan" class="fi" type="number" placeholder="e.g. 4"/></div>
+        <div class="fg"><label class="fl" for="wr-done">Pieces published</label><input id="wr-done" class="fi fib" type="number" placeholder="e.g. 3"/></div>
+      </div>
+      <div class="fg"><label class="fl" for="wr-good">What worked well</label><textarea id="wr-good" class="ta" rows="2" placeholder="e.g. Batching on Sunday freed up the whole week."></textarea></div>
+      <div class="fg"><label class="fl" for="wr-change">What to change</label><textarea id="wr-change" class="ta" rows="2" placeholder="e.g. Script the hook before recording, not after."></textarea></div>
+      <div class="fg"><label class="fl" for="wr-next">Next week's priority piece</label><input id="wr-next" class="fi" type="text" placeholder="e.g. The AI tools comparison video"/></div>
+      <h3>Energy Level This Week</h3>
+      <div class="plat">
+        <label><input type="radio" name="wr-energy"/> High</label>
+        <label><input type="radio" name="wr-energy"/> Medium</label>
+        <label><input type="radio" name="wr-energy"/> Low</label>
+      </div>
+    </div>
+  </div>
+
+  <!-- REPURPOSE -->
+  <div id="repurpose" class="section">
+    <div class="page">
+      <div class="ph"><span class="pn">P21</span><h2>Repurpose Router</h2></div>
+      <p>One piece of content, three or more formats. Map which formats you will adapt each published piece into.</p>
+      <div class="callout"><div class="cl">Pro Tip</div><p>Repurpose within 7 days of publishing while the content is still fresh in your head.</p></div>
+      <table>
+        <thead><tr><th>Original Piece Title</th><th>Blog</th><th>Email</th><th>Reel</th><th>Pin</th><th>Thread</th><th>LinkedIn</th><th>Done?</th></tr></thead>
+        <tbody id="rep-rows"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- PROMPTS -->
+  <div id="prompts" class="section">
+    <div class="page">
+      <div class="ph"><span class="pn">P23</span><h2>Prompt Block Library</h2></div>
+      <p>30 AI prompt starters across ideas, scripting, and captions. Copy any prompt, fill in the brackets, and paste into your AI tool of choice.</p>
+
+      <h3 style="color:var(--g);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;margin-top:16px">Ideas &amp; Hooks</h3>
+      <div class="pb"><div class="pb-label">01 / Ideas</div>&gt; Generate 10 video/post titles for [topic] that answer a common beginner question.<br>&gt; Audience: [describe]. Tone: direct, no clickbait.</div>
+      <div class="pb"><div class="pb-label">02 / Hook lines</div>&gt; Write 5 hook lines for a video about [topic]. Each hook should start with a<br>&gt; specific situation, not a question. Tone: calm, direct.</div>
+      <div class="pb"><div class="pb-label">03 / Content gaps</div>&gt; List 8 content ideas for [niche] that I have not covered yet, based on these<br>&gt; titles I have already made: [paste list].</div>
+      <div class="pb"><div class="pb-label">04 / Objections as angles</div>&gt; What are the top 3 objections someone has before buying [product or service]?<br>&gt; Turn each objection into a content angle.</div>
+      <div class="pb"><div class="pb-label">05 / Story hook</div>&gt; Write a "story hook" opening for a video about [topic]. The viewer should<br>&gt; recognize themselves in the first sentence.</div>
+
+      <h3 style="color:var(--g);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;margin-top:20px">Scripts &amp; Outlines</h3>
+      <div class="pb"><div class="pb-label">06 / Outline</div>&gt; Write a 3-part outline for a [format: tutorial/story/list] video about [topic].<br>&gt; Each part should have a clear purpose and transition.</div>
+      <div class="pb"><div class="pb-label">07 / Opening 60s</div>&gt; Write the opening 60 seconds of a video about [topic]. Include a hook, a brief<br>&gt; credibility line, and a preview of what they will learn.</div>
+      <div class="pb"><div class="pb-label">08 / Mid-video CTA</div>&gt; Write a mid-video CTA for [desired action] that does not feel salesy.<br>&gt; Transition smoothly from the content.</div>
+      <div class="pb"><div class="pb-label">09 / Tighten transcript</div>&gt; Take this transcript excerpt and tighten it — remove filler words, make sentences<br>&gt; shorter, keep the voice: [paste excerpt].</div>
+      <div class="pb"><div class="pb-label">10 / Pattern interrupt</div>&gt; Write a "pattern interrupt" moment for a video that is 3 minutes in and risks<br>&gt; losing the viewer. Topic: [topic].</div>
+
+      <h3 style="color:var(--g);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;margin-top:20px">Captions &amp; Repurposing</h3>
+      <div class="pb"><div class="pb-label">11 / Instagram caption</div>&gt; Write a 3-sentence Instagram caption for a post about [topic].<br>&gt; First sentence: bold statement. Second: expand. Third: CTA.</div>
+      <div class="pb"><div class="pb-label">12 / Twitter/X thread</div>&gt; Turn this video script section into a Twitter/X thread. Each tweet should<br>&gt; stand alone. 8–12 tweets. Tone: direct, useful. [paste section]</div>
+      <div class="pb"><div class="pb-label">13 / Pinterest descriptions</div>&gt; Write 5 Pinterest pin descriptions for [topic]. Each under 150 chars.<br>&gt; Include one keyword and one benefit.</div>
+      <div class="pb"><div class="pb-label">14 / Email newsletter</div>&gt; Turn this blog outline into an email newsletter. 250 words max.<br>&gt; Subject line options: 3 variations. [paste outline]</div>
+      <div class="pb"><div class="pb-label">15 / Shorten &amp; direct</div>&gt; Rewrite this caption to be shorter and more direct.<br>&gt; Remove: filler phrases, weak adjectives, any hype language. [paste]</div>
+    </div>
+  </div>
+
+  <!-- RECAP -->
+  <div id="recap" class="section">
+    <div class="page">
+      <div class="ph"><span class="pn">P26</span><h2>Monthly Recap</h2></div>
+      <div class="fg"><label class="fl" for="rc-month">Month</label><input id="rc-month" class="fi" type="text" placeholder="e.g. January 2026"/></div>
+      <div class="fg3">
+        <div class="fg"><label class="fl" for="rc-planned">Pieces planned</label><input id="rc-planned" class="fi" type="number" placeholder="e.g. 8"/></div>
+        <div class="fg"><label class="fl" for="rc-pub">Pieces published</label><input id="rc-pub" class="fi fib" type="number" placeholder="e.g. 7"/></div>
+        <div class="fg"><label class="fl" for="rc-rep">Repurposes done</label><input id="rc-rep" class="fi" type="number" placeholder="e.g. 12"/></div>
+      </div>
+      <div class="fg"><label class="fl" for="rc-top">Top-performing piece</label><input id="rc-top" class="fi" type="text" placeholder="e.g. How I batch 8 videos — 4.2k views in 48h"/></div>
+      <div class="fg"><label class="fl" for="rc-sink">Biggest time sink</label><input id="rc-sink" class="fi" type="text" placeholder="e.g. Thumbnail redesign for video #3"/></div>
+      <div class="fg"><label class="fl" for="rc-keep">One thing to keep doing</label><textarea id="rc-keep" class="ta" rows="2" placeholder="e.g. Brain dump on the last Sunday — it cleared my head for the whole month."></textarea></div>
+      <div class="fg"><label class="fl" for="rc-stop">One thing to stop doing</label><textarea id="rc-stop" class="ta fib" rows="2" placeholder="e.g. Editing while I still have pieces left to record."></textarea></div>
+      <div class="fg"><label class="fl" for="rc-try">One thing to try next month</label><textarea id="rc-try" class="ta" rows="2" placeholder="e.g. Pre-write all captions during batch day so publishing is 10 minutes total."></textarea></div>
+      <h3>Did this system help?</h3>
+      <div class="plat">
+        <label><input type="radio" name="rc-help"/> Yes</label>
+        <label><input type="radio" name="rc-help"/> Partially</label>
+        <label><input type="radio" name="rc-help"/> Needs adjustment</label>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXAMPLE -->
+  <div id="example" class="section">
+    <div class="ex-banner">Example — January 2026 (filled sample)</div>
+    <div class="page" style="border-radius:0 0 var(--r) var(--r)">
+      <div class="ph"><span class="pn">P28–P31</span><h2>January 2026 — Filled Sample</h2></div>
+      <p>This is how the system looks when in use. A YouTube creator planning 4 videos batched across 2 days in January 2026.</p>
+
+      <h3>Brain Dump (excerpt)</h3>
+      <table>
+        <thead><tr><th>#</th><th>Idea / Title</th><th>Platform(s)</th><th>Keep?</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>How I batch 8 videos in one afternoon</td><td>YouTube, Blog</td><td>✓</td></tr>
+          <tr><td>2</td><td>Best AI tools for content creators 2026</td><td>YouTube, Blog</td><td>✓</td></tr>
+          <tr><td>3</td><td>Why I stopped posting every day</td><td>YouTube, Email</td><td>✓</td></tr>
+          <tr><td>4</td><td>AI thumbnail maker vs Canva — real test</td><td>YouTube, Pinterest</td><td>✓</td></tr>
+          <tr><td>5</td><td>My 2026 content workflow walkthrough</td><td>YouTube</td><td>✓</td></tr>
+        </tbody>
+      </table>
+
+      <h3 style="margin-top:18px">Batch Day Planner (Day 1)</h3>
+      <table>
+        <thead><tr><th>Piece #</th><th>Title</th><th>Status before batch</th><th>Done?</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>How I batch 8 videos in one afternoon</td><td><span class="status s-scripted">Scripted</span></td><td>✓</td></tr>
+          <tr><td>2</td><td>Best AI tools for content creators 2026</td><td><span class="status s-scripted">Scripted</span></td><td>✓</td></tr>
+          <tr><td>3</td><td>Why I stopped posting every day</td><td><span class="status s-scripted">Scripted</span></td><td>✓</td></tr>
+          <tr><td>4</td><td>AI thumbnail maker vs Canva — real test</td><td><span class="status s-scripted">Scripted</span></td><td>✓</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:10px;font-size:.8rem;color:var(--mu)">
+        Notes: "Set up once, record all 4 back-to-back. Edit order: quick win first. Jan 12 — done by 1pm."
+      </p>
+
+      <h3 style="margin-top:18px">Piece Tracker — Piece #1</h3>
+      <table>
+        <thead><tr><th>Field</th><th>Entry</th></tr></thead>
+        <tbody>
+          <tr><td>Working title</td><td>How I batch 8 videos in one afternoon</td></tr>
+          <tr><td>Platform</td><td>YouTube (primary), Blog (repurpose)</td></tr>
+          <tr><td>Hook</td><td>"Last Tuesday I recorded 8 videos before lunch. Here is the exact setup that made that possible."</td></tr>
+          <tr><td>CTA</td><td>"Download the batch planner in the description."</td></tr>
+          <tr><td>Status</td><td><span class="status s-live">Live</span> — Jan 15, 2026</td></tr>
+          <tr><td>First 48h</td><td>1,840 views · 94 clicks · 23 downloads</td></tr>
+        </tbody>
+      </table>
+
+      <div class="result-bar" style="margin-top:20px">
+        <div class="result-icon">✅</div>
+        <div><div class="result-text">4 videos batched and recorded on one day.</div><div class="result-sub">Published across 4 weeks. 0 planning sessions required in February.</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <div id="disclaimer" class="section">
+    <div class="page">
+      <div class="ph"><span class="pn">P34</span><h2>Disclaimer &amp; Legal</h2></div>
+      <div class="dis">
+        Digital download only. No physical product will be shipped. For organizational use only. No guaranteed results. Personal use only — no resale, redistribution, or claiming files as your own. Designed by PanicProofPrintables with AI-assisted brainstorming; final layout, branding, and design completed by seller.
+        <br/><br/>
+        No guaranteed results on content performance. Results depend entirely on your content quality, consistency, and platform conditions.
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<script>
+function show(id,btn){
+  document.querySelectorAll('.section').forEach(s=>s.classList.remove('show'));
+  document.querySelectorAll('.nt').forEach(b=>b.classList.remove('active'));
+  document.getElementById(id).classList.add('show');
+  btn.classList.add('active');
+  window.scrollTo({top:document.querySelector('.nav').offsetTop-4,behavior:'smooth'});
+}
+
+// Brain dump table
+(function(){
+  var tb=document.getElementById('bd-rows');
+  for(var i=1;i<=20;i++){
+    var tr=document.createElement('tr');
+    tr.innerHTML='<td>'+i+'</td><td><input type="text" placeholder="Content idea..."/></td><td><input type="text" placeholder="YT, IG, Blog..."/></td><td><input type="checkbox"/></td>';
+    tb.appendChild(tr);
+  }
+})();
+
+// Batch table
+(function(){
+  var tb=document.getElementById('batch-rows');
+  for(var i=1;i<=6;i++){
+    var tr=document.createElement('tr');
+    tr.innerHTML='<td><input type="text" placeholder="'+i+'"/></td><td><input type="text" placeholder="Title..."/></td><td><select style="background:var(--fld);border:1px solid var(--ln);border-radius:4px;padding:4px 6px;font-size:.8rem"><option>Idea</option><option>Outlined</option><option selected>Scripted</option><option>Recorded</option><option>Edited</option></select></td><td><input type="checkbox"/></td>';
+    tb.appendChild(tr);
+  }
+})();
+
+// Repurpose table
+(function(){
+  var tb=document.getElementById('rep-rows');
+  for(var i=1;i<=12;i++){
+    var tr=document.createElement('tr');
+    tr.innerHTML='<td><input type="text" placeholder="Title..."/></td><td><input type="checkbox"/></td><td><input type="checkbox"/></td><td><input type="checkbox"/></td><td><input type="checkbox"/></td><td><input type="checkbox"/></td><td><input type="checkbox"/></td><td><input type="checkbox"/></td>';
+    tb.appendChild(tr);
+  }
+})();
+</script>
+</body>
+</html>

@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-email-marketing-2026",
+        title: "Best AI Tools for Email Marketing & Newsletters in 2026: Copy.ai vs Jasper vs Writesonic vs Surfer",
+        excerpt: "We tested the top AI tools for email marketing and newsletter growth in 2026. Compare Copy.ai, Jasper, Writesonic, Surfer, Canva, and AdCreative.ai for subject lines, sequences, landing pages, and list growth.",
+        category: "Comparison",
+        date: "2026-06-23",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-for-blog-content-2026",
         title: "Best AI Tools for Blog Content Creation in 2026: Copy.ai vs Writesonic vs Jasper vs Surfer",
         excerpt: "We tested the top AI tools for blog writing and SEO in 2026. Compare Copy.ai, Writesonic, Jasper, and Surfer for output quality, SEO features, pricing, and which one delivers the best ROI for content creators and small businesses.",
