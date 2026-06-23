@@ -400,10 +400,43 @@
         "story bible software"
       ],
       "gumroad_categories": [
-        "Fiction",
-        "Writing & Publishing"
-      ],
-      "bundle_of": []
-    }
-  ]
-}
+              "Fiction",
+              "Writing & Publishing"
+            ],
+            "bundle_of": []
+          },
+          {
+            "id": "prod-015",
+            "status": "ready",
+            "format": "printable + fillable PDF binder",
+            "title": "The ADHD Refill Panic Binder (2026 Edition)",
+            "slug": "adhd-refill-panic-binder",
+            "price_usd": 29,
+            "affiliate_tie": [
+              "Canva",
+              "Notion"
+            ],
+            "article_tie": "ai-tools-adhd-adults-2026",
+            "customer_pain": "I run out of medication, miss appointments, lose track of who I called, and the pharmacy shortage makes it worse every month.",
+            "search_hook": "ADHD medication refill tracker printable",
+            "etsy_tags": [
+              "ADHD planner",
+              "medication refill tracker",
+              "pharmacy call log",
+              "appointment planner",
+              "ADHD printable binder",
+              "adult ADHD",
+              "medical admin organizer",
+              "stimulant refill tracker",
+              "ADHD doctor visit",
+              "prior authorization tracker"
+            ],
+            "gumroad_categories": [
+              "Health & Wellness",
+              "Printable Planners",
+              "Productivity"
+            ],
+            "bundle_of": []
+          }
+        ]
+      }

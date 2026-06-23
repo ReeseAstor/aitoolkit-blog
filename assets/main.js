@@ -126,6 +126,13 @@ const ARTICLES = [
 
 const PRODUCTS = [
     {
+        slug: "adhd-refill-panic-binder",
+        title: "The ADHD Refill Panic Binder (2026 Edition)",
+        excerpt: "60+ printable + fillable pages for medication refills, pharmacy calls, appointments, prior auth, and provider notes. Built for U.S. adults with ADHD. Includes Google Sheets bonus.",
+        price: "$29",
+        category: "Printable Binder"
+    },
+    {
         slug: "ai-online-course-creator-kit",
         title: "The AI Online Course Creator Kit (2026 Edition)",
         excerpt: "Build, record, and launch a sellable online course in a weekend. 6 modules, 60+ prompts, 9 templates, sales page + email sequence, and a launch checklist — using Copy.ai, Synthesia, Canva, and Speechify.",
