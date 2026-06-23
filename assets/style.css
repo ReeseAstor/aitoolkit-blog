@@ -83,16 +83,23 @@ nav a:hover { color: var(--text); }
 .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; }
 .product-card {
     background: var(--bg-card); border: 1px solid var(--border);
-    border-radius: var(--radius); padding: 24px; transition: all 0.25s; cursor: pointer;
+    border-radius: var(--radius); padding: 0; transition: all 0.25s; cursor: pointer;
+    overflow: hidden;
 }
 .product-card:hover { background: var(--bg-card-hover); transform: translateY(-2px); border-color: var(--accent); }
-.product-card .category { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--green); font-weight: 600; margin-bottom: 8px; }
-.product-card h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+.product-card .product-thumb { width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-bottom: 1px solid var(--border); }
+.product-card .product-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; margin: 0; border-radius: 0; }
+.product-card .category { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--green); font-weight: 600; margin: 24px 24px 8px; }
+.product-card h3 { font-size: 1.15rem; font-weight: 700; margin: 0 24px 8px; line-height: 1.4; }
 .product-card h3 a { color: var(--text); text-decoration: none; }
 .product-card h3 a:hover { color: var(--accent); }
-.product-card .excerpt { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 12px; }
-.product-card .price { font-size: 1.1rem; font-weight: 700; color: var(--text); margin-bottom: 8px; }
-.product-card .tool-link { color: var(--accent); text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+.product-card .excerpt { color: var(--text-muted); font-size: 0.9rem; margin: 0 24px 12px; }
+.product-card .price { font-size: 1.1rem; font-weight: 700; color: var(--text); margin: 0 24px 8px; }
+.product-card .tool-link { color: var(--accent); text-decoration: none; font-weight: 600; font-size: 0.9rem; display: block; padding: 0 24px 24px; }
+
+/* Product page hero preview */
+.product-hero-thumb { margin: 0 0 28px; }
+.product-hero-thumb img { width: 100%; border-radius: var(--radius); border: 1px solid var(--border); box-shadow: 0 12px 40px rgba(0,0,0,0.25); }
 
 .tool-card { text-align: center; }
 .tool-card .tool-icon { font-size: 2.5rem; margin-bottom: 12px; }

@@ -215,21 +215,24 @@ const PRODUCTS = [
         title: "AI Content Creator Vault (Bundle)",
         excerpt: "Video prompts + social calendar + YouTube toolkit. $45 of content tools for $37 — free updates for life.",
         price: "$37",
-        category: "Bundle"
+        category: "Bundle",
+        image: "/assets/previews/ai-content-creator-vault/ai-content-creator-vault-preview-hero.png"
     },
     {
         slug: "ai-marketing-operations-vault",
         title: "AI Marketing Operations Vault (Bundle)",
         excerpt: "SOPs + SEO system + cold email swipes. The complete AI marketing operation — $52 of tools for $39.",
         price: "$39",
-        category: "Bundle"
+        category: "Bundle",
+        image: "/assets/previews/ai-marketing-operations-vault/ai-marketing-operations-vault-preview-hero.png"
     },
     {
         slug: "aitoolkit-ultimate-bundle",
         title: "AI ToolKit Ultimate Bundle",
         excerpt: "All 9 products in one library — SOPs, prompts, templates, swipes, and systems. $146 of tools for $97, free updates for life.",
         price: "$97",
-        category: "Bundle"
+        category: "Bundle",
+        image: "/assets/previews/aitoolkit-ultimate-bundle/aitoolkit-ultimate-bundle-preview-hero.png"
     }
 ];
 
@@ -325,6 +328,7 @@ function renderProducts() {
     if (!grid) return;
     grid.innerHTML = PRODUCTS.map(p => `
         <div class="product-card" onclick="location.href='/products/${p.slug}.html'">
+            ${p.image ? `<div class="product-thumb"><img src="${p.image}" alt="${p.title}" loading="lazy"></div>` : ''}
             <div class="category">${p.category}</div>
             <h3><a href="/products/${p.slug}.html">${p.title}</a></h3>
             <p class="excerpt">${p.excerpt}</p>

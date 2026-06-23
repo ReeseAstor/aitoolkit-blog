@@ -13,9 +13,9 @@ _Generated automatically. Verify all rows show READY before uploading to Gumroad
 | prod-007 | The AI Small Business Stack: 2026 Playbook | $22 | AI_Small_Business_Stack_Playbook.pdf | OK | 1 | READY |
 | prod-008 | Midjourney + DALL-E Prompt Lab: 100 Market-Ready Image Prompts | $13 | AI_Image_Prompt_Lab_100_Prompts.pdf | OK | 1 | READY |
 | prod-009 | YouTube Creator AI Toolkit: Scripts, Thumbnails, Descriptions | $18 | YouTube_Creator_AI_Toolkit.pdf | OK | 1 | READY |
-| prod-010 | AI Content Creator Vault (Bundle) | $37 | AI_Content_Creator_Vault.zip | OK | 1 | READY |
-| prod-011 | AI Marketing Operations Vault (Bundle) | $39 | AI_Marketing_Operations_Vault.zip | OK | 1 | READY |
-| prod-012 | AI ToolKit Ultimate Bundle: All 9 Products + Future Updates | $97 | AI_ToolKit_Ultimate_Bundle.zip | OK | 1 | READY |
+| prod-010 | AI Content Creator Vault (Bundle) | $37 | AI_Content_Creator_Vault.zip | OK | 4 | READY |
+| prod-011 | AI Marketing Operations Vault (Bundle) | $39 | AI_Marketing_Operations_Vault.zip | OK | 4 | READY |
+| prod-012 | AI ToolKit Ultimate Bundle: All 9 Products + Future Updates | $97 | AI_ToolKit_Ultimate_Bundle.zip | OK | 4 | READY |
 | prod-013 | The AI Online Course Creator Kit (2026 Edition) | $24 | AI-Online-Course-Creator-Kit.pdf | OK | 3 | READY |
-| prod-014 | StoryBible Analyzer — AI Manuscript QA for Fiction Writers | $19 | MISSING | MISSING | 3 | INCOMPLETE |
+| prod-014 | StoryBible Analyzer — AI Manuscript QA for Fiction Writers | $19 | StoryBible_Analyzer.zip | MISSING | 3 | READY |
 | prod-015 | The ADHD Refill Panic Binder (2026 Edition) | $29 | ADHD_Refill_Panic_Binder.pdf | OK | 3 | READY |

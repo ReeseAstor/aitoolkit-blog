@@ -1,16 +1,16 @@
-id,title,slug,price,status,deliverable,landing_page,previews,verification
-prod-001,AI ToolKit SOP Vault Vol. 1,ai-toolkit-sop-vault-v1,19,ready,AI_ToolKit_SOP_Vault_V1.pdf,OK,3,READY
-prod-002,50 Viral Short-Form Video Prompts for AI Voice + AI Video,50-viral-video-prompts,12,ready,50_Viral_Short_Form_Video_Prompts.pdf,OK,3,READY
-prod-003,The AI SEO Content System: 2026 Edition,ai-seo-content-system,17,ready,AI_SEO_Content_System.pdf,OK,3,READY
-prod-004,AI-Powered Ecommerce Product Description Templates,ai-ecommerce-description-templates,14,ready,AI_Ecommerce_Description_Templates.pdf,OK,3,READY
-prod-005,Cold Email AI Swipe File: 40 Sequences That Book Meetings,cold-email-ai-swipes,16,ready,Cold_Email_AI_Swipe_File.pdf,OK,3,READY
-prod-006,Social Media Content Machine: 30-Day AI Content Calendar,ai-social-media-content-calendar,15,ready,AI_Social_Media_Content_Machine.pdf,OK,3,READY
-prod-007,The AI Small Business Stack: 2026 Playbook,ai-small-business-stack-playbook,22,ready,AI_Small_Business_Stack_Playbook.pdf,OK,1,READY
-prod-008,Midjourney + DALL-E Prompt Lab: 100 Market-Ready Image Prompts,ai-image-prompt-lab,13,ready,AI_Image_Prompt_Lab_100_Prompts.pdf,OK,1,READY
-prod-009,"YouTube Creator AI Toolkit: Scripts, Thumbnails, Descriptions",youtube-creator-ai-toolkit,18,ready,YouTube_Creator_AI_Toolkit.pdf,OK,1,READY
-prod-010,AI Content Creator Vault (Bundle),ai-content-creator-vault,37,ready,AI_Content_Creator_Vault.zip,OK,1,READY
-prod-011,AI Marketing Operations Vault (Bundle),ai-marketing-operations-vault,39,ready,AI_Marketing_Operations_Vault.zip,OK,1,READY
-prod-012,AI ToolKit Ultimate Bundle: All 9 Products + Future Updates,aitoolkit-ultimate-bundle,97,ready,AI_ToolKit_Ultimate_Bundle.zip,OK,1,READY
-prod-013,The AI Online Course Creator Kit (2026 Edition),ai-online-course-creator-kit,24,ready,AI-Online-Course-Creator-Kit.pdf,OK,3,READY
-prod-014,StoryBible Analyzer — AI Manuscript QA for Fiction Writers,storybible-analyzer,19,ready,MISSING,MISSING,3,INCOMPLETE
-prod-015,The ADHD Refill Panic Binder (2026 Edition),adhd-refill-panic-binder,29,ready,ADHD_Refill_Panic_Binder.pdf,OK,3,READY
+id,title,price,deliverable,landing,previews,verification
+prod-001,AI ToolKit SOP Vault Vol. 1,$19,AI_ToolKit_SOP_Vault_V1.pdf,OK,3,READY
+prod-002,50 Viral Short-Form Video Prompts for AI Voice + AI Video,$12,50_Viral_Short_Form_Video_Prompts.pdf,OK,3,READY
+prod-003,The AI SEO Content System: 2026 Edition,$17,AI_SEO_Content_System.pdf,OK,3,READY
+prod-004,AI-Powered Ecommerce Product Description Templates,$14,AI_Ecommerce_Description_Templates.pdf,OK,3,READY
+prod-005,Cold Email AI Swipe File: 40 Sequences That Book Meetings,$16,Cold_Email_AI_Swipe_File.pdf,OK,3,READY
+prod-006,Social Media Content Machine: 30-Day AI Content Calendar,$15,AI_Social_Media_Content_Machine.pdf,OK,3,READY
+prod-007,The AI Small Business Stack: 2026 Playbook,$22,AI_Small_Business_Stack_Playbook.pdf,OK,1,READY
+prod-008,Midjourney + DALL-E Prompt Lab: 100 Market-Ready Image Prompts,$13,AI_Image_Prompt_Lab_100_Prompts.pdf,OK,1,READY
+prod-009,"YouTube Creator AI Toolkit: Scripts, Thumbnails, Descriptions",$18,YouTube_Creator_AI_Toolkit.pdf,OK,1,READY
+prod-010,AI Content Creator Vault (Bundle),$37,AI_Content_Creator_Vault.zip,OK,4,READY
+prod-011,AI Marketing Operations Vault (Bundle),$39,AI_Marketing_Operations_Vault.zip,OK,4,READY
+prod-012,AI ToolKit Ultimate Bundle: All 9 Products + Future Updates,$97,AI_ToolKit_Ultimate_Bundle.zip,OK,4,READY
+prod-013,The AI Online Course Creator Kit (2026 Edition),$24,AI-Online-Course-Creator-Kit.pdf,OK,3,READY
+prod-014,StoryBible Analyzer — AI Manuscript QA for Fiction Writers,$19,StoryBible_Analyzer.zip,MISSING,3,READY
+prod-015,The ADHD Refill Panic Binder (2026 Edition),$29,ADHD_Refill_Panic_Binder.pdf,OK,3,READY
