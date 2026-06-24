@@ -2,7 +2,15 @@
 // Dynamic article loading + newsletter handling
 
 const ARTICLES = [
-        {
+    {
+        slug: "ai-ecommerce-marketing-command-center-2026",
+        title: "AI Ecommerce Marketing Command Center: 35 Prompts + 12 Checklists for 2026",
+        excerpt: "Turn your Shopify, Etsy, or WooCommerce store into a 90-minute weekly content machine with 35 AI prompts and 12 production checklists built around Copy.ai, Canva, AdCreative.ai, and Synthesia.",
+        category: "Guide + Product",
+        date: "2026-06-25",
+        readTime: "10 min read"
+    },
+    {
         slug: "best-ai-tools-ecommerce-marketing-2026",
         title: "Best AI Tools for Ecommerce Marketing in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia",
         excerpt: "We tested the top AI tools for ecommerce marketing in 2026. Compare Copy.ai, Canva, AdCreative.ai, and Synthesia for product copy, ads, store visuals, and product demo videos.",
@@ -141,6 +149,14 @@ const ARTICLES = [
 ];
 
 const PRODUCTS = [
+    {
+        slug: "ai-ecommerce-marketing-command-center",
+        title: "AI Ecommerce Marketing Command Center (2026 Edition)",
+        excerpt: "35 copy-paste AI prompts + 12 production checklists for Shopify, Etsy, and WooCommerce sellers. Built around Copy.ai, Canva, AdCreative.ai, and Synthesia.",
+        price: "$17",
+        category: "Prompt Pack + Checklist",
+        image: "/assets/previews/ai-ecommerce-marketing-command-center/ai-ecommerce-marketing-command-center-preview-hero.png"
+    },
     {
         slug: "adhd-refill-panic-binder",
         title: "The ADHD Refill Panic Binder (2026 Edition)",

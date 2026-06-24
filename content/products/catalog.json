@@ -406,37 +406,71 @@
             "bundle_of": []
           },
           {
-            "id": "prod-015",
-            "status": "ready",
-            "format": "printable + fillable PDF binder",
-            "title": "The ADHD Refill Panic Binder (2026 Edition)",
-            "slug": "adhd-refill-panic-binder",
-            "price_usd": 29,
-            "affiliate_tie": [
-              "Canva",
-              "Notion"
-            ],
-            "article_tie": "ai-tools-adhd-adults-2026",
-            "customer_pain": "I run out of medication, miss appointments, lose track of who I called, and the pharmacy shortage makes it worse every month.",
-            "search_hook": "ADHD medication refill tracker printable",
-            "etsy_tags": [
-              "ADHD planner",
-              "medication refill tracker",
-              "pharmacy call log",
-              "appointment planner",
-              "ADHD printable binder",
-              "adult ADHD",
-              "medical admin organizer",
-              "stimulant refill tracker",
-              "ADHD doctor visit",
-              "prior authorization tracker"
-            ],
-            "gumroad_categories": [
-              "Health & Wellness",
-              "Printable Planners",
-              "Productivity"
-            ],
-            "bundle_of": []
-          }
-        ]
-      }
+                      "id": "prod-015",
+                      "status": "ready",
+                      "format": "printable + fillable PDF binder",
+                      "title": "The ADHD Refill Panic Binder (2026 Edition)",
+                      "slug": "adhd-refill-panic-binder",
+                      "price_usd": 29,
+                      "affiliate_tie": [
+                        "Canva",
+                        "Notion"
+                      ],
+                      "article_tie": "ai-tools-adhd-adults-2026",
+                      "customer_pain": "I run out of medication, miss appointments, lose track of who I called, and the pharmacy shortage makes it worse every month.",
+                      "search_hook": "ADHD medication refill tracker printable",
+                      "etsy_tags": [
+                        "ADHD planner",
+                        "medication refill tracker",
+                        "pharmacy call log",
+                        "appointment planner",
+                        "ADHD printable binder",
+                        "adult ADHD",
+                        "medical admin organizer",
+                        "stimulant refill tracker",
+                        "ADHD doctor visit",
+                        "prior authorization tracker"
+                      ],
+                      "gumroad_categories": [
+                        "Health & Wellness",
+                        "Printable Planners",
+                        "Productivity"
+                      ],
+                      "bundle_of": []
+                    },
+                    {
+                      "id": "prod-016",
+                      "status": "ready",
+                      "format": "prompt pack + checklist",
+                      "title": "AI Ecommerce Marketing Command Center (2026 Edition)",
+                      "slug": "ai-ecommerce-marketing-command-center",
+                      "price_usd": 17,
+                      "affiliate_tie": [
+                        "Copy.ai",
+                        "Canva",
+                        "AdCreative.ai",
+                        "Synthesia"
+                      ],
+                      "article_tie": "best-ai-tools-ecommerce-marketing-2026",
+                      "customer_pain": "I open my store every Monday with no plan, no captions, no ads, and no video — so another week goes by without consistent marketing.",
+                      "search_hook": "AI ecommerce marketing prompts checklist 2026",
+                      "etsy_tags": [
+                        "AI ecommerce",
+                        "Shopify prompts",
+                        "Etsy seller",
+                        "AI marketing",
+                        "Canva prompts",
+                        "Copy.ai prompts",
+                        "AdCreative prompts",
+                        "Synthesia prompts",
+                        "ecommerce checklist",
+                        "content calendar"
+                      ],
+                      "gumroad_categories": [
+                        "Business",
+                        "Marketing"
+                      ],
+                      "bundle_of": []
+                    }
+                  ]
+                }
