@@ -2,6 +2,14 @@
 // Dynamic article loading + newsletter handling
 
 const ARTICLES = [
+        {
+        slug: "best-ai-webinar-tools-2026",
+        title: "Best AI Tools for Webinars and Video Presentations in 2026: Copy.ai vs Canva vs Synthesia vs Speechify",
+        excerpt: "The 2026 AI stack for building, hosting, and repurposing webinars and video presentations without a camera crew. Compare Copy.ai, Canva, Synthesia, and Speechify with verified pricing.",
+        category: "Guide",
+        date: "2026-06-25",
+        readTime: "11 min read"
+    },
     {
         slug: "ai-ecommerce-marketing-command-center-2026",
         title: "AI Ecommerce Marketing Command Center: 35 Prompts + 12 Checklists for 2026",
