@@ -9,8 +9,16 @@
 
 ## 1. PartnerStack Marketplace — Apply Here First
 
-**URL:** https://market.partnerstack.com/  
-**What it is:** Hub for B2B SaaS affiliate programs. You apply once, then join individual programs inside.
+**URL:** https://partnerstack.com/our-partner-program/partners-affiliate  
+**What it is:** Hub for B2B SaaS affiliate programs. Apply once, then join individual programs inside.
+
+### Direct Application Link
+
+Use this URL to create your PartnerStack partner account:
+
+> **https://dash.partnerstack.com/handshake/login?company=partners&gref=marketplace&application=partners&next=/marketplace&nextApp=partner**
+
+After you're approved, browse the marketplace to apply to individual programs.
 
 ### Programs to Join (in order)
 
@@ -20,7 +28,7 @@
 | **Writesonic** | 30% lifetime recurring | AI writing comparison articles |
 | **Jasper** | Recurring via PartnerStack | Premium AI writing alternative |
 | **AdCreative.ai** | 30% lifetime recurring | Ad-creative / social content articles |
-| **Synthesia** | 20% first 12 months | AI video content articles |
+| **Synthesia** | 20% first 12 months, 60-day cookie | AI video content articles |
 | **Speechify** | 50% flat, 90-day cookie | Voice/AI audio articles |
 | **Canva** | Up to 20%, 30-day cookie | Currently requires Canvassador Program (see below) |
 
