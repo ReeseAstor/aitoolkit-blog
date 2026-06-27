@@ -11,14 +11,6 @@ const ARTICLES = [
         readTime: "12 min read"
     },
     {
-        slug: "best-ai-landing-page-tools-2026",
-        title: "Best AI Tools for High-Converting Landing Pages in 2026: Copy.ai vs Jasper vs Canva vs AdCreative.ai vs Surfer",
-        excerpt: "We tested the top AI tools for building high-converting landing pages in 2026. Compare Copy.ai, Jasper, Canva, AdCreative.ai, and Surfer for copy, design, ads, and SEO optimization.",
-        category: "Comparison",
-        date: "2026-06-27",
-        readTime: "12 min read"
-    },
-    {
         slug: "best-ai-tools-lead-magnets-opt-in-funnels-2026",
         title: "Best AI Tools for Lead Magnets & Opt-In Funnels in 2026",
         excerpt: "Build high-converting lead magnets and opt-in funnels with AI in 2026. Compare Copy.ai, Canva, AdCreative.ai, and Synthesia for copy, design, ads, and video.",
