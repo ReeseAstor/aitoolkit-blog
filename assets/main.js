@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-linkedin-content-2026",
+        title: "Best AI Tools for LinkedIn Content and Thought Leadership in 2026: Copy.ai vs Jasper vs Canva vs Synthesia",
+        excerpt: "We tested the top AI tools for LinkedIn thought leadership in 2026. Compare Copy.ai, Jasper, Canva, and Synthesia for posts, carousels, video, and brand voice. Real pricing and workflows.",
+        category: "Comparison",
+        date: "2026-06-28",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-landing-page-tools-2026",
         title: "Best AI Tools for High-Converting Landing Pages in 2026: Copy.ai vs Jasper vs Canva vs AdCreative.ai vs Surfer",
         excerpt: "We tested the top AI tools for building high-converting landing pages in 2026. Compare Copy.ai, Jasper, Canva, AdCreative.ai, and Surfer for copy, design, ads, and SEO optimization.",
