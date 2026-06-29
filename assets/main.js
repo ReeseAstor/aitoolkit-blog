@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-short-form-video-2026",
+        title: "Best AI Tools for Short-Form Video Content in 2026: Synthesia vs Canva vs Copy.ai vs AdCreative.ai",
+        excerpt: "We tested the top AI tools for short-form video and Reels in 2026. Compare Synthesia, Canva, Copy.ai, and AdCreative.ai for scripts, avatars, graphics, and high-converting Shorts with real pricing and workflows.",
+        category: "Comparison",
+        date: "2026-06-29",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-linkedin-content-2026",
         title: "Best AI Tools for LinkedIn Content and Thought Leadership in 2026: Copy.ai vs Jasper vs Canva vs Synthesia",
         excerpt: "We tested the top AI tools for LinkedIn thought leadership in 2026. Compare Copy.ai, Jasper, Canva, and Synthesia for posts, carousels, video, and brand voice. Real pricing and workflows.",
