@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-coaches-consultants-2026",
+        title: "Best AI Tools for Coaches and Consultants in 2026: Copy.ai vs Canva vs Synthesia vs Speechify vs AdCreative.ai",
+        excerpt: "The 2026 AI stack coaches and consultants actually use to land clients, deliver sessions, and grow a practice. Compare Copy.ai, Canva, Synthesia, Speechify, and AdCreative.ai with verified pricing.",
+        category: "Guide",
+        date: "2026-06-30",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-short-form-video-2026",
         title: "Best AI Tools for Short-Form Video Content in 2026: Synthesia vs Canva vs Copy.ai vs AdCreative.ai",
         excerpt: "We tested the top AI tools for short-form video and Reels in 2026. Compare Synthesia, Canva, Copy.ai, and AdCreative.ai for scripts, avatars, graphics, and high-converting Shorts with real pricing and workflows.",
