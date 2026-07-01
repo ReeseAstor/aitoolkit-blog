@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "ai-freelancer-stack-playbook-2026",
+        title: "The AI Freelancer Stack Playbook: 40+ Prompts for a One-Person Business in 2026",
+        excerpt: "Run a one-person business on AI without a $300/month tool pile. The 5-function Freelancer Stack, 30-day rollout, and 40+ copy-paste prompts built around Copy.ai, Canva, Synthesia, Speechify, and Bonsai.",
+        category: "Guide + Product",
+        date: "2026-07-01",
+        readTime: "11 min read"
+    },
+        {
         slug: "best-ai-tools-freelancers-solopreneurs-2026",
         title: "Best AI Tools for Freelancers and Solopreneurs in 2026: Copy.ai vs Canva vs Synthesia vs Speechify vs AdCreative.ai",
         excerpt: "The 2026 AI stack freelancers and solopreneurs use to land clients, deliver work, and grow a one-person business. Compare Copy.ai, Canva, Synthesia, Speechify, and AdCreative.ai with verified pricing.",
@@ -205,6 +213,14 @@ const ARTICLES = [
 ];
 
 const PRODUCTS = [
+    {
+        slug: "ai-freelancer-stack-playbook",
+        title: "The AI Freelancer Stack: 2026 Playbook",
+        excerpt: "5-function system, 30-day rollout, and 40+ copy-paste prompts for running a one-person business on AI. Built around Copy.ai, Canva, Synthesia, Speechify, and Bonsai.",
+        price: "$22",
+        category: "Guide + Workbook + Prompt Pack",
+        image: "/assets/previews/ai-freelancer-stack-playbook/ai-freelancer-stack-playbook-preview-hero.png"
+    },
     {
         slug: "ai-ecommerce-marketing-command-center",
         title: "AI Ecommerce Marketing Command Center (2026 Edition)",
