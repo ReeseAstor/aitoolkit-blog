@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-real-estate-marketing-2026",
+        title: "Best AI Tools for Real Estate Marketing in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai vs Surfer",
+        excerpt: "We tested the top AI tools for real estate marketing in 2026. Compare Copy.ai, Canva, Synthesia, AdCreative.ai, and Surfer for listings, ads, video, and local SEO with verified pricing.",
+        category: "Comparison",
+        date: "2026-07-02",
+        readTime: "12 min read"
+    },
+    {
         slug: "ai-freelancer-stack-playbook-2026",
         title: "The AI Freelancer Stack Playbook: 40+ Prompts for a One-Person Business in 2026",
         excerpt: "Run a one-person business on AI without a $300/month tool pile. The 5-function Freelancer Stack, 30-day rollout, and 40+ copy-paste prompts built around Copy.ai, Canva, Synthesia, Speechify, and Bonsai.",
