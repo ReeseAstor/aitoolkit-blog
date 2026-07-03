@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-pitch-decks-presentations-2026",
+        title: "Best AI Tools for Pitch Decks and Presentations in 2026: Canva vs Copy.ai vs Synthesia vs Jasper vs Speechify",
+        excerpt: "Build pitch decks and presentations 10x faster with AI in 2026. Compare Canva, Copy.ai, Synthesia, Jasper, and Speechify for slides, video, and narration with verified pricing and workflows.",
+        category: "Comparison",
+        date: "2026-07-03",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-real-estate-marketing-2026",
         title: "Best AI Tools for Real Estate Marketing in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai vs Surfer",
         excerpt: "We tested the top AI tools for real estate marketing in 2026. Compare Copy.ai, Canva, Synthesia, AdCreative.ai, and Surfer for listings, ads, video, and local SEO with verified pricing.",
