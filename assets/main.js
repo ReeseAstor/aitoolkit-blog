@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-local-businesses-2026",
+        title: "Best AI Tools for Local Businesses in 2026: Copy.ai vs Canva vs AdCreative.ai vs Surfer",
+        excerpt: "Local businesses use AI to write listings, design flyers, run ads, and rank locally in 2026. We compare Copy.ai, Canva, AdCreative.ai, and Surfer with verified pricing and real workflows.",
+        category: "Comparison",
+        date: "2026-07-05",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-pitch-decks-presentations-2026",
         title: "Best AI Tools for Pitch Decks and Presentations in 2026: Canva vs Copy.ai vs Synthesia vs Jasper vs Speechify",
         excerpt: "Build pitch decks and presentations 10x faster with AI in 2026. Compare Canva, Copy.ai, Synthesia, Jasper, and Speechify for slides, video, and narration with verified pricing and workflows.",
