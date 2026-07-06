@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-personal-branding-2026",
+        title: "Best AI Tools for Building a Personal Brand in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai",
+        excerpt: "Build a personal brand in 2026 with AI tools. Compare Copy.ai, Canva, Synthesia, and AdCreative.ai for bios, graphics, video, and ads with verified pricing.",
+        category: "Comparison",
+        date: "2026-07-06",
+        readTime: "12 min read"
+    },
+    {
         slug: "how-to-repurpose-content-with-ai-2026",
         title: "How to Repurpose One Piece of Content Into 10+ Formats Using AI (2026)",
         excerpt: "Turn one blog post into videos, podcasts, social graphics, ads, and emails using AI tools. Step-by-step repurposing workflow with Copy.ai, Synthesia, Canva, and more.",
