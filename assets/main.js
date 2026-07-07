@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-employee-training-onboarding-2026",
+        title: "Best AI Tools for Employee Training and Onboarding in 2026: Build a Complete L&D Stack",
+        excerpt: "Build a complete AI-powered employee training and onboarding stack in 2026. We tested Synthesia, Copy.ai, Canva, and Speechify for L&D teams.",
+        category: "Guides",
+        date: "2026-07-07",
+        readTime: "7 min read"
+    },
+    {
         slug: "best-ai-tools-personal-branding-2026",
         title: "Best AI Tools for Building a Personal Brand in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai",
         excerpt: "Build a personal brand in 2026 with AI tools. Compare Copy.ai, Canva, Synthesia, and AdCreative.ai for bios, graphics, video, and ads with verified pricing.",
