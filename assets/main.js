@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-website-copy-2026",
+        title: "Best AI Tools for Writing High-Converting Website Copy in 2026: Copy.ai vs Jasper vs Writesonic",
+        excerpt: "Write high-converting website copy in minutes. Compare Copy.ai, Jasper, and Writesonic for homepages, about pages, and service pages with verified 2026 pricing.",
+        category: "Comparison",
+        date: "2026-07-08",
+        readTime: "10 min read"
+    },
+    {
         slug: "best-ai-tools-employee-training-onboarding-2026",
         title: "Best AI Tools for Employee Training and Onboarding in 2026: Build a Complete L&D Stack",
         excerpt: "Build a complete AI-powered employee training and onboarding stack in 2026. We tested Synthesia, Copy.ai, Canva, and Speechify for L&D teams.",
