@@ -2,6 +2,14 @@
 // Dynamic article loading + newsletter handling
 
 const ARTICLES = [
+    {
+        slug: "how-to-write-website-copy-with-ai-2026",
+        title: "How to Write High-Converting Website Copy with AI in 2026 (40 Prompts Inside)",
+        excerpt: "Write homepage, landing page, and about page copy in minutes with AI. 40 battle-tested prompts for Copy.ai and Writesonic. Step-by-step workflow with 2026 pricing.",
+        category: "Guide + Product",
+        date: "2026-07-08",
+        readTime: "12 min read"
+    },
         {
         slug: "best-ai-tools-website-copy-2026",
         title: "Best AI Tools for Writing High-Converting Website Copy in 2026: Copy.ai vs Jasper vs Writesonic",
@@ -269,6 +277,13 @@ const ARTICLES = [
 ];
 
 const PRODUCTS = [
+    {
+        slug: "ai-website-copy-swipe-file",
+        title: "The AI Website Copy Swipe File (2026 Edition)",
+        excerpt: "40 battle-tested AI prompts for homepages, landing pages, and about pages. Fill in the blanks, generate copy, paste into your website builder. Works with Copy.ai and Writesonic.",
+        price: "$14",
+        category: "Prompt Pack"
+    },
     {
         slug: "ai-freelancer-stack-playbook",
         title: "The AI Freelancer Stack: 2026 Playbook",

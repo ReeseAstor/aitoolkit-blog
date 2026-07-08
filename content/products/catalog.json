@@ -361,7 +361,7 @@
         "Speechify"
       ],
       "article_tie": "best-ai-tools-online-course-creators-2026",
-      "customer_pain": "I know my topic but I have no script, hate being on camera, and can't write a sales page — so my course never launches.",
+      "customer_pain": "I know my topic but I have no script, hate being on camera, and can't write a sales page \u2014 so my course never launches.",
       "search_hook": "how to create an online course with AI 2026",
       "etsy_tags": [
         "online course template",
@@ -381,7 +381,7 @@
       "id": "prod-014",
       "status": "ready",
       "format": "downloadable app",
-      "title": "StoryBible Analyzer — AI Manuscript QA for Fiction Writers",
+      "title": "StoryBible Analyzer \u2014 AI Manuscript QA for Fiction Writers",
       "slug": "storybible-analyzer",
       "price_usd": 19,
       "affiliate_tie": [
@@ -400,77 +400,109 @@
         "story bible software"
       ],
       "gumroad_categories": [
-              "Fiction",
-              "Writing & Publishing"
-            ],
-            "bundle_of": []
-          },
-          {
-                      "id": "prod-015",
-                      "status": "ready",
-                      "format": "printable + fillable PDF binder",
-                      "title": "The ADHD Refill Panic Binder (2026 Edition)",
-                      "slug": "adhd-refill-panic-binder",
-                      "price_usd": 29,
-                      "affiliate_tie": [
-                        "Canva",
-                        "Notion"
-                      ],
-                      "article_tie": "ai-tools-adhd-adults-2026",
-                      "customer_pain": "I run out of medication, miss appointments, lose track of who I called, and the pharmacy shortage makes it worse every month.",
-                      "search_hook": "ADHD medication refill tracker printable",
-                      "etsy_tags": [
-                        "ADHD planner",
-                        "medication refill tracker",
-                        "pharmacy call log",
-                        "appointment planner",
-                        "ADHD printable binder",
-                        "adult ADHD",
-                        "medical admin organizer",
-                        "stimulant refill tracker",
-                        "ADHD doctor visit",
-                        "prior authorization tracker"
-                      ],
-                      "gumroad_categories": [
-                        "Health & Wellness",
-                        "Printable Planners",
-                        "Productivity"
-                      ],
-                      "bundle_of": []
-                    },
-                    {
-                      "id": "prod-016",
-                      "status": "ready",
-                      "format": "prompt pack + checklist",
-                      "title": "AI Ecommerce Marketing Command Center (2026 Edition)",
-                      "slug": "ai-ecommerce-marketing-command-center",
-                      "price_usd": 17,
-                      "affiliate_tie": [
-                        "Copy.ai",
-                        "Canva",
-                        "AdCreative.ai",
-                        "Synthesia"
-                      ],
-                      "article_tie": "best-ai-tools-ecommerce-marketing-2026",
-                      "customer_pain": "I open my store every Monday with no plan, no captions, no ads, and no video — so another week goes by without consistent marketing.",
-                      "search_hook": "AI ecommerce marketing prompts checklist 2026",
-                      "etsy_tags": [
-                        "AI ecommerce",
-                        "Shopify prompts",
-                        "Etsy seller",
-                        "AI marketing",
-                        "Canva prompts",
-                        "Copy.ai prompts",
-                        "AdCreative prompts",
-                        "Synthesia prompts",
-                        "ecommerce checklist",
-                        "content calendar"
-                      ],
-                      "gumroad_categories": [
-                        "Business",
-                        "Marketing"
-                      ],
-                      "bundle_of": []
-                    }
-                  ]
-                }
+        "Fiction",
+        "Writing & Publishing"
+      ],
+      "bundle_of": []
+    },
+    {
+      "id": "prod-015",
+      "status": "ready",
+      "format": "printable + fillable PDF binder",
+      "title": "The ADHD Refill Panic Binder (2026 Edition)",
+      "slug": "adhd-refill-panic-binder",
+      "price_usd": 29,
+      "affiliate_tie": [
+        "Canva",
+        "Notion"
+      ],
+      "article_tie": "ai-tools-adhd-adults-2026",
+      "customer_pain": "I run out of medication, miss appointments, lose track of who I called, and the pharmacy shortage makes it worse every month.",
+      "search_hook": "ADHD medication refill tracker printable",
+      "etsy_tags": [
+        "ADHD planner",
+        "medication refill tracker",
+        "pharmacy call log",
+        "appointment planner",
+        "ADHD printable binder",
+        "adult ADHD",
+        "medical admin organizer",
+        "stimulant refill tracker",
+        "ADHD doctor visit",
+        "prior authorization tracker"
+      ],
+      "gumroad_categories": [
+        "Health & Wellness",
+        "Printable Planners",
+        "Productivity"
+      ],
+      "bundle_of": []
+    },
+    {
+      "id": "prod-016",
+      "status": "ready",
+      "format": "prompt pack + checklist",
+      "title": "AI Ecommerce Marketing Command Center (2026 Edition)",
+      "slug": "ai-ecommerce-marketing-command-center",
+      "price_usd": 17,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Canva",
+        "AdCreative.ai",
+        "Synthesia"
+      ],
+      "article_tie": "best-ai-tools-ecommerce-marketing-2026",
+      "customer_pain": "I open my store every Monday with no plan, no captions, no ads, and no video \u2014 so another week goes by without consistent marketing.",
+      "search_hook": "AI ecommerce marketing prompts checklist 2026",
+      "etsy_tags": [
+        "AI ecommerce",
+        "Shopify prompts",
+        "Etsy seller",
+        "AI marketing",
+        "Canva prompts",
+        "Copy.ai prompts",
+        "AdCreative prompts",
+        "Synthesia prompts",
+        "ecommerce checklist",
+        "content calendar"
+      ],
+      "gumroad_categories": [
+        "Business",
+        "Marketing"
+      ],
+      "bundle_of": []
+    },
+    {
+      "id": "prod-017",
+      "status": "ready",
+      "format": "prompt pack",
+      "title": "The AI Website Copy Swipe File (2026 Edition)",
+      "slug": "ai-website-copy-swipe-file",
+      "price_usd": 14,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Writesonic"
+      ],
+      "article_tie": "best-ai-tools-website-copy-2026",
+      "customer_pain": "My website copy sounds amateur and visitors bounce before reaching my pricing page.",
+      "search_hook": "AI website copy prompts 2026",
+      "etsy_tags": [
+        "website copy template",
+        "AI copywriting",
+        "homepage prompts",
+        "landing page copy",
+        "Copy.ai prompts",
+        "Writesonic prompts",
+        "website content",
+        "conversion copywriting",
+        "small business website",
+        "SaaS homepage"
+      ],
+      "gumroad_categories": [
+        "Business",
+        "Marketing"
+      ],
+      "bundle_of": []
+    }
+  ]
+}
