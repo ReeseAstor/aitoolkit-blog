@@ -2,6 +2,14 @@
 // Dynamic article loading + newsletter handling
 
 const ARTICLES = [
+        {
+        slug: "best-ai-tools-affiliate-marketing-2026",
+        title: "Best AI Tools for Affiliate Marketing Content in 2026: Write, Optimize, and Convert Faster",
+        excerpt: "Build an AI-powered affiliate content engine in 2026. Compare Copy.ai, Surfer SEO, Writesonic, and Canva for reviews, blog posts, and graphics with verified pricing and proven workflows.",
+        category: "Workflow Stack",
+        date: "2026-07-09",
+        readTime: "10 min read"
+    },
     {
         slug: "how-to-write-website-copy-with-ai-2026",
         title: "How to Write High-Converting Website Copy with AI in 2026 (40 Prompts Inside)",
