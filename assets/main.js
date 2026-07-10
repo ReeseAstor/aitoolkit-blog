@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "how-to-repurpose-content-with-ai-2026",
+        title: "How to Repurpose Content with AI: The 2026 Creator's Playbook",
+        excerpt: "Turn one blog post into 20+ pieces of content using AI. Compare Copy.ai, Synthesia, Speechify, Canva, and Writesonic for content repurposing workflows in 2026.",
+        category: "Content Strategy",
+        date: "2026-07-10",
+        readTime: "10 min read"
+    },
+    {
         slug: "best-ai-tools-affiliate-marketing-2026",
         title: "Best AI Tools for Affiliate Marketing Content in 2026: Write, Optimize, and Convert Faster",
         excerpt: "Build an AI-powered affiliate content engine in 2026. Compare Copy.ai, Surfer SEO, Writesonic, and Canva for reviews, blog posts, and graphics with verified pricing and proven workflows.",
