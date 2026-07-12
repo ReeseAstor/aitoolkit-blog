@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-case-studies-testimonials-2026",
+        title: "Best AI Tools for Case Studies and Customer Testimonials in 2026: The Social Proof Stack",
+        excerpt: "Turn customer wins into case studies and testimonials with AI. Compare Copy.ai, Synthesia, Canva, Speechify, and AdCreative.ai with 2026 pricing and workflows.",
+        category: "Content Strategy",
+        date: "2026-07-12",
+        readTime: "11 min read"
+    },
+    {
         slug: "how-to-repurpose-content-with-ai-2026",
         title: "How to Repurpose Content with AI: The 2026 Creator's Playbook",
         excerpt: "Turn one blog post into 20+ pieces of content using AI. Compare Copy.ai, Synthesia, Speechify, Canva, and Writesonic for content repurposing workflows in 2026.",
