@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-product-launch-marketing-2026",
+        title: "Best AI Tools for Product Launch Marketing in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai",
+        excerpt: "Launch products with AI in 2026. Compare Copy.ai, Canva, Synthesia, and AdCreative.ai for launch copy, design, video, and ads with verified pricing and workflows.",
+        category: "Workflow Stack",
+        date: "2026-07-13",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-case-studies-testimonials-2026",
         title: "Best AI Tools for Case Studies and Customer Testimonials in 2026: The Social Proof Stack",
         excerpt: "Turn customer wins into case studies and testimonials with AI. Compare Copy.ai, Synthesia, Canva, Speechify, and AdCreative.ai with 2026 pricing and workflows.",
