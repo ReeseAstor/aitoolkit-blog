@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-restaurant-marketing-products-2026",
+        title: "The AI Restaurant Marketing Playbook 2026: 35 Prompts + 12 Checklists for Daily Content",
+        excerpt: "Stop starting every week with a blank page. 35 copy-paste AI prompts and 12 production checklists for restaurant marketing in 2026. Built for Copy.ai, Canva, Synthesia, AdCreative.ai, and Surfer.",
+        category: "Guide + Product",
+        date: "2026-07-15",
+        readTime: "11 min read"
+    },
+        {
         slug: "best-ai-tools-restaurant-marketing-2026",
         title: "Best AI Tools for Restaurant Marketing in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai vs Surfer",
         excerpt: "Build a complete AI-powered restaurant marketing stack in 2026. Compare Copy.ai, Canva, Synthesia, AdCreative.ai, and Surfer for menus, social, ads, and local SEO with verified pricing.",
@@ -325,6 +333,13 @@ const ARTICLES = [
 ];
 
 const PRODUCTS = [
+    {
+        slug: "ai-restaurant-marketing-command-center",
+        title: "AI Restaurant Marketing Command Center (2026 Edition)",
+        excerpt: "35 copy-paste AI prompts + 12 production checklists for restaurant marketing. Built around Copy.ai, Canva, Synthesia, AdCreative.ai, and Surfer.",
+        price: "$17",
+        category: "Prompt Pack + Checklist"
+    },
     {
         slug: "ai-website-copy-swipe-file",
         title: "The AI Website Copy Swipe File (2026 Edition)",

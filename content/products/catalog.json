@@ -503,6 +503,41 @@
         "Marketing"
       ],
       "bundle_of": []
+    },
+    {
+      "id": "prod-018",
+      "status": "ready",
+      "format": "prompt pack + checklist",
+      "title": "AI Restaurant Marketing Command Center (2026 Edition)",
+      "slug": "ai-restaurant-marketing-command-center",
+      "price_usd": 17,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Canva",
+        "AdCreative.ai",
+        "Synthesia",
+        "Surfer"
+      ],
+      "article_tie": "best-ai-tools-restaurant-marketing-2026",
+      "customer_pain": "I run a restaurant and have no time to write daily social posts, update the menu PDF, design ads, or do local SEO — so another week goes by without consistent marketing.",
+      "search_hook": "AI restaurant marketing prompts checklist 2026",
+      "etsy_tags": [
+        "AI restaurant marketing",
+        "restaurant social media",
+        "Copy.ai prompts",
+        "Canva restaurant templates",
+        "restaurant advertising",
+        "local SEO restaurant",
+        "menu copywriting",
+        "restaurant content calendar",
+        "food marketing prompts",
+        "restaurant checklists"
+      ],
+      "gumroad_categories": [
+        "Business",
+        "Marketing"
+      ],
+      "bundle_of": []
     }
   ]
 }
