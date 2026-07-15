@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-restaurant-marketing-2026",
+        title: "Best AI Tools for Restaurant Marketing in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai vs Surfer",
+        excerpt: "Build a complete AI-powered restaurant marketing stack in 2026. Compare Copy.ai, Canva, Synthesia, AdCreative.ai, and Surfer for menus, social, ads, and local SEO with verified pricing.",
+        category: "Workflow Stack",
+        date: "2026-07-15",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-nonprofits-charities-2026",
         title: "Best AI Tools for Nonprofits and Charities in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai vs Surfer",
         excerpt: "Build a complete AI-powered nonprofit stack in 2026. Compare Copy.ai, Canva, Synthesia, AdCreative.ai, and Surfer for grants, fundraising, impact videos, and SEO.",
