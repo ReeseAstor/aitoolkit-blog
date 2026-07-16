@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-email-marketing-newsletters-2026",
+        title: "Best AI Tools for Email Marketing and Newsletters in 2026: Copy.ai vs Jasper vs Canva vs Speechify vs Surfer",
+        excerpt: "Build a complete AI-powered email marketing stack in 2026. Compare Copy.ai, Canva, Jasper, Speechify, and Surfer for email copy, newsletter design, audio versions, and list-building SEO.",
+        category: "Workflow Stack",
+        date: "2026-07-16",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-restaurant-marketing-products-2026",
         title: "The AI Restaurant Marketing Playbook 2026: 35 Prompts + 12 Checklists for Daily Content",
         excerpt: "Stop starting every week with a blank page. 35 copy-paste AI prompts and 12 production checklists for restaurant marketing in 2026. Built for Copy.ai, Canva, Synthesia, AdCreative.ai, and Surfer.",
