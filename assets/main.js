@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-podcast-production-2026",
+        title: "Best AI Tools for Podcast Production in 2026: Copy.ai vs Canva vs Synthesia vs Speechify vs Surfer",
+        excerpt: "Build a complete AI-powered podcast production stack in 2026. Compare Copy.ai, Canva, Synthesia, Speechify, and Surfer for episode scripting, audiograms, video promos, audio snippets, and SEO show notes with verified pricing.",
+        category: "Workflow Stack",
+        date: "2026-07-17",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-email-marketing-newsletters-2026",
         title: "Best AI Tools for Email Marketing and Newsletters in 2026: Copy.ai vs Jasper vs Canva vs Speechify vs Surfer",
         excerpt: "Build a complete AI-powered email marketing stack in 2026. Compare Copy.ai, Canva, Jasper, Speechify, and Surfer for email copy, newsletter design, audio versions, and list-building SEO.",
