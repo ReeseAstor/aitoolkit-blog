@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "ai-customer-support-command-center-2026",
+        title: "The AI Customer Support Command Center: 35 Prompts + 12 Checklists for 2026",
+        excerpt: "35 copy-paste AI prompts + 12 weekly checklists for customer support and help centers. Built for Copy.ai, Canva, Synthesia, Speechify, and Surfer. Only $17.",
+        category: "Guide + Product",
+        date: "2026-07-22",
+        readTime: "8 min read"
+    },
+    {
         slug: "best-ai-tools-online-course-creators-2026",
         title: "Best AI Tools for Online Course Creators in 2026: Copy.ai vs Canva vs Synthesia vs Speechify vs Surfer",
         excerpt: "Build a complete AI-powered online course creation stack in 2026. Compare Copy.ai, Canva, Synthesia, Speechify, and Surfer for lesson scripts, slide design, AI video lessons, audio versions, and SEO landing pages with verified pricing.",
@@ -389,6 +397,14 @@ const ARTICLES = [
 ];
 
 const PRODUCTS = [
+    {
+        slug: "ai-customer-support-command-center",
+        title: "AI Customer Support Command Center (2026 Edition)",
+        excerpt: "35 copy-paste AI prompts + 12 production checklists for customer support and help centers. Built around Copy.ai, Canva, Synthesia, Speechify, and Surfer.",
+        price: "$17",
+        category: "Prompt Pack + Checklist",
+        image: "/assets/previews/ai-customer-support-command-center/ai-customer-support-command-center-preview-hero.png"
+    },
     {
         slug: "ai-restaurant-marketing-command-center",
         title: "AI Restaurant Marketing Command Center (2026 Edition)",

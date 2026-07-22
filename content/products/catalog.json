@@ -538,6 +538,41 @@
         "Marketing"
       ],
       "bundle_of": []
+    },
+    {
+      "id": "prod-019",
+      "status": "ready",
+      "format": "prompt pack + checklist",
+      "title": "AI Customer Support Command Center (2026 Edition)",
+      "slug": "ai-customer-support-command-center",
+      "price_usd": 17,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Canva",
+        "Synthesia",
+        "Speechify",
+        "Surfer"
+      ],
+      "article_tie": "best-ai-tools-customer-support-help-center-2026",
+      "customer_pain": "The same five questions flood my support inbox every week and I can't produce help center content fast enough to deflect them.",
+      "search_hook": "AI customer support prompts checklist 2026",
+      "etsy_tags": [
+        "AI customer support",
+        "help center prompts",
+        "Copy.ai prompts",
+        "Canva support templates",
+        "Synthesia video tutorials",
+        "Speechify audio docs",
+        "Surfer SEO help center",
+        "support checklist",
+        "knowledge base",
+        "ticket deflection"
+      ],
+      "gumroad_categories": [
+        "Business",
+        "Marketing"
+      ],
+      "bundle_of": []
     }
   ]
 }
