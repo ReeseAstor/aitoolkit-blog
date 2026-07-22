@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-online-course-creators-2026",
+        title: "Best AI Tools for Online Course Creators in 2026: Copy.ai vs Canva vs Synthesia vs Speechify vs Surfer",
+        excerpt: "Build a complete AI-powered online course creation stack in 2026. Compare Copy.ai, Canva, Synthesia, Speechify, and Surfer for lesson scripts, slide design, AI video lessons, audio versions, and SEO landing pages with verified pricing.",
+        category: "Workflow Stack",
+        date: "2026-07-22",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-ecommerce-stores-2026",
         title: "Best AI Tools for E-commerce Stores in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Surfer",
         excerpt: "Build a complete AI-powered e-commerce content stack in 2026. Compare Copy.ai, Canva, AdCreative.ai, Synthesia, and Surfer for product descriptions, ad creative, product video, and SEO with verified pricing.",
