@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-coaching-consulting-2026",
+        title: "Best AI Tools for Coaching and Consulting Businesses in 2026: Copy.ai vs Synthesia vs Canva vs Speechify vs Surfer",
+        excerpt: "Build a 2026 AI coaching business stack. Compare Copy.ai, Synthesia, Canva, Speechify, and Surfer for client copy, video, design, audio, and SEO with verified pricing.",
+        category: "Workflow Stack",
+        date: "July 27, 2026",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-paid-membership-sites-2026",
         title: "Best AI Tools for Building a Paid Membership Site in 2026",
         excerpt: "The 6-tool AI stack for launching and scaling a profitable membership site — from copy to video to paid acquisition.",
