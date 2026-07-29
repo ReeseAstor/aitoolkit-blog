@@ -2,7 +2,15 @@
 // Dynamic article loading + newsletter handling
 
 const ARTICLES = [
-        {
+    {
+        slug: "ai-fitness-coaching-marketing-command-center-2026",
+        title: "AI Fitness Coaching Marketing Command Center: 40 Prompts + 10 Checklists for 2026",
+        excerpt: "40 copy-paste AI prompts + 10 checklists for fitness coaches. Build a week of content in 90 minutes using Copy.ai, Canva, Synthesia, AdCreative.ai, Speechify. $17.",
+        category: "Guide + Product",
+        date: "July 29, 2026",
+        readTime: "8 min read"
+    },
+    {
         slug: "best-ai-tools-fitness-coaches-personal-trainers-2026",
         title: "Best AI Tools for Fitness Coaches and Personal Trainers in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai vs Speechify",
         excerpt: "Build a 2026 AI fitness coaching stack. Compare Copy.ai, Canva, Synthesia, AdCreative.ai, and Speechify for client copy, videos, ads, and audio with verified pricing.",
@@ -453,6 +461,14 @@ const ARTICLES = [
 ];
 
 const PRODUCTS = [
+    {
+        slug: "ai-fitness-coaching-marketing-command-center",
+        title: "AI Fitness Coaching Marketing Command Center (2026 Edition)",
+        excerpt: "40 copy-paste AI prompts + 10 production checklists for fitness coaches and personal trainers. Built around Copy.ai, Canva, Synthesia, AdCreative.ai, and Speechify.",
+        price: "$17",
+        category: "Prompt Pack + Checklist",
+        image: "/assets/previews/ai-fitness-coaching-marketing-command-center/ai-fitness-coaching-marketing-command-center-preview-hero.png"
+    },
     {
         slug: "ai-customer-support-command-center",
         title: "AI Customer Support Command Center (2026 Edition)",

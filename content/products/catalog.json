@@ -573,6 +573,41 @@
         "Marketing"
       ],
       "bundle_of": []
+    },
+    {
+      "id": "prod-020",
+      "status": "ready",
+      "format": "prompt pack + checklist",
+      "title": "AI Fitness Coaching Marketing Command Center (2026 Edition)",
+      "slug": "ai-fitness-coaching-marketing-command-center",
+      "price_usd": 17,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Canva",
+        "Synthesia",
+        "AdCreative.ai",
+        "Speechify"
+      ],
+      "article_tie": "best-ai-tools-fitness-coaches-personal-trainers-2026",
+      "customer_pain": "I spend 10-15 hours a week on marketing instead of coaching. I need a system that produces a full week of content in 90 minutes.",
+      "search_hook": "AI fitness coaching marketing prompts checklist 2026",
+      "etsy_tags": [
+        "AI fitness marketing",
+        "personal trainer prompts",
+        "fitness social media",
+        "Copy.ai prompts",
+        "Canva fitness templates",
+        "Synthesia fitness video",
+        "fitness advertising",
+        "gym marketing",
+        "fitness content calendar",
+        "trainer checklists"
+      ],
+      "gumroad_categories": [
+        "Business",
+        "Marketing"
+      ],
+      "bundle_of": []
     }
   ]
 }
