@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-fitness-coaches-personal-trainers-2026",
+        title: "Best AI Tools for Fitness Coaches and Personal Trainers in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai vs Speechify",
+        excerpt: "Build a 2026 AI fitness coaching stack. Compare Copy.ai, Canva, Synthesia, AdCreative.ai, and Speechify for client copy, videos, ads, and audio with verified pricing.",
+        category: "Workflow Stack",
+        date: "July 29, 2026",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-airbnb-vacation-rental-hosts-2026",
         title: "Best AI Tools for Airbnb and Vacation Rental Hosts in 2026",
         excerpt: "Build a 2026 AI vacation rental stack. Compare Copy.ai, Canva, AdCreative.ai, Synthesia, and Jasper for listing copy, photos, ads, and video tours with verified pricing.",
