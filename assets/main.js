@@ -2,6 +2,14 @@
 // Dynamic article loading + newsletter handling
 
 const ARTICLES = [
+        {
+        slug: "best-ai-tools-event-planning-conference-marketing-2026",
+        title: "Best AI Tools for Event Planning and Conference Marketing in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai vs Speechify",
+        excerpt: "Build a 2026 AI event marketing stack. Compare Copy.ai, Canva, Synthesia, AdCreative.ai, and Speechify for invitations, signage, promo videos, ads, and audio guides with verified pricing.",
+        category: "Workflow Stack",
+        date: "July 30, 2026",
+        readTime: "12 min read"
+    },
     {
         slug: "ai-fitness-coaching-marketing-command-center-2026",
         title: "AI Fitness Coaching Marketing Command Center: 40 Prompts + 10 Checklists for 2026",

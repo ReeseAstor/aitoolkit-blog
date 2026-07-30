@@ -20,3 +20,7 @@ _Generated automatically. Verify all rows show READY before uploading to Gumroad
 | prod-014 | StoryBible Analyzer — AI Manuscript QA for Fiction Writers | $19 | StoryBible_Analyzer.zip | MISSING | 3 | READY |
 | prod-015 | The ADHD Refill Panic Binder (2026 Edition) | $29 | ADHD_Refill_Panic_Binder.pdf | OK | 3 | READY |
 | prod-016 | AI Ecommerce Marketing Command Center (2026 Edition) | $17 | ai-ecommerce-marketing-command-center.pdf | OK | 3 | READY |
+| prod-017 | The AI Website Copy Swipe File (2026 Edition) | $14 | ai-website-copy-swipe-file.pdf | OK | 0 | READY |
+| prod-018 | AI Restaurant Marketing Command Center (2026 Edition) | $17 | MISSING | OK | 0 | READY |
+| prod-019 | AI Customer Support Command Center (2026 Edition) | $17 | MISSING | OK | 3 | READY |
+| prod-020 | AI Fitness Coaching Marketing Command Center (2026 Edition) | $17 | AI-Fitness-Coaching-Marketing-Command-Center.pdf | OK | 6 | READY |
