@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-generative-engine-optimization-2026",
+        title: "Best AI Tools for Generative Engine Optimization (GEO) in 2026",
+        excerpt: "Get your brand cited by ChatGPT, Perplexity, and Gemini. Compare Writesonic, Surfer SEO, Copy.ai, and Jasper for GEO — tracking, optimization, and production. Verified 2026 pricing.",
+        category: "Workflow Stack",
+        date: "July 31, 2026",
+        readTime: "13 min read"
+    },
+    {
         slug: "best-ai-tools-event-planning-conference-marketing-2026",
         title: "Best AI Tools for Event Planning and Conference Marketing in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai vs Speechify",
         excerpt: "Build a 2026 AI event marketing stack. Compare Copy.ai, Canva, Synthesia, AdCreative.ai, and Speechify for invitations, signage, promo videos, ads, and audio guides with verified pricing.",
