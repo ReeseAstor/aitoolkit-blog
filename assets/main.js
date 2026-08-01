@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-photography-businesses-2026",
+        title: "Best AI Tools for Photography Businesses in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Surfer",
+        excerpt: "The 5-tool AI stack for photographers in 2026: client copy, visual branding, paid ads, video marketing, and local SEO. Verified pricing and real workflows.",
+        category: "Workflow Stack",
+        date: "2026-08-01",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-generative-engine-optimization-2026",
         title: "Best AI Tools for Generative Engine Optimization (GEO) in 2026",
         excerpt: "Get your brand cited by ChatGPT, Perplexity, and Gemini. Compare Writesonic, Surfer SEO, Copy.ai, and Jasper for GEO — tracking, optimization, and production. Verified 2026 pricing.",
