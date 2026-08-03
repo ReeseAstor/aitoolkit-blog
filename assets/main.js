@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-salons-spas-2026",
+        title: "Best AI Tools for Salons & Spas in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Surfer",
+        excerpt: "The 5-tool AI marketing stack for salons and spas: booking copy, social visuals, local ads, video explainers, and local search — with verified 2026 pricing.",
+        category: "Workflow Stack",
+        date: "August 3, 2026",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-multilingual-content-marketing-2026",
         title: "Best AI Tools for Multilingual Content in 2026: Synthesia vs Speechify vs Copy.ai vs Canva vs Surfer",
         excerpt: "Translate, dub, and localize your content into 160+ languages with AI. The 5-tool multilingual stack — Synthesia, Speechify, Copy.ai, Canva, and Surfer — with verified 2026 pricing and a one-to-many workflow.",
