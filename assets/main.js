@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-tutoring-centers-2026",
+        title: "Best AI Tools for Tutoring Centers & Education Programs in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Surfer",
+        excerpt: "Build a 2026 AI marketing stack for your tutoring center or education program. Verified pricing and real enrollment workflows for Copy.ai, Canva, AdCreative.ai, Synthesia, and Surfer.",
+        category: "Workflow Stack",
+        date: "August 7, 2026",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-salons-spas-2026",
         title: "Best AI Tools for Salons & Spas in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Surfer",
         excerpt: "The 5-tool AI marketing stack for salons and spas: booking copy, social visuals, local ads, video explainers, and local search — with verified 2026 pricing.",
