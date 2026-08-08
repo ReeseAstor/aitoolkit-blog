@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-holiday-seasonal-marketing-2026",
+        title: "Best AI Tools for Holiday Marketing in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Surfer",
+        excerpt: "Build a 2026 holiday marketing stack for Q4. Compare Copy.ai, Canva, AdCreative.ai, Synthesia, and Surfer for seasonal campaigns with verified pricing.",
+        category: "Workflow Stack",
+        date: "August 8, 2026",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-tutoring-centers-2026",
         title: "Best AI Tools for Tutoring Centers & Education Programs in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Surfer",
         excerpt: "Build a 2026 AI marketing stack for your tutoring center or education program. Verified pricing and real enrollment workflows for Copy.ai, Canva, AdCreative.ai, Synthesia, and Surfer.",
