@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-dental-practices-2026",
+        title: "Best AI Tools for Dental Practices in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Speechify",
+        excerpt: "The 5-tool AI stack for dental practices in 2026: patient emails, social visuals, local ads, video explainers, and audio review. Verified pricing, real workflows.",
+        category: "Workflow Stack",
+        date: "August 11, 2026",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-wedding-planners-2026",
         title: "Best AI Tools for Wedding Planners in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Speechify",
         excerpt: "The 5-tool AI stack for wedding planners in 2026: inquiry replies, brand visuals, paid ads, video proposals, and audio review. Verified pricing, real workflows.",
