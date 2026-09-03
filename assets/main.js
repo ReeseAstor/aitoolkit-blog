@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-home-services-contractors-2026",
+        title: "Best AI Tools for Home Services Contractors in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Speechify",
+        excerpt: "The 5-tool AI stack for HVAC, plumbing, and contracting businesses in 2026: review replies, job photos, local ads, estimate videos, and on-the-road admin. Verified pricing, real workflows.",
+        category: "Workflow Stack",
+        date: "September 3, 2026",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-accountants-cpas-2026",
         title: "Best AI Tools for Accountants & CPAs in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Speechify",
         excerpt: "The 5-tool AI stack for accounting firms in 2026: client emails, social visuals, tax-season ads, video explainers, and audio review. Verified pricing, real workflows.",
