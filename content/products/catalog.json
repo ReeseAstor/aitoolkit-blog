@@ -608,6 +608,41 @@
         "Marketing"
       ],
       "bundle_of": []
+    },
+    {
+      "id": "prod-021",
+      "status": "ready",
+      "format": "prompt pack + checklist",
+      "title": "AI Accounting & CPA Marketing Command Center (2026 Edition)",
+      "slug": "ai-accounting-cpa-marketing-command-center",
+      "price_usd": 17,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Canva",
+        "Synthesia",
+        "AdCreative.ai",
+        "Speechify"
+      ],
+      "article_tie": "best-ai-tools-accountants-cpas-2026",
+      "customer_pain": "I spend 10-15 hours a week on marketing instead of advising clients. I need a system that produces a full week of content in 90 minutes.",
+      "search_hook": "AI accounting CPA marketing prompts checklist 2026",
+      "etsy_tags": [
+        "AI accounting prompts",
+        "CPA marketing",
+        "accountant social media",
+        "Copy.ai prompts",
+        "Canva accounting",
+        "tax marketing",
+        "bookkeeping business",
+        "CPA checklist",
+        "accounting content",
+        "AI marketing"
+      ],
+      "gumroad_categories": [
+        "Business",
+        "Marketing"
+      ],
+      "bundle_of": []
     }
   ]
 }

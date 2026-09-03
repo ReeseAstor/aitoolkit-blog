@@ -2,6 +2,13 @@
 // Dynamic article loading + newsletter handling
 
 const ARTICLES = [
+    {
+        slug: "ai-accounting-cpa-marketing-command-center-2026",
+        title: "AI Accounting & CPA Marketing Command Center: 40 Prompts + 10 Checklists for 2026",
+        excerpt: "The 90-minute weekly marketing system for accountants and CPAs. 40 copy-paste AI prompts + 10 checklists covering Copy.ai, Canva, Synthesia, AdCreative.ai, and Speechify.",
+        date: "September 3, 2026",
+        category: "Product Launch"
+    },
         {
         slug: "best-ai-tools-home-services-contractors-2026",
         title: "Best AI Tools for Home Services Contractors in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Speechify",
@@ -549,6 +556,14 @@ const ARTICLES = [
 ];
 
 const PRODUCTS = [
+    {
+        slug: "ai-accounting-cpa-marketing-command-center",
+        title: "AI Accounting & CPA Marketing Command Center (2026 Edition)",
+        excerpt: "40 copy-paste AI prompts + 10 production checklists for accountants and CPAs. Built around Copy.ai, Canva, Synthesia, AdCreative.ai, and Speechify.",
+        price: "$17",
+        category: "Prompt Pack + Checklist",
+        image: "/assets/previews/ai-accounting-cpa-marketing-command-center/ai-accounting-cpa-marketing-command-center-preview-hero.png"
+    },
     {
         slug: "ai-fitness-coaching-marketing-command-center",
         title: "AI Fitness Coaching Marketing Command Center (2026 Edition)",

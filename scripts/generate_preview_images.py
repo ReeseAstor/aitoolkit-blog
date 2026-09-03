@@ -70,6 +70,22 @@ PRODUCTS = [
         ],
         "badge": "CONTENT PRODUCTION STACK",
     },
+    {
+        "slug": "ai-accounting-cpa-marketing-command-center",
+        "title": "AI Accounting & CPA Marketing Command Center",
+        "subtitle": "40 Prompts + 10 Checklists for CPAs & Accountants",
+        "category": "Prompt Pack + Checklist",
+        "price": "$17",
+        "strike": "$27",
+        "save": "Save 37%",
+        "bullets": [
+            "40 copy-paste AI prompts (Copy.ai, Canva, Synthesia, AdCreative.ai, Speechify)",
+            "10 weekly production checklists",
+            "90-minute weekly content workflow",
+            "5 client onboarding email sequences",
+        ],
+        "badge": "ACCOUNTING MARKETING SYSTEM",
+    },
 ]
 
 
