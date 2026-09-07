@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-insurance-agents-2026",
+        title: "Best AI Tools for Insurance Agents in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Speechify",
+        excerpt: "The 5-tool AI stack for insurance agents in 2026: renewal emails, social visuals, local ads, explainer videos, and on-the-go CE reading. Verified pricing, real workflows.",
+        category: "Workflow Stack",
+        date: "September 7, 2026",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-interior-designers-2026",
         title: "Best AI Tools for Interior Designers in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Speechify",
         excerpt: "The 5-tool AI stack for interior designers in 2026: proposals, mood boards, paid ads, video walkthroughs, and on-the-go review. Verified pricing, real workflows.",
