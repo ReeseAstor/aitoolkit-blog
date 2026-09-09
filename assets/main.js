@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-etsy-sellers-2026",
+        title: "Best AI Tools for Etsy Sellers in 2026: Copy.ai vs Canva vs Jasper",
+        excerpt: "The 3-tool AI stack for Etsy sellers in 2026: listing copy that ranks, product mockups that convert, and a brand voice that scales past 100 listings. Verified pricing.",
+        category: "Workflow Stack",
+        date: "September 9, 2026",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-financial-advisors-2026",
         title: "Best AI Tools for Financial Advisors in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Speechify",
         excerpt: "The 5-tool AI stack for financial advisors in 2026: compliant marketing drafts, client education visuals, prospect ads, explainer videos, and audio research. Verified pricing.",
