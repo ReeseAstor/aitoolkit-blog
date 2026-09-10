@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-recruiters-staffing-agencies-2026",
+        title: "Best AI Tools for Recruiters and Staffing Agencies in 2026: Copy.ai vs AdCreative.ai vs Canva vs Synthesia",
+        excerpt: "The 4-tool AI marketing stack for staffing agencies in 2026: outreach copy, job ad creative, employer-brand visuals, and training video — with verified pricing.",
+        category: "Workflow Stack",
+        date: "September 10, 2026",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-etsy-sellers-2026",
         title: "Best AI Tools for Etsy Sellers in 2026: Copy.ai vs Canva vs Jasper",
         excerpt: "The 3-tool AI stack for Etsy sellers in 2026: listing copy that ranks, product mockups that convert, and a brand voice that scales past 100 listings. Verified pricing.",
