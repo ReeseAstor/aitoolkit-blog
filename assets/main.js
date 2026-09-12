@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-veterinary-clinics-2026",
+        title: "Best AI Tools for Veterinary Clinics in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Speechify",
+        excerpt: "Build a 2026 AI marketing stack for your vet clinic. Compare Copy.ai, Canva, AdCreative.ai, Synthesia, and Speechify for client reminders, ads, video, and audio.",
+        category: "Workflow Stack",
+        date: "September 12, 2026",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-recruiters-staffing-agencies-2026",
         title: "Best AI Tools for Recruiters and Staffing Agencies in 2026: Copy.ai vs AdCreative.ai vs Canva vs Synthesia",
         excerpt: "The 4-tool AI marketing stack for staffing agencies in 2026: outreach copy, job ad creative, employer-brand visuals, and training video — with verified pricing.",
