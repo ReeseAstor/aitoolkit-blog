@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-authors-book-marketing-2026",
+        title: "Best AI Tools for Authors and Book Marketing in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai vs Speechify",
+        excerpt: "The 5-tool AI stack for authors in 2026: launch copy, quote cards and cover reveals, book trailers, paid ads, and audiobook samples. Verified pricing, real workflows.",
+        category: "Workflow Stack",
+        date: "September 13, 2026",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-veterinary-clinics-2026",
         title: "Best AI Tools for Veterinary Clinics in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Speechify",
         excerpt: "Build a 2026 AI marketing stack for your vet clinic. Compare Copy.ai, Canva, AdCreative.ai, Synthesia, and Speechify for client reminders, ads, video, and audio.",
