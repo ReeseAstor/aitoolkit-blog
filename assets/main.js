@@ -3,6 +3,22 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-property-managers-2026",
+        title: "Best AI Tools for Property Managers in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Speechify",
+        excerpt: "The 5-tool AI stack for property managers in 2026: tenant newsletters, listing visuals, leasing ads, resident video updates, and audio research. Verified pricing.",
+        category: "Workflow Stack",
+        date: "September 15, 2026",
+        readTime: "12 min read"
+    },
+    {
+        slug: "best-ai-tools-mortgage-brokers-2026",
+        title: "Best AI Tools for Mortgage Brokers and Loan Officers in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai vs Speechify",
+        excerpt: "The 5-tool AI stack for loan officers in 2026: realtor outreach, rate graphics, explainer videos, lead-gen ads, and audio learning. Verified pricing, real workflows.",
+        category: "Workflow Stack",
+        date: "September 14, 2026",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-authors-book-marketing-2026",
         title: "Best AI Tools for Authors and Book Marketing in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai vs Speechify",
         excerpt: "The 5-tool AI stack for authors in 2026: launch copy, quote cards and cover reveals, book trailers, paid ads, and audiobook samples. Verified pricing, real workflows.",
