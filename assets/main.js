@@ -657,7 +657,8 @@ const PRODUCTS = [
         title: "AI Med Spa Marketing Command Center (2026 Edition)",
         excerpt: "40 copy-paste AI prompts + 10 production checklists for med spas and aesthetic clinics. Built around Copy.ai, Canva, Synthesia, AdCreative.ai, and Speechify.",
         price: "$17",
-        category: "Prompt Pack + Checklist"
+        category: "Prompt Pack + Checklist",
+        image: "/assets/previews/ai-med-spa-marketing-command-center/ai-med-spa-marketing-command-center-preview-hero.png"
     },
     {
         slug: "ai-accounting-cpa-marketing-command-center",
