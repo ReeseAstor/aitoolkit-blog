@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-med-spas-2026",
+        title: "Best AI Tools for Med Spas in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai vs Speechify",
+        excerpt: "The 5-tool AI stack for med spas in 2026: treatment page copy, Instagram content, consult videos, promo ads, and industry audio. Verified pricing, real workflows.",
+        category: "Workflow Stack",
+        date: "September 16, 2026",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-property-managers-2026",
         title: "Best AI Tools for Property Managers in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Speechify",
         excerpt: "The 5-tool AI stack for property managers in 2026: tenant newsletters, listing visuals, leasing ads, resident video updates, and audio research. Verified pricing.",
