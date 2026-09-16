@@ -2,7 +2,15 @@
 // Dynamic article loading + newsletter handling
 
 const ARTICLES = [
-        {
+    {
+        slug: "ai-med-spa-command-center-2026",
+        title: "AI Med Spa Marketing Command Center: 40 Prompts + 10 Checklists for 2026",
+        excerpt: "The 90-minute weekly marketing system for med spas. 40 copy-paste AI prompts + 10 checklists covering Copy.ai, Canva, Synthesia, AdCreative.ai, and Speechify.",
+        category: "Product Launch",
+        date: "September 16, 2026",
+        readTime: "8 min read"
+    },
+    {
         slug: "best-ai-tools-med-spas-2026",
         title: "Best AI Tools for Med Spas in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai vs Speechify",
         excerpt: "The 5-tool AI stack for med spas in 2026: treatment page copy, Instagram content, consult videos, promo ads, and industry audio. Verified pricing, real workflows.",
@@ -644,6 +652,13 @@ const ARTICLES = [
 ];
 
 const PRODUCTS = [
+    {
+        slug: "ai-med-spa-marketing-command-center",
+        title: "AI Med Spa Marketing Command Center (2026 Edition)",
+        excerpt: "40 copy-paste AI prompts + 10 production checklists for med spas and aesthetic clinics. Built around Copy.ai, Canva, Synthesia, AdCreative.ai, and Speechify.",
+        price: "$17",
+        category: "Prompt Pack + Checklist"
+    },
     {
         slug: "ai-accounting-cpa-marketing-command-center",
         title: "AI Accounting & CPA Marketing Command Center (2026 Edition)",

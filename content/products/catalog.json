@@ -12,7 +12,7 @@
   ],
   "quality_gates": [
     "Solves one specific workflow, not generic inspiration",
-    "Includes ready-to-use files (prompts, checklists, SOPs, or templates) \u2014 not just explanation",
+    "Includes ready-to-use files (prompts, checklists, SOPs, or templates) — not just explanation",
     "Designed around a high-intent search phrase",
     "Title has year + outcome + format",
     "Includes 1-2 affiliate tool recommendations with ?via=aitoolkit links",
@@ -361,7 +361,7 @@
         "Speechify"
       ],
       "article_tie": "best-ai-tools-online-course-creators-2026",
-      "customer_pain": "I know my topic but I have no script, hate being on camera, and can't write a sales page \u2014 so my course never launches.",
+      "customer_pain": "I know my topic but I have no script, hate being on camera, and can't write a sales page — so my course never launches.",
       "search_hook": "how to create an online course with AI 2026",
       "etsy_tags": [
         "online course template",
@@ -381,7 +381,7 @@
       "id": "prod-014",
       "status": "ready",
       "format": "downloadable app",
-      "title": "StoryBible Analyzer \u2014 AI Manuscript QA for Fiction Writers",
+      "title": "StoryBible Analyzer — AI Manuscript QA for Fiction Writers",
       "slug": "storybible-analyzer",
       "price_usd": 19,
       "affiliate_tie": [
@@ -452,7 +452,7 @@
         "Synthesia"
       ],
       "article_tie": "best-ai-tools-ecommerce-marketing-2026",
-      "customer_pain": "I open my store every Monday with no plan, no captions, no ads, and no video \u2014 so another week goes by without consistent marketing.",
+      "customer_pain": "I open my store every Monday with no plan, no captions, no ads, and no video — so another week goes by without consistent marketing.",
       "search_hook": "AI ecommerce marketing prompts checklist 2026",
       "etsy_tags": [
         "AI ecommerce",
@@ -519,7 +519,7 @@
         "Surfer"
       ],
       "article_tie": "best-ai-tools-restaurant-marketing-2026",
-      "customer_pain": "I run a restaurant and have no time to write daily social posts, update the menu PDF, design ads, or do local SEO \u2014 so another week goes by without consistent marketing.",
+      "customer_pain": "I run a restaurant and have no time to write daily social posts, update the menu PDF, design ads, or do local SEO — so another week goes by without consistent marketing.",
       "search_hook": "AI restaurant marketing prompts checklist 2026",
       "etsy_tags": [
         "AI restaurant marketing",
@@ -637,6 +637,41 @@
         "CPA checklist",
         "accounting content",
         "AI marketing"
+      ],
+      "gumroad_categories": [
+        "Business",
+        "Marketing"
+      ],
+      "bundle_of": []
+    },
+    {
+      "id": "prod-022",
+      "status": "ready",
+      "format": "prompt pack + checklist",
+      "title": "AI Med Spa Marketing Command Center (2026 Edition)",
+      "slug": "ai-med-spa-marketing-command-center",
+      "price_usd": 17,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Canva",
+        "Synthesia",
+        "AdCreative.ai",
+        "Speechify"
+      ],
+      "article_tie": "best-ai-tools-med-spas-2026",
+      "customer_pain": "I spend 10-15 hours a week on marketing instead of treating patients. My platforms automate booking but not the content production, and med spa ads follow stricter rules.",
+      "search_hook": "AI med spa marketing prompts checklist 2026",
+      "etsy_tags": [
+        "AI med spa marketing",
+        "aesthetics clinic prompts",
+        "med spa social media",
+        "Copy.ai prompts",
+        "Canva med spa templates",
+        "botox filler marketing",
+        "medical spa advertising",
+        "wellness clinic content",
+        "injector marketing",
+        "aesthetics checklists"
       ],
       "gumroad_categories": [
         "Business",
