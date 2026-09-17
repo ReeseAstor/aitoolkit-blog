@@ -2,6 +2,14 @@
 // Dynamic article loading + newsletter handling
 
 const ARTICLES = [
+        {
+        slug: "best-ai-tools-pinterest-marketing-2026",
+        title: "Best AI Tools for Pinterest Marketing in 2026: Copy.ai vs Canva vs AdCreative.ai vs Speechify",
+        excerpt: "The 4-tool AI stack for Pinterest marketing in 2026: search-optimized pin copy, batched pin design, promoted-pin ad creative, and audio research. Verified pricing, real workflows.",
+        category: "Workflow Stack",
+        date: "September 17, 2026",
+        readTime: "11 min read"
+    },
     {
         slug: "ai-med-spa-command-center-2026",
         title: "AI Med Spa Marketing Command Center: 40 Prompts + 10 Checklists for 2026",
