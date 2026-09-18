@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-car-dealerships-2026",
+        title: "Best AI Tools for Car Dealerships in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Surfer",
+        excerpt: "The 5-tool AI stack for car dealerships in 2026: Copy.ai lead follow-up, Canva lot graphics, AdCreative.ai inventory ads, Synthesia video walkarounds, and Surfer for AI-search visibility. Verified September 2026 pricing.",
+        category: "Workflow Stack",
+        date: "September 18, 2026",
+        readTime: "10 min read"
+    },
+    {
         slug: "best-ai-tools-pinterest-marketing-2026",
         title: "Best AI Tools for Pinterest Marketing in 2026: Copy.ai vs Canva vs AdCreative.ai vs Speechify",
         excerpt: "The 4-tool AI stack for Pinterest marketing in 2026: search-optimized pin copy, batched pin design, promoted-pin ad creative, and audio research. Verified pricing, real workflows.",
