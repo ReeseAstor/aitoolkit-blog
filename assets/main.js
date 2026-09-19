@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-travel-agents-2026",
+        title: "Best AI Tools for Travel Agents in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Speechify",
+        excerpt: "The 5-tool AI stack for travel agents in 2026: itinerary and follow-up copy, client-ready design, departure ads, video briefings, and audio learning. Verified pricing.",
+        category: "Workflow Stack",
+        date: "September 19, 2026",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-car-dealerships-2026",
         title: "Best AI Tools for Car Dealerships in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Surfer",
         excerpt: "The 5-tool AI stack for car dealerships in 2026: Copy.ai lead follow-up, Canva lot graphics, AdCreative.ai inventory ads, Synthesia video walkarounds, and Surfer for AI-search visibility. Verified September 2026 pricing.",
