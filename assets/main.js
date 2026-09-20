@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-therapists-private-practice-2026",
+        title: "Best AI Tools for Therapists and Private Practices in 2026: Copy.ai vs Canva vs Jasper vs Synthesia vs Speechify",
+        excerpt: "The 5-tool AI stack for therapists and private practices in 2026: fast inquiry replies, client-ready worksheets, on-brand SEO content, intro videos, and audio CE. HIPAA-safe workflows, verified pricing.",
+        category: "Workflow Stack",
+        date: "September 20, 2026",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-travel-agents-2026",
         title: "Best AI Tools for Travel Agents in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Speechify",
         excerpt: "The 5-tool AI stack for travel agents in 2026: itinerary and follow-up copy, client-ready design, departure ads, video briefings, and audio learning. Verified pricing.",
