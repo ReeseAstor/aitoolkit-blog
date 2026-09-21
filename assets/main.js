@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-event-planners-2026",
+        title: "Best AI Tools for Event Planners in 2026: Copy.ai vs Canva vs Jasper vs Synthesia vs AdCreative.ai",
+        excerpt: "The 5-tool AI stack for event planners in 2026: proposals and vendor emails, sponsor decks and registration graphics, citable content, promo videos, and ad creative. Verified pricing.",
+        category: "Workflow Stack",
+        date: "2026-09-21",
+        readTime: "12 min"
+    },
+    {
         slug: "best-ai-tools-therapists-private-practice-2026",
         title: "Best AI Tools for Therapists and Private Practices in 2026: Copy.ai vs Canva vs Jasper vs Synthesia vs Speechify",
         excerpt: "The 5-tool AI stack for therapists and private practices in 2026: fast inquiry replies, client-ready worksheets, on-brand SEO content, intro videos, and audio CE. HIPAA-safe workflows, verified pricing.",
