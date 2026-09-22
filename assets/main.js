@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-nonprofit-grant-writers-2026",
+        title: "Best AI Tools for Nonprofit Grant Writers in 2026: Copy.ai vs Canva vs Jasper vs Synthesia vs Speechify",
+        excerpt: "The 5-tool AI stack for nonprofit grant writers in 2026: LOIs and funder reports, board-ready visuals, citable program pages, grant-request videos, and audio RFP review. Canva free for nonprofits, verified pricing.",
+        category: "Workflow Stack",
+        date: "2026-09-22",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-event-planners-2026",
         title: "Best AI Tools for Event Planners in 2026: Copy.ai vs Canva vs Jasper vs Synthesia vs AdCreative.ai",
         excerpt: "The 5-tool AI stack for event planners in 2026: proposals and vendor emails, sponsor decks and registration graphics, citable content, promo videos, and ad creative. Verified pricing.",
