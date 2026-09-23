@@ -12,7 +12,7 @@
   ],
   "quality_gates": [
     "Solves one specific workflow, not generic inspiration",
-    "Includes ready-to-use files (prompts, checklists, SOPs, or templates) — not just explanation",
+    "Includes ready-to-use files (prompts, checklists, SOPs, or templates) \u2014 not just explanation",
     "Designed around a high-intent search phrase",
     "Title has year + outcome + format",
     "Includes 1-2 affiliate tool recommendations with ?via=aitoolkit links",
@@ -361,7 +361,7 @@
         "Speechify"
       ],
       "article_tie": "best-ai-tools-online-course-creators-2026",
-      "customer_pain": "I know my topic but I have no script, hate being on camera, and can't write a sales page — so my course never launches.",
+      "customer_pain": "I know my topic but I have no script, hate being on camera, and can't write a sales page \u2014 so my course never launches.",
       "search_hook": "how to create an online course with AI 2026",
       "etsy_tags": [
         "online course template",
@@ -381,7 +381,7 @@
       "id": "prod-014",
       "status": "ready",
       "format": "downloadable app",
-      "title": "StoryBible Analyzer — AI Manuscript QA for Fiction Writers",
+      "title": "StoryBible Analyzer \u2014 AI Manuscript QA for Fiction Writers",
       "slug": "storybible-analyzer",
       "price_usd": 19,
       "affiliate_tie": [
@@ -452,7 +452,7 @@
         "Synthesia"
       ],
       "article_tie": "best-ai-tools-ecommerce-marketing-2026",
-      "customer_pain": "I open my store every Monday with no plan, no captions, no ads, and no video — so another week goes by without consistent marketing.",
+      "customer_pain": "I open my store every Monday with no plan, no captions, no ads, and no video \u2014 so another week goes by without consistent marketing.",
       "search_hook": "AI ecommerce marketing prompts checklist 2026",
       "etsy_tags": [
         "AI ecommerce",
@@ -519,7 +519,7 @@
         "Surfer"
       ],
       "article_tie": "best-ai-tools-restaurant-marketing-2026",
-      "customer_pain": "I run a restaurant and have no time to write daily social posts, update the menu PDF, design ads, or do local SEO — so another week goes by without consistent marketing.",
+      "customer_pain": "I run a restaurant and have no time to write daily social posts, update the menu PDF, design ads, or do local SEO \u2014 so another week goes by without consistent marketing.",
       "search_hook": "AI restaurant marketing prompts checklist 2026",
       "etsy_tags": [
         "AI restaurant marketing",
@@ -672,6 +672,42 @@
         "wellness clinic content",
         "injector marketing",
         "aesthetics checklists"
+      ],
+      "gumroad_categories": [
+        "Business",
+        "Marketing"
+      ],
+      "bundle_of": []
+    },
+    {
+      "id": "prod-023",
+      "status": "ready",
+      "format": "prompt pack + checklist",
+      "title": "The GEO Citation Prompt Pack: Get Cited in ChatGPT, Perplexity & AI Overviews (2026 Edition)",
+      "slug": "ai-geo-citation-prompt-pack",
+      "price_usd": 17,
+      "affiliate_tie": [
+        "Writesonic",
+        "Surfer",
+        "Copy.ai"
+      ],
+      "article_tie": "best-geo-ai-search-visibility-tools-2026",
+      "customer_pain": "When someone asks ChatGPT or Perplexity to recommend a tool like mine, my competitors get named and my brand is invisible \u2014 and AI answers leave no referral trail in my analytics, so I can't even see what I'm losing.",
+      "search_hook": "how to get your brand cited in ChatGPT 2026",
+      "etsy_tags": [
+        "GEO prompts",
+        "AI search visibility",
+        "ChatGPT prompts business",
+        "AI SEO checklist",
+        "Perplexity optimization",
+        "citable content prompts",
+        "citation audit template",
+        "GEO checklist",
+        "AI Overviews",
+        "LLM citations",
+        "AI marketing prompts",
+        "SEO prompts 2026",
+        "small business SEO"
       ],
       "gumroad_categories": [
         "Business",

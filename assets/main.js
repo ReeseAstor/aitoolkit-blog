@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "ai-geo-citation-prompt-pack-2026",
+        title: "The GEO Citation Prompt Pack: 40 Prompts + 10 Checklists for 2026",
+        excerpt: "Get your brand cited in ChatGPT, Perplexity, and AI Overviews: 40 copy-paste prompts + 10 checklists for citation audits, extractable structure, fact density, and weekly citable assets. Built for Writesonic, Surfer, and Copy.ai.",
+        category: "Product Launch",
+        date: "September 23, 2026",
+        readTime: "8 min read"
+    },
+        {
         slug: "best-geo-ai-search-visibility-tools-2026",
         title: "Best GEO & AI Search Visibility Tools in 2026: Writesonic vs Surfer vs Copy.ai",
         excerpt: "The 2026 GEO stack compared: Writesonic, Surfer, Copy.ai, and pure-play trackers for earning citations in ChatGPT, Perplexity, and Google AI Overviews.",
@@ -708,6 +716,13 @@ const ARTICLES = [
 ];
 
 const PRODUCTS = [
+    {
+        slug: "ai-geo-citation-prompt-pack",
+        title: "The GEO Citation Prompt Pack (2026 Edition)",
+        excerpt: "40 copy-paste prompts + 10 checklists to get your brand cited in ChatGPT, Perplexity, and Google AI Overviews. Citation audits, extractable structure, fact density, and weekly citable assets — built for Writesonic, Surfer, and Copy.ai.",
+        price: "$17",
+        category: "Prompt Pack + Checklist"
+    },
     {
         slug: "ai-med-spa-marketing-command-center",
         title: "AI Med Spa Marketing Command Center (2026 Edition)",
