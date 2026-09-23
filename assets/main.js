@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-geo-ai-search-visibility-tools-2026",
+        title: "Best GEO & AI Search Visibility Tools in 2026: Writesonic vs Surfer vs Copy.ai",
+        excerpt: "The 2026 GEO stack compared: Writesonic, Surfer, Copy.ai, and pure-play trackers for earning citations in ChatGPT, Perplexity, and Google AI Overviews.",
+        category: "Comparison",
+        date: "2026-09-23",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-nonprofit-grant-writers-2026",
         title: "Best AI Tools for Nonprofit Grant Writers in 2026: Copy.ai vs Canva vs Jasper vs Synthesia vs Speechify",
         excerpt: "The 5-tool AI stack for nonprofit grant writers in 2026: LOIs and funder reports, board-ready visuals, citable program pages, grant-request videos, and audio RFP review. Canva free for nonprofits, verified pricing.",
