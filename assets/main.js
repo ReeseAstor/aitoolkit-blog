@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-chiropractors-pt-clinics-2026",
+        title: "Best AI Tools for Chiropractors and PT Clinics in 2026: Copy.ai vs Canva vs Synthesia vs Speechify vs Surfer",
+        excerpt: "The 5-tool AI stack for chiropractic and physical therapy clinics in 2026: new-patient reply speed, branded exercise handouts, audio CE, first-visit videos, and the condition content AI search cites. Verified September 2026 pricing.",
+        category: "Workflow Stack",
+        date: "September 24, 2026",
+        readTime: "12 min read"
+    },
+    {
         slug: "ai-geo-citation-prompt-pack-2026",
         title: "The GEO Citation Prompt Pack: 40 Prompts + 10 Checklists for 2026",
         excerpt: "Get your brand cited in ChatGPT, Perplexity, and AI Overviews: 40 copy-paste prompts + 10 checklists for citation audits, extractable structure, fact density, and weekly citable assets. Built for Writesonic, Surfer, and Copy.ai.",
