@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-marketing-agencies-2026",
+        title: "Best AI Tools for Marketing Agencies in 2026: Copy.ai vs Jasper vs Canva vs AdCreative.ai vs Surfer",
+        excerpt: "The 6-tool AI stack for marketing agencies in 2026: client copy production, per-client brand voice, portfolio-wide design, ad creative at testing velocity, client video, and billable AI-search SEO. Verified September 2026 pricing.",
+        category: "Workflow Stack",
+        date: "September 25, 2026",
+        readTime: "12 min read"
+    },
+    {
         slug: "best-ai-tools-chiropractors-pt-clinics-2026",
         title: "Best AI Tools for Chiropractors and PT Clinics in 2026: Copy.ai vs Canva vs Synthesia vs Speechify vs Surfer",
         excerpt: "The 5-tool AI stack for chiropractic and physical therapy clinics in 2026: new-patient reply speed, branded exercise handouts, audio CE, first-visit videos, and the condition content AI search cites. Verified September 2026 pricing.",
