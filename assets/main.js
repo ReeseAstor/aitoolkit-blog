@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-amazon-fba-sellers-2026",
+        title: "Best AI Tools for Amazon FBA Sellers in 2026: Copy.ai vs Canva vs Synthesia vs AdCreative.ai",
+        excerpt: "The AI stack for Amazon FBA sellers in 2026: differentiated listing copy, product imagery and A+ Content, PPC ad creative, and product video, layered on top of Amazon's free native AI. Verified pricing.",
+        category: "Workflow Stack",
+        date: "September 26, 2026",
+        readTime: "9 min read"
+    },
+    {
         slug: "best-ai-tools-marketing-agencies-2026",
         title: "Best AI Tools for Marketing Agencies in 2026: Copy.ai vs Jasper vs Canva vs AdCreative.ai vs Surfer",
         excerpt: "The 6-tool AI stack for marketing agencies in 2026: client copy production, per-client brand voice, portfolio-wide design, ad creative at testing velocity, client video, and billable AI-search SEO. Verified September 2026 pricing.",
