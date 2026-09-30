@@ -24,3 +24,7 @@ _Generated automatically. Verify all rows show READY before uploading to Gumroad
 | prod-018 | AI Restaurant Marketing Command Center (2026 Edition) | $17 | MISSING | OK | 0 | READY |
 | prod-019 | AI Customer Support Command Center (2026 Edition) | $17 | MISSING | OK | 3 | READY |
 | prod-020 | AI Fitness Coaching Marketing Command Center (2026 Edition) | $17 | AI-Fitness-Coaching-Marketing-Command-Center.pdf | OK | 6 | READY |
+| prod-021 | AI Accounting & CPA Marketing Command Center (2026 Edition) | $17 | AI-Accounting-CPA-Marketing-Command-Center.pdf | OK | 3 | READY |
+| prod-022 | AI Med Spa Marketing Command Center (2026 Edition) | $17 | MISSING | OK | 1 | READY |
+| prod-023 | The GEO Citation Prompt Pack: Get Cited in ChatGPT, Perplexity & AI Overviews (2026 Edition) | $17 | ai-geo-citation-prompt-pack.pdf | OK | 0 | READY |
+| prod-024 | AI Property Management Command Center (2026 Edition) | $17 | ai-property-management-command-center.pdf | OK | 0 | READY |
