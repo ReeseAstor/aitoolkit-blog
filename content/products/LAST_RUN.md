@@ -1,5 +1,28 @@
 # Weekly Digital Product Run Log
 
+## 2026-09-30 (12:00 PM run — cron digital-product)
+
+- **Product ID:** prod-024 (added to catalog this run)
+- **Title:** AI Property Management Command Center (2026 Edition)
+- **Status:** No planned catalog products; followed the established fallback (Sep 16 → prod-022, Sep 23 → prod-023): picked the week's top Workflow Stack article (`best-ai-tools-property-managers-2026`, published Sep 30 ~8 AM, no product tie) and built its vertical Command Center. prod-024 added directly as "ready".
+- **Product shape:** 40 prompts + 10 checklists, $17, 5 affiliate ties (Copy.ai, Canva, AdCreative.ai, Synthesia, Speechify). Differentiator vs prod-022/023: compliance-first positioning — fair-housing property-only copy constraints built into every marketing prompt, no-PII rules, human-review-before-send, [CONFIRM]-marker no-invention rules.
+- **Deliverables shipped (fdbe08c):**
+  - content/products/ai-property-management-command-center.md (40 prompts + 10 checklists, $17)
+  - content/products/ai-property-management-command-center.pdf (21 pages, %PDF header verified via raw bytes; pypdf unavailable in cron interpreter)
+  - content/products/upload-ready/ai-property-management-command-center/{files/md+pdf, README, listing-gumroad, listing-etsy, social-launch-assets}
+  - products/ai-property-management-command-center.html (landing page — see dual-run postscript)
+  - checkout/ai-property-management-command-center.html (Gumroad overlay checkout, placeholder link https://gumroad.com/l/ai-property-management-command-center, $27→$17 anchor)
+  - articles/ai-property-management-command-center-2026.html (companion launch article, 1,671 words, 2 CTA boxes, meta desc 153 chars)
+  - content/products/catalog.json (prod-024 added, status ready)
+  - assets/main.js (ARTICLES 96 entries + PRODUCTS 24 entries, node-validated, first slugs match)
+- **Verification:** PASS (two-round: 65/65 ad-hoc checks on the final state + node dual-array validation; round 1 surfaced a too-strict affiliate URL regex [www. prefix false-fail — content was fine] and a slice-length bug in the PDF header check — both verifier bugs, fixed in fresh verifiers per the stale-verification doctrine)
+- **Data grounding:** All pricing quoted from the Sep 30 stack article's morning-of-publication verification: Copy.ai Chat $29/mo monthly / $24/mo annual (5 seats), Canva Pro $144/yr, AdCreative.ai Starter $39/mo (10 credits, annual promo ~$20/mo "re-verify at checkout"), Synthesia Starter $19/mo (~$14/mo annual), Speechify Premium $29/mo (60% off yearly ≈ $13/mo). Core stack ≈ $63/mo, heavy months ≈ $83.
+- **Human action needed:** upload deliverable PDF+MD to Gumroad/Etsy and replace placeholder checkout link `https://gumroad.com/l/ai-property-management-command-center`. Preview images not generated (optional — product card renders without image, same as most Command Center entries).
+
+### Dual-run resolution postscript (2026-09-30)
+
+A sibling cron session ran the same prompt concurrently and had produced its own landing page at `products/ai-property-management-command-center.html` before mine (detected when the on-disk file no longer matched what I wrote — read-back mtime 12:06:35 vs my 12:04:38, different copy and CTA structure). Resolution per the dual-run doctrine: sibling confirmed stalled (no writes 12:06:35 → 12:15+, no commit); my landing page draft was **discarded** and the sibling's page **adopted** (complete, on-spec: 5 affiliate anchors with rel attrs, og:type product, GA4, 2 CTA boxes). Integration fixes applied to the adopted page: removed the contradictory "the pack tells you when upgrades earn their keep" pricing claim (the pack deliberately avoids upgrade-yielding claims) and added the companion-article cross-link. The sibling never built the deliverable MD/PDF, catalog entry, arrays, article, checkout, or upload package — those are from this session (the complete set). Committed as one commit (fdbe08c); no separate landing-page-only commit exists on the remote (verified via `git log`), so the dual-ship risk is closed. New detection lesson recorded: mid-build foreign overwrites have a narrow window — read back critical files after sibling-suspicious events, not only after completion.
+
 ## 2026-09-23 (12:00 PM run — cron digital-product)
 
 - **Product ID:** prod-023 (added to catalog this run)
