@@ -2,7 +2,15 @@
 // Dynamic article loading + newsletter handling
 
 const ARTICLES = [
-        {
+    {
+        slug: "ai-property-management-command-center-2026",
+        title: "The AI Property Management Command Center: 40 Prompts + 10 Checklists for 2026",
+        excerpt: "Owners leave for the manager who communicates faster. The 90-minute weekly system — 40 AI prompts + 10 checklists for owner updates, tenant replies, listings, vacancy ads, tour video, and lease triage, with fair-housing guardrails in every prompt.",
+        category: "Product Launch",
+        date: "September 30, 2026",
+        readTime: "8 min read"
+    },
+    {
         slug: "best-ai-tools-property-managers-2026",
         title: "Best AI Tools for Property Managers in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Speechify",
         excerpt: "The 5-tool AI stack for property managers in 2026: owner updates and tenant replies, listing graphics, vacancy ads, property tour videos, and lease/HOA document triage. Verified September 2026 pricing.",
@@ -764,6 +772,13 @@ const ARTICLES = [
 ];
 
 const PRODUCTS = [
+    {
+        slug: "ai-property-management-command-center",
+        title: "AI Property Management Command Center (2026 Edition)",
+        excerpt: "40 copy-paste AI prompts + 10 production checklists for property managers: owner updates, tenant replies, listing marketing, vacancy ads, tour video, and lease triage. Built around Copy.ai, Canva, AdCreative.ai, Synthesia, and Speechify — fair-housing guardrails in every prompt.",
+        price: "$17",
+        category: "Prompt Pack + Checklist"
+    },
     {
         slug: "ai-geo-citation-prompt-pack",
         title: "The GEO Citation Prompt Pack (2026 Edition)",

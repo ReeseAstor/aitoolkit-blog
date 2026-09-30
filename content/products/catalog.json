@@ -714,6 +714,82 @@
         "Marketing"
       ],
       "bundle_of": []
+    },
+    {
+      "id": "prod-024",
+      "status": "ready",
+      "format": "prompt pack + checklist",
+      "title": "AI Property Management Command Center (2026 Edition)",
+      "slug": "ai-property-management-command-center",
+      "price_usd": 17,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Canva",
+        "AdCreative.ai",
+        "Synthesia",
+        "Speechify"
+      ],
+      "article_tie": "best-ai-tools-property-managers-2026",
+      "customer_pain": "Every hour a unit sits unlisted and every owner email that gets a next-day reply shows up in my churn numbers — owners leave for the manager who communicates faster, but the writing, design, ads, video, and paperwork repeat across every unit every week.",
+      "search_hook": "AI property management prompts checklist 2026",
+      "etsy_tags": [
+        "AI property management",
+        "property manager prompts",
+        "landlord templates",
+        "rental listing copy",
+        "owner update template",
+        "tenant communication",
+        "fair housing checklist",
+        "ChatGPT prompts business",
+        "Copy.ai prompts",
+        "real estate investor",
+        "lease violation notice",
+        "rental marketing",
+        "property management SOP"
+      ],
+      "gumroad_categories": [
+        "Business",
+        "Marketing"
+      ],
+      "bundle_of": []
+    },
+    {
+      "id": "prod-024",
+      "status": "planned",
+      "format": "prompt pack + checklist",
+      "title": "AI Property Management Command Center (2026 Edition)",
+      "slug": "ai-property-management-command-center",
+      "price_usd": 17,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Canva",
+        "AdCreative.ai",
+        "Synthesia",
+        "Speechify"
+      ],
+      "article_tie": "best-ai-tools-property-managers-2026",
+      "customer_pain": "I reconcile owner statements, chase vendors, and fill vacancies before 10 AM — and owner updates, listing copy, and vacancy ads still sit untouched until the day is gone, so another owner slips away to a faster-communicating manager.",
+      "search_hook": "AI property management prompts checklist 2026",
+      "etsy_tags": [
+        "property management prompts",
+        "landlord templates AI",
+        "rental listing description",
+        "Copy.ai prompts",
+        "Canva real estate templates",
+        "owner update template",
+        "tenant communication",
+        "vacancy ad template",
+        "leasing marketing",
+        "fair housing checklist",
+        "property manager marketing",
+        "HOA document review",
+        "real estate AI prompts"
+      ],
+      "gumroad_categories": [
+        "Business",
+        "Marketing"
+      ],
+      "bundle_of": []
     }
   ]
 }
