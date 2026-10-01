@@ -2,6 +2,14 @@
 // Dynamic article loading + newsletter handling
 
 const ARTICLES = [
+        {
+        slug: "best-ai-tools-music-teachers-2026",
+        title: "Best AI Tools for Music Teachers in 2026: Copy.ai vs Canva vs Synthesia vs Speechify",
+        excerpt: "The 4-tool AI stack for music teachers and private studios in 2026: parent communications, recital programs and graphics, concert and recruiting video, and admin reading at 5x speed. Verified October pricing.",
+        category: "Workflow Stack",
+        date: "October 1, 2026",
+        readTime: "11 min read"
+    },
     {
         slug: "ai-property-management-command-center-2026",
         title: "The AI Property Management Command Center: 40 Prompts + 10 Checklists for 2026",
