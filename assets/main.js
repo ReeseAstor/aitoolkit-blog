@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-cleaning-services-2026",
+        title: "Best AI Tools for Cleaning Services in 2026: Copy.ai vs Canva vs Speechify vs AdCreative.ai",
+        excerpt: "The 5-tool AI stack for cleaning and maid service owners in 2026: faster estimate replies and review responses, before-and-after graphics, door hangers and ad creative, and safety-document reading during windshield time. Verified October pricing.",
+        category: "Workflow Stack",
+        date: "October 3, 2026",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-dance-studios-2026",
         title: "Best AI Tools for Dance Studios in 2026: Copy.ai vs Canva vs Synthesia vs Speechify",
         excerpt: "The 4-tool AI stack for dance studios in 2026: recital and competition communications, seasonal graphics, showcase and recruiting video, and rulebook reading at 5x speed. Verified October pricing.",
