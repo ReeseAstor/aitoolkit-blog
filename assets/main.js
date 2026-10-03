@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-dance-studios-2026",
+        title: "Best AI Tools for Dance Studios in 2026: Copy.ai vs Canva vs Synthesia vs Speechify",
+        excerpt: "The 4-tool AI stack for dance studios in 2026: recital and competition communications, seasonal graphics, showcase and recruiting video, and rulebook reading at 5x speed. Verified October pricing.",
+        category: "Workflow Stack",
+        date: "October 2, 2026",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-music-teachers-2026",
         title: "Best AI Tools for Music Teachers in 2026: Copy.ai vs Canva vs Synthesia vs Speechify",
         excerpt: "The 4-tool AI stack for music teachers and private studios in 2026: parent communications, recital programs and graphics, concert and recruiting video, and admin reading at 5x speed. Verified October pricing.",
