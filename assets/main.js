@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-paid-social-ads-2026",
+        title: "Best AI Tools for Paid Social Ads in 2026: AdCreative.ai vs Canva vs Copy.ai vs Jasper",
+        excerpt: "The 5-tool AI stack for Facebook, Instagram, and TikTok advertisers in 2026: scored ad creative volume, brand-system design, unlimited ad copy variants, and multilingual video. Verified October pricing.",
+        category: "Workflow Stack",
+        date: "October 4, 2026",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-cleaning-services-2026",
         title: "Best AI Tools for Cleaning Services in 2026: Copy.ai vs Canva vs Speechify vs AdCreative.ai",
         excerpt: "The 5-tool AI stack for cleaning and maid service owners in 2026: faster estimate replies and review responses, before-and-after graphics, door hangers and ad creative, and safety-document reading during windshield time. Verified October pricing.",
