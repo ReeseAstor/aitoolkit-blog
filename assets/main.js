@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-churches-ministries-2026",
+        title: "Best AI Tools for Churches & Ministries in 2026: Copy.ai vs Canva vs Jasper vs Synthesia",
+        excerpt: "The Sunday-to-Saturday AI stack for churches in 2026: sermon recaps, quote graphics, announcement video, and newsletter copy with Copy.ai, Canva, Jasper, and Synthesia verified October pricing + nonprofit discounts.",
+        category: "Workflow Stack",
+        date: "October 5, 2026",
+        readTime: "10 min read"
+    },
+    {
         slug: "best-ai-tools-paid-social-ads-2026",
         title: "Best AI Tools for Paid Social Ads in 2026: AdCreative.ai vs Canva vs Copy.ai vs Jasper",
         excerpt: "The 5-tool AI stack for Facebook, Instagram, and TikTok advertisers in 2026: scored ad creative volume, brand-system design, unlimited ad copy variants, and multilingual video. Verified October pricing.",
