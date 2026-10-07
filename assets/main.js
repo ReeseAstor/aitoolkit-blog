@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-google-business-profile-2026",
+        title: "Best AI Tools for Google Business Profile in 2026: Copy.ai vs Canva vs Jasper vs Surfer",
+        excerpt: "The 2026 AI stack for Google Business Profile local SEO: weekly posts and review replies, post graphics, brand-voice governance across locations, and the ranking content layer behind the Profile. Verified October pricing.",
+        category: "Workflow Stack",
+        date: "October 7, 2026",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-print-on-demand-sellers-2026",
         title: "Best AI Tools for Print-on-Demand Sellers in 2026: Canva vs Copy.ai vs Jasper vs AdCreative.ai",
         excerpt: "The 2026 print-on-demand AI stack: Canva designs and mockups, Copy.ai listing copy at catalog volume, Jasper for multi-shop brand voice, and AdCreative.ai for scored ad creative — verified October pricing.",
