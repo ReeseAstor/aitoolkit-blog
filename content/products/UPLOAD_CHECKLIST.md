@@ -28,3 +28,4 @@ _Generated automatically. Verify all rows show READY before uploading to Gumroad
 | prod-022 | AI Med Spa Marketing Command Center (2026 Edition) | $17 | MISSING | OK | 1 | READY |
 | prod-023 | The GEO Citation Prompt Pack: Get Cited in ChatGPT, Perplexity & AI Overviews (2026 Edition) | $17 | ai-geo-citation-prompt-pack.pdf | OK | 0 | READY |
 | prod-024 | AI Property Management Command Center (2026 Edition) | $17 | ai-property-management-command-center.pdf | OK | 0 | READY |
+| prod-025 | AI Google Business Profile Command Center (2026 Edition) | $17 | ai-gbp-local-visibility-command-center.pdf | OK | 3 | READY |

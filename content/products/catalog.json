@@ -752,6 +752,44 @@
         "Marketing"
       ],
       "bundle_of": []
+    },
+    {
+      "id": "prod-025",
+      "status": "ready",
+      "format": "prompt pack + checklist",
+      "title": "AI Google Business Profile Command Center (2026 Edition)",
+      "slug": "ai-gbp-local-visibility-command-center",
+      "price_usd": 17,
+      "affiliate_tie": [
+        "Copy.ai",
+        "Canva",
+        "Jasper",
+        "Surfer",
+        "Speechify"
+      ],
+      "article_tie": "best-ai-tools-google-business-profile-2026",
+      "customer_pain": "My Google Business Profile is the storefront most customers walk through and the one nobody maintains — review replies take days, questions sit unanswered, the last post is from March, and now Google's AI summaries repeat whatever stale content the Profile shows.",
+      "search_hook": "AI Google Business Profile prompts checklist 2026",
+      "etsy_tags": [
+        "AI prompts business",
+        "Google Business",
+        "local SEO toolkit",
+        "review response",
+        "GBP prompt pack",
+        "small business kit",
+        "AI templates",
+        "restaurant marketing",
+        "service business",
+        "local marketing",
+        "ChatGPT prompts",
+        "marketing checklist",
+        "AI SEO templates"
+      ],
+      "gumroad_categories": [
+        "Business",
+        "Marketing"
+      ],
+      "bundle_of": []
     }
   ]
 }

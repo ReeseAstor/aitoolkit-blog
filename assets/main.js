@@ -2,7 +2,15 @@
 // Dynamic article loading + newsletter handling
 
 const ARTICLES = [
-        {
+    {
+        slug: "ai-gbp-command-center-2026",
+        title: "The AI Google Business Profile Command Center: 40 Prompts + 10 Checklists for 2026",
+        excerpt: "Reviews, posts, photos, ranking pages, and AI-search citations — the 90-minute weekly system that keeps your Google Business Profile alive, plus a monthly audit of what ChatGPT and Google's AI Overviews say about you.",
+        category: "Product Launch",
+        date: "October 7, 2026",
+        readTime: "8 min read"
+    },
+    {
         slug: "best-ai-tools-google-business-profile-2026",
         title: "Best AI Tools for Google Business Profile in 2026: Copy.ai vs Canva vs Jasper vs Surfer",
         excerpt: "The 2026 AI stack for Google Business Profile local SEO: weekly posts and review replies, post graphics, brand-voice governance across locations, and the ranking content layer behind the Profile. Verified October pricing.",
@@ -828,6 +836,14 @@ const ARTICLES = [
 ];
 
 const PRODUCTS = [
+    {
+        slug: "ai-gbp-local-visibility-command-center",
+        title: "AI Google Business Profile Command Center (2026 Edition)",
+        excerpt: "40 copy-paste AI prompts + 10 production checklists for Google Business Profile: review replies, posts and Q&A, photo missions, ranking-page briefs, and a monthly audit of what ChatGPT, Perplexity, and AI Overviews say about you. Built for Copy.ai, Canva, Jasper, Surfer, and Speechify.",
+        price: "$17",
+        category: "Prompt Pack + Checklist",
+        image: "/assets/previews/ai-gbp-local-visibility-command-center/ai-gbp-local-visibility-command-center-preview-hero.png"
+    },
     {
         slug: "ai-property-management-command-center",
         title: "AI Property Management Command Center (2026 Edition)",
