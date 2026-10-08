@@ -2,6 +2,14 @@
 // Dynamic article loading + newsletter handling
 
 const ARTICLES = [
+        {
+        slug: "best-ai-tools-auto-repair-shops-2026",
+        title: "Best AI Tools for Auto Repair Shops in 2026: Copy.ai vs Canva vs Synthesia vs Jasper",
+        excerpt: "The 2026 AI stack for auto repair shops: review replies that win back angry customers, seasonal service campaign ads, explainer videos without filming, and the symptom-search content layer. Verified October pricing.",
+        category: "Workflow Stack",
+        date: "October 8, 2026",
+        readTime: "11 min read"
+    },
     {
         slug: "ai-gbp-command-center-2026",
         title: "The AI Google Business Profile Command Center: 40 Prompts + 10 Checklists for 2026",
@@ -200,14 +208,6 @@ const ARTICLES = [
         excerpt: "The 5-tool AI stack for med spas in 2026: treatment page copy, Instagram content, consult videos, promo ads, and industry audio. Verified pricing, real workflows.",
         category: "Workflow Stack",
         date: "September 16, 2026",
-        readTime: "12 min read"
-    },
-    {
-        slug: "best-ai-tools-property-managers-2026",
-        title: "Best AI Tools for Property Managers in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia vs Speechify",
-        excerpt: "The 5-tool AI stack for property managers in 2026: tenant newsletters, listing visuals, leasing ads, resident video updates, and audio research. Verified pricing.",
-        category: "Workflow Stack",
-        date: "September 15, 2026",
         readTime: "12 min read"
     },
     {
@@ -594,14 +594,6 @@ const ARTICLES = [
         readTime: "12 min read"
     },
     {
-        slug: "how-to-repurpose-content-with-ai-2026",
-        title: "How to Repurpose One Piece of Content Into 10+ Formats Using AI (2026)",
-        excerpt: "Turn one blog post into videos, podcasts, social graphics, ads, and emails using AI tools. Step-by-step repurposing workflow with Copy.ai, Synthesia, Canva, and more.",
-        category: "Content Strategy",
-        date: "2026-07-05",
-        readTime: "12 min"
-    },
-    {
         slug: "best-ai-tools-local-businesses-2026",
         title: "Best AI Tools for Local Businesses in 2026: Copy.ai vs Canva vs AdCreative.ai vs Surfer",
         excerpt: "Local businesses use AI to write listings, design flyers, run ads, and rank locally in 2026. We compare Copy.ai, Canva, AdCreative.ai, and Surfer with verified pricing and real workflows.",
@@ -722,36 +714,12 @@ const ARTICLES = [
         readTime: "12 min read"
     },
     {
-        slug: "best-ai-tools-podcast-production-2026",
-        title: "Best AI Tools for Podcast Production in 2026: The Show Notes, Audiograms & Repurposing Stack",
-        excerpt: "The exact 4-tool AI stack to ship a podcast episode in 2026 — Copy.ai for show notes, Canva for cover art and audiograms, Synthesia for video clips, and Surfer for episode SEO. With verified pricing.",
-        category: "Guide",
-        date: "2026-06-19",
-        readTime: "10 min read"
-    },
-    {
-        slug: "how-to-repurpose-content-with-ai-2026",
-        title: "How to Repurpose One Piece of Content Into 10 With AI (2026 Workflow)",
-        excerpt: "Turn one blog post or video into 10+ assets with AI. The exact 4-tool repurposing stack — Copy.ai for text, Canva for graphics, Synthesia for video, Speechify for audio — with real 2026 pricing.",
-        category: "Guide",
-        date: "2026-06-18",
-        readTime: "10 min read"
-    },
-    {
         slug: "how-to-create-online-course-with-ai-2026",
         title: "How to Create an Online Course With AI in a Weekend (2026 Step-by-Step)",
         excerpt: "The exact 4-tool AI workflow to take a course from blank page to buy-now button in a weekend — scripts with Copy.ai, camera-free video with Synthesia, slides in Canva, and audio with Speechify.",
         category: "Guide",
         date: "2026-06-17",
         readTime: "9 min read"
-    },
-        {
-        slug: "best-ai-tools-online-course-creators-2026",
-        title: "Best AI Tools for Online Course Creators in 2026: Synthesia vs Canva vs Copy.ai vs Speechify",
-        excerpt: "The exact AI stack we use to build and sell online courses in 2026. Compare Synthesia, Canva, Copy.ai, and Speechify for video lessons, slides, sales pages, and audio versions.",
-        category: "Guide",
-        date: "2026-06-17",
-        readTime: "11 min read"
     },
     {
         slug: "best-ai-tools-cold-email-outreach-2026",
