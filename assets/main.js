@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-florists-2026",
+        title: "Best AI Tools for Florists in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia",
+        excerpt: "The 2026 AI stack for florists: overnight wedding replies, holiday menus, dated pre-order ads, and local service pages. Verified October pricing.",
+        category: "Workflow Stack",
+        date: "2026-10-09",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-auto-repair-shops-2026",
         title: "Best AI Tools for Auto Repair Shops in 2026: Copy.ai vs Canva vs Synthesia vs Jasper",
         excerpt: "The 2026 AI stack for auto repair shops: review replies that win back angry customers, seasonal service campaign ads, explainer videos without filming, and the symptom-search content layer. Verified October pricing.",
