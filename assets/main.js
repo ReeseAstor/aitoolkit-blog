@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-pet-groomers-2026",
+        title: "Best AI Tools for Pet Groomers in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia",
+        excerpt: "The 2026 AI stack for pet groomers and boarding shops: overnight booking replies, holiday menus, breed pages, and first-visit videos. Verified October pricing from official pages.",
+        category: "Workflow Stack",
+        date: "2026-10-10",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-florists-2026",
         title: "Best AI Tools for Florists in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia",
         excerpt: "The 2026 AI stack for florists: overnight wedding replies, holiday menus, dated pre-order ads, and local service pages. Verified October pricing.",
