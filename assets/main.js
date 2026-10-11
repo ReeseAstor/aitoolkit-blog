@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-landscaping-lawn-care-2026",
+        title: "Best AI Tools for Landscaping and Lawn Care in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia",
+        excerpt: "The 2026 AI stack for landscapers and lawn care companies: same-night estimate replies, seasonal menus, deposit ads, and how-we-quote videos. Verified October pricing.",
+        category: "Workflow Stack",
+        date: "2026-10-11",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-pet-groomers-2026",
         title: "Best AI Tools for Pet Groomers in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia",
         excerpt: "The 2026 AI stack for pet groomers and boarding shops: overnight booking replies, holiday menus, breed pages, and first-visit videos. Verified October pricing from official pages.",
