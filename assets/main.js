@@ -3,6 +3,14 @@
 
 const ARTICLES = [
         {
+        slug: "best-ai-tools-hotels-inns-2026",
+        title: "Best AI Tools for Independent Hotels and Inns in 2026",
+        excerpt: "The 2026 stack for independent hotels and inns: same-night inquiry replies, weekend rate cards, a booking explainer, and town pages that rank. Verified October pricing from official pages.",
+        category: "Workflow Stack",
+        date: "2026-10-12",
+        readTime: "11 min read"
+    },
+    {
         slug: "best-ai-tools-landscaping-lawn-care-2026",
         title: "Best AI Tools for Landscaping and Lawn Care in 2026: Copy.ai vs Canva vs AdCreative.ai vs Synthesia",
         excerpt: "The 2026 AI stack for landscapers and lawn care companies: same-night estimate replies, seasonal menus, deposit ads, and how-we-quote videos. Verified October pricing.",
